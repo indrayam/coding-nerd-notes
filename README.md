@@ -1,6 +1,8 @@
-# My History of Nerding Out with Programming Languages
+# Coding Nerd Notes
 
-## Phase 1: Love at first sight!
+## A Trip Down the Memory Lane
+
+### Phase 1: Love at first sight!
 - My very first programming language was [Fortran](https://en.wikipedia.org/wiki/Fortran), back in 1991. This was in my 2nd year of college, where I was pursuing an undergraduate degree in Mechanical Engineering. It was :heart: at first sight. To say that Fortran is the reason why I eventually switched my major and career to Computer Science would be 100% accurate.
 - In my final year of college, I took a course where I got exposed to [COBOL](https://en.wikipedia.org/wiki/COBOL). I can't say the language did anything for me. As a matter of fact, I am still not sure I understand why the language was such a **huge** commercial success, especially in business/finance. Perhaps some day I will care to actually understand :wink:
 - In fall of 1995, when I moved to States to pursue my Masters in Industrial Engineering with a focus on Information Systems, I built my first web site using [HTML](https://en.wikipedia.org/wiki/HTML). 
@@ -8,14 +10,14 @@
 - During my Masters program, I took two courses that made me write tons of [C++](https://en.wikipedia.org/wiki/C%2B%2B) software. And yes, I learnt and wrote C++ before I even wrote a single line of C. To say that I got pretty good at it would not be a hyperbole. However, lack of access to Unix-based desktop meant I would have to learn C++ on Windows. MSDN subscription cost and not getting easy access to Visual Studio definitely impeded my plans around C++. That said, I think the prospect of understanding and dealing with [Microsoft Foundation Classes (MFC)](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library) and [DLLs](https://en.wikipedia.org/wiki/Dynamic-link_library) scared me away from C++! I continue to fantasize that some day I will go back to learning and writing LOTS of C++ software. We will see if that happens :smile:
 - In Summer of 1996, I got my first exposure to serious Unix when I became a co-System Admin for an IS Lab in ASU's College of Education. While it was just a summer job, I had in my full possession an [SGI Workstation](https://en.wikipedia.org/wiki/Silicon_Graphics) with admin access. The roots of my :heart: for all things Unix can be traced back to the excruciatingly hot summer days of 1996.
 
-## Phase 2: Web Applications and Web Services Developer
+### Phase 2: Web Applications and Web Services Developer
 - Summer of 1996 is when I had my first date with [Java](https://www.java.com/en/) and [JavaScript](https://www.javascript.com/). 
 - From 1997 to 2004, I did a lot of [Java] software development  running it on servlet containers like [JRun](https://en.wikipedia.org/wiki/Adobe_JRun), [Borland Inprise](https://en.wikipedia.org/wiki/Borland), [Tomcat](http://tomcat.apache.org/) and [IBM Websphere](https://www.ibm.com/cloud/websphere-application-server). In all cases, the context of my development was for Web Apps, although it later switched to being more and more for Web Services. This meant I spent most of my time writing [Java Servlets](https://en.wikipedia.org/wiki/Jakarta_Servlet) and a bit of [Java Server Pages](https://en.wikipedia.org/wiki/Jakarta_Server_Pages). I never got comfortable with running [JBoss](https://www.jboss.org/) and hence, never got into writing much of any Enterprise Java Beans (EJB).
 - While I was always a backend developer, I did not completely ignore the web frontend space. I did get myself fairly competent with CSS and dealing with the DOM using JavaScript. That said, the nuances of making JavaScript work in the browser in late 1990s to early 2000s was nothing short of painful. Upon reflection, these challenges with making JavaScript work was such a turn off that I never really got into JavaScript. [JQuery](https://jquery.com/) was definitely a welcome introduction in the world of JavaScript, just like [Spring framework](https://spring.io/) was in the world of Java Stateless and Stateful Enterprise Java Beans (EJB).
 - During this time, I did dabble a little with [Active Server Pages (ASP)](https://en.wikipedia.org/wiki/Active_Server_Pages) and a decent amount of [PHP](https://www.php.net/). Most of my PHP work was driven by my interest in running a blog for me and my dad powered first by [Movable Type](https://www.movabletype.org/) and then later by [Wordpress](https://wordpress.com/)
 - My :heart: for Unix morphed into me finding the red fedora! Yes, I was a HUGE FAN of [Red Hat Linux](https://en.wikipedia.org/wiki/Red_Hat_Linux) in the early days. I remember driving to [Borders](https://en.wikipedia.org/wiki/Borders_Group) bookstore in Miliptas, California, to buy the latest RedHat Linux CDs. I did everything from compiling Linux kernel features to fantasizing that it will become my primary operating system someday.
 
-## Phase 3: Software and Solutions Architect
+### Phase 3: Software and Solutions Architect
 - Someone in Cisco Systems thought I was quite good in Microsoft PowerPoint and Visio, not to mention "talking"! They made me an IT Architect in 2005.
 - This role allowed me to look at designing and building "solutions" for our internal and external customers at Cisco. I was quite miserable at first as it seemed like the role took me away from writing software, the one thing that I actually enjoyed! In hindsight, it was perhaps the best thing that happened to turning me into an all-rounded IT professional.
 - The following list covers some of the bigger initiatives that I have gotten involved in over the years as an IT Architect:
@@ -32,7 +34,7 @@
       + An *Analytics Plane* which allows teams to get access to rich analytics about their software development practices as well as Software characteristics like code quality and security metrics.
 - While I have continued to dabble with writing software during my time as an IT Architect, these were small utility softwares created to get a specific task(s) automated. To no one's surprise, I got into writing more and more [Python](https://www.python.org/) during this time. Since Python and Perl were peers, at times I wondered if I should have embraced Python instead of Perl during my CGI writing days. That said, I really *enjoyed* my time with Perl. So, no regrets there. :smile: 
 
-## Phase 4: Learning to Write Software for Me, not for Money!
+### Phase 4: Learning to Write Software for Me, not for Money!
 - My :heart: for C++ never really went away. However, instead of diving into [C++ 17](https://isocpp.org/std/status), I've decided it is time for me to move on
 - Programming languages that I think will be part of this phase:
   + [Rust](https://www.rust-lang.org/): For systems programming
