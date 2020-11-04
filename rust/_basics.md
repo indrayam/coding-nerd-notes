@@ -1,3 +1,0 @@
-# Rust Basics
-
-Coming soon...

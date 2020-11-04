@@ -38,8 +38,9 @@
 - Understanding [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
 - My :heart: for C++ never really went away. However, instead of diving into [C++ 17](https://isocpp.org/std/status), I've decided it is time for me to move on
 - Programming languages that I think will be part of this phase:
-  + [Rust](https://www.rust-lang.org/): For systems programming
-  + [Go](https://golang.org/): For all other backend development needs, be it Web Apps, APIs, Serverless or CLI code.
-  + [Julia](https://julialang.org/): Perhaps, Julia will bring me back full circle to a language like Fortran!
+  + [Go](https://golang.org/): For all server-side development needs, be it Web Apps, APIs, or Serverless
+  + [Kotlin](https://kotlinlang.org/): Kinda hard to not stay close to JVM-based languages. Plus, Kotlin makes writing JVM-centric apps actually fun!
   + [Python](https://www.python.org/): It's dominating presence in the AI/ML space means Python is going nowhere :smile:
+  + [Rust](https://www.rust-lang.org/): Cause I *really* want to learn a low-level langauge designed for systems programming
+  + [Julia](https://julialang.org/): Perhaps, Julia will bring me back full circle to a language like Fortran!
 
