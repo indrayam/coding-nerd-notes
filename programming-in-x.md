@@ -6,6 +6,7 @@
 - Conditionals 
 - Looping
 - Functions
+- Random Numbers
 
 ## Advanced
 - Collections
