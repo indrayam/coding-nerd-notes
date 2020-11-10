@@ -1,12 +1,13 @@
 # Programming in "X"
 
-## Basics
-- Variables
-- Arrays
-- Conditionals 
-- Looping
-- Functions
-- Random Numbers
+## Basics ✅
+- Variables ✅
+- Conditionals ✅
+- Looping ✅
+- Arrays ✅
+- Functions ✅ 
+- Formatted Output ✅ 
+- Random Numbers ✅ 
 
 ## Advanced
 - Collections
