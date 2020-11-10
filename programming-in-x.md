@@ -1,11 +1,13 @@
 # Programming in "X"
 
-## Language Basics
+## Basics
 - Variables
 - Arrays
 - Conditionals 
 - Looping
 - Functions
+
+## Advanced
 - Collections
 - File IO
 - Encode/Decode Data (JSON, YAML)
