@@ -1,29 +1,51 @@
-# Kotlin Basics
+# Programming in Kotlin
 
-## Josh Long Training
-[Spring Boot and Kotlin | Live Training](https://learning.oreilly.com/live-training/courses/spring-boot-and-kotlin/0636920221562/)
+## Basics ✅
+- Variables ✅
+- Conditionals ✅
+- Looping ✅
+- Arrays ✅
+- Functions ✅ 
+- Formatted Output ✅ 
+- Random Numbers ✅ 
 
-## Types
-- Integers
-  - Types:
-    - `Byte` (8 bits)
-    - `Short` (16 bits)
-    - `Int` (32 bits)
-    - `Long` (64 bits)
-  - Integer type defaults to type `Int`
-  - Binary number defined with `0b` prefix
-  - Hexadecimal number defined with `0x` prefix
-- Floating Points
-  - Types:
-    - `Float` (32 bits)
-    - `Double` (64 bits)
-  - Floating points defaults to type `Double`
-- Strings
-  - Types:
-    - `String`
-    - `Char`
-  - `Char` variables are used for single character while `String` variables are used to hold multiple characters strung together
-- Booleans
-  - Types:
-    - `Boolean`
-  - `Boolean` values can either be `true` or `false`
+## Advanced
+- Collections
+- IO 
+  + Console ✅
+  + File
+- Encode/Decode Data (JSON, YAML)
+- Date/Time
+- Annotations
+- Generics
+- Exceptions
+- Logging
+- Concurrency
+
+## Programming Paradigms
+- Class, Abstract Class, Inner Class
+- Interface
+- Access Modifiers
+- Functional Programming
+- Unit Tests Influenced Development
+
+## Practice Exercises
+- Create a Class Hierarchy: Employee, Manager, Executive
+- Create a List of Employees. Loop through it
+- Read and Write to and from a File
+- Traverse Directory. Check if a file exists. If it is readable, writable.
+- Read from and write to a JSON file
+- Use Locale, Number Formatting and Currency Formatting to print money in acceptable format in US, UK, Germany and India 
+- Use Dates to find current date in different timezones, difference between two dates, a future date and a past date
+- Create a /hello API returning JSON payload of the string sent
+- Create a client that interacts with httpbin APIs
+- Writing apps that interact with PostgreSQL
+- Writing apps that interact with MongoDB
+- Writing apps that interact with Redis
+- Post messages to Kafka. Write consumes to read the message
+
+## Software Delivery
+- Use an IDE (JetBrains-based or VSCode)
+- Git/GitHub based CD
+- Containerize App using Dockerfile. Use best practices to minimize image size
+- Deploy App in Kubernetes

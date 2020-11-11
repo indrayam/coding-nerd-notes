@@ -34,13 +34,14 @@
       + An *Analytics Plane* which allows teams to get access to rich analytics about their software development practices as well as Software characteristics like code quality and security metrics.
 - While I have continued to dabble with writing software during my time as an IT Architect, these were small utility softwares created to get a specific task(s) automated. To no one's surprise, I got into writing more and more [Python](https://www.python.org/) during this time. Since Python and Perl were peers, at times I wondered if I should have embraced Python instead of Perl during my CGI writing days. That said, I really *enjoyed* my time with Perl. So, no regrets there. :smile: 
 
-### Phase 4: Software 2.0
+### Phase 4: Transitioning to Software 2.0
 - Understanding [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
 - My :heart: for C++ never really went away. However, instead of diving into [C++ 17](https://isocpp.org/std/status), I've decided it is time for me to move on
-- That said, programming languages that I think will continue to be part of this phase:
-  + [Kotlin](https://kotlinlang.org/): Kinda hard to not stay close to JVM-based languages. Plus, Kotlin makes writing JVM-centric apps actually fun!
+- For Software 1.0 stuff, these will be my go-to languages:
+  + [Kotlin](https://kotlinlang.org/): Kotlin makes writing JVM-centric apps actually fun!
   + [Go](https://golang.org/): For all server-side development needs, be it Web Apps, APIs, or Serverless
-  + [Rust](https://www.rust-lang.org/): Cause I *really* want to learn a low-level langauge designed for systems programming
+  + *[Rust](https://www.rust-lang.org/): Cause I **really** want to learn a low-level langauge designed for systems programming*
+- For Software 2.0 and beyond, these seem to be good choices:
   + [Python](https://www.python.org/): It's dominating presence in the AI/ML space means Python is going nowhere :smile:
   + [Julia](https://julialang.org/): Perhaps, Julia will bring me back full circle to a language like Fortran!
 
