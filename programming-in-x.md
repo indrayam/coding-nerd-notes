@@ -1,17 +1,19 @@
 # Programming in "X"
 
-## Basics ✅
-- Variables ✅
-- Conditionals ✅
-- Looping ✅
-- Arrays ✅
-- Functions ✅ 
-- Formatted Output ✅ 
-- Random Numbers ✅ 
+## Basics
+- Variables
+- Conditionals
+- Looping
+- Arrays
+- Functions
+- Formatted Output
+- Random Numbers
 
 ## Advanced
 - Collections
-- File IO
+- IO 
+  + Console
+  + File
 - Encode/Decode Data (JSON, YAML)
 - Date/Time
 - Annotations
