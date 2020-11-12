@@ -21,15 +21,12 @@
 - Exceptions
 - Logging
 - Concurrency
+- OOP
+- FP
+- TDD
 
-## Programming Paradigms
-- Class, Abstract Class, Inner Class
-- Interface
-- Access Modifiers
-- Functional Programming
-- Unit Tests Influenced Development
-
-## Practice Exercises
+## Simple Koans
+- Create Rock, Paper and Scissors game
 - Create a Class Hierarchy: Employee, Manager, Executive
 - Create a List of Employees. Loop through it
 - Read and Write to and from a File
