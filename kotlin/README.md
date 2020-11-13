@@ -34,7 +34,7 @@
 - Testing
 
 ## Simple Koans
-- Create Rock, Paper and Scissors game
+- Create Rock, Paper and Scissors game. Mix Java and Kotlin in the code. Use Maven and generate a fat jar. Run it using `java`
 - Create a Class Hierarchy: Employee, Manager, Executive
 - Create a List of Employees. Loop through it
 - Read and Write to and from a File
