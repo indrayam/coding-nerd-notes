@@ -9,9 +9,9 @@
 - ✅ Formatted Output
 - ✅ Random Numbers 
 - 🚧 Object Oriented Programming (OOP)
-  + Classes and Objects
-  + Subclasses and Superclasses
-  + Abstract classes and Interfaces
+  + ✅ Classes and Objects
+  + ✅ Subclasses and Superclasses
+  + 🚧 Abstract classes and Interfaces
   + Enums
   + Data Classes
 - Nulls and Exceptions
@@ -51,6 +51,6 @@
 
 ## Software Delivery
 - Use an IDE (JetBrains-based or VSCode)
-- CI/CD Pipeline (Code, Build, Artifact, Deploy)
+- CI/CD Pipeline: Git, Gradle, Jenkins, Artifactory, Spinnaker
 - Containerized (or Serverless) Package
 - Deploy to a Container Orchestrator (or Serverless) Platform
