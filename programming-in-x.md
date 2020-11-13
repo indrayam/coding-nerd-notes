@@ -1,35 +1,38 @@
 # Programming in "X"
 
-## Basics
+## Basics 
 - Variables
 - Conditionals
 - Looping
 - Arrays
 - Functions
 - Formatted Output
-- Random Numbers
-
-## Advanced
+- Random Numbers 
+- Object Oriented Programming (OOP)
+  + classes and objects
+  + subclasses and superclasses
+  + abstract classes and interfaces
+  + Enums
+- Nulls and Exceptions
 - Collections
-- IO 
+- Generics
+- Lambdas and Higher-Order Functions
+- Coroutines
+- Annotations
+
+## Use-Case Driven
+- IO
   + Console
   + File
 - Encode/Decode Data (JSON, YAML)
-- Date/Time
-- Annotations
-- Generics
-- Exceptions
+- Locale
+  + Data/Time
+  + Currency
 - Logging
-- Concurrency
+- Testing
 
-## Programming Paradigms
-- Class, Abstract Class, Inner Class
-- Interface
-- Access Modifiers
-- Functional Programming
-- Unit Tests Influenced Development
-
-## Practice Exercises
+## Simple Koans
+- Create Rock, Paper and Scissors game
 - Create a Class Hierarchy: Employee, Manager, Executive
 - Create a List of Employees. Loop through it
 - Read and Write to and from a File
@@ -46,6 +49,6 @@
 
 ## Software Delivery
 - Use an IDE (JetBrains-based or VSCode)
-- Git/GitHub based CD
-- Containerize App using Dockerfile. Use best practices to minimize image size
-- Deploy App in Kubernetes
+- CI/CD Pipeline (Code, Build, Artifact, Deploy)
+- Containerized (or Serverless) Package
+- Deploy to a Container Orchestrator (or Serverless) Platform

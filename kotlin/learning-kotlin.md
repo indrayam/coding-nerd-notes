@@ -1,7 +1,7 @@
 # Learning Kotlin & Spring Boot
 
 ## Core Books & Video (November 2020)
-- [O'Reilly Safari: Head First Kotlin](https://learning.oreilly.com/library/view/head-first-kotlin/9781491996683/) 🚧
+- 🚧 [O'Reilly Safari: Head First Kotlin](https://learning.oreilly.com/library/view/head-first-kotlin/9781491996683/)
 - [Atomic Kotlin](https://www.atomickotlin.com/atomickotlin/)
 - [Getting Started with Spring and Spring Boot](https://learning.oreilly.com/live-training/courses/getting-started-with-spring-and-spring-boot/0636920277156/)
 - [Kotlin + Spring Boot Essentials](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)

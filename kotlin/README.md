@@ -1,29 +1,36 @@
 # Programming in Kotlin
 
-## Basics ✅
-- Variables ✅
-- Conditionals ✅
-- Looping ✅
-- Arrays ✅
-- Functions ✅ 
-- Formatted Output ✅ 
-- Random Numbers ✅ 
-
-## Advanced
+## Basics 
+- ✅ Variables
+- ✅ Conditionals
+- ✅ Looping
+- ✅ Arrays
+- ✅ Functions
+- ✅ Formatted Output
+- ✅ Random Numbers 
+- 🚧 Object Oriented Programming (OOP)
+  + Classes and Objects
+  + Subclasses and Superclasses
+  + Abstract classes and Interfaces
+  + Enums
+  + Data Classes
+- Nulls and Exceptions
 - Collections
-- IO 
-  + Console ✅
+- Generics
+- Lambdas and Higher-Order Functions
+- Coroutines
+- Annotations
+
+## Use-Case Driven
+- ✅ IO
+  + Console
   + File
 - Encode/Decode Data (JSON, YAML)
-- Date/Time
-- Annotations
-- Generics
-- Exceptions
+- Locale
+  + Data/Time
+  + Currency
 - Logging
-- Concurrency
-- OOP
-- FP
-- TDD
+- Testing
 
 ## Simple Koans
 - Create Rock, Paper and Scissors game
@@ -43,6 +50,6 @@
 
 ## Software Delivery
 - Use an IDE (JetBrains-based or VSCode)
-- Git/GitHub based CD
-- Containerize App using Dockerfile. Use best practices to minimize image size
-- Deploy App in Kubernetes
+- CI/CD Pipeline (Code, Build, Artifact, Deploy)
+- Containerized (or Serverless) Package
+- Deploy to a Container Orchestrator (or Serverless) Platform
