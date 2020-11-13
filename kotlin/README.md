@@ -20,6 +20,7 @@
 - Lambdas and Higher-Order Functions
 - Coroutines
 - Annotations
+- Extensions
 
 ## Use-Case Driven
 - ✅ IO
