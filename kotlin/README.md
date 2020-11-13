@@ -23,8 +23,8 @@
 - Extensions
 
 ## Use-Case Driven
-- ✅ IO
-  + Console
+- IO
+  + ✅ Console
   + File
 - Encode/Decode Data (JSON, YAML)
 - Locale
@@ -50,7 +50,11 @@
 - Post messages to Kafka. Write consumes to read the message
 
 ## Software Delivery
-- Use an IDE (JetBrains-based or VSCode)
-- CI/CD Pipeline: Git, Gradle, Jenkins, Artifactory, Spinnaker
+- Software Delivery Tools
+  + ✅ IntelliJ IDEA
+  + Maven
+  + GitHub/GitHub Actions
+  + ECR
+  + EKS
 - Containerized (or Serverless) Package
 - Deploy to a Container Orchestrator (or Serverless) Platform
