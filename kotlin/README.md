@@ -11,9 +11,9 @@
 - 🚧 Object Oriented Programming (OOP)
   + ✅ Classes and Objects
   + ✅ Subclasses and Superclasses
-  + 🚧 Abstract classes and Interfaces
+  + ✅ Abstract classes and Interfaces
+  + 🚧 Data Classes
   + Enums
-  + Data Classes
 - Nulls and Exceptions
 - Collections
 - Generics
