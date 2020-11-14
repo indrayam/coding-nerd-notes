@@ -12,5 +12,3 @@
 - [O'Reilly Safari: Kotlin Cookbook](https://learning.oreilly.com/library/view/kotlin-cookbook/9781492046660/)
 - [Pragmatic Programmers: Programming DSLs in Kotlin](https://pragprog.com/titles/vsdsl/programming-dsls-in-kotlin/)
 
-## More...
-- [My Kotlin Channel](https://www.youtube.com/playlist?list=PLYGGViEsFProOoDUK2TW-k2dQcJBFdWpQ)
