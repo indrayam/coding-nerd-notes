@@ -12,9 +12,9 @@
   + ✅ Classes and Objects
   + ✅ Subclasses and Superclasses
   + ✅ Abstract classes and Interfaces
-  + 🚧 Data Classes
+  + ✅ Data Classes
   + Enums
-- Nulls and Exceptions
+- ✅ Nulls and Exceptions
 - Collections
 - Generics
 - Lambdas and Higher-Order Functions
