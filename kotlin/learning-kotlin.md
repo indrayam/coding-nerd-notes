@@ -9,6 +9,7 @@
 ## Optional
 - [Atomic Kotlin](https://www.atomickotlin.com/atomickotlin/)
 - [O'Reilly Safari: Programming Kotlin](https://learning.oreilly.com/library/view/programming-kotlin/9781680507287/f_0004.xhtml)
+- [Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)
 - [Manning liveVideo: Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
 - [O'Reilly Safari: Kotlin Cookbook](https://learning.oreilly.com/library/view/kotlin-cookbook/9781492046660/)
 - [Pragmatic Programmers: Programming DSLs in Kotlin](https://pragprog.com/titles/vsdsl/programming-dsls-in-kotlin/)
