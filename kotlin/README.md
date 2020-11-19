@@ -1,5 +1,8 @@
 # Programming in Kotlin
 
+✅ Done
+🚧 WIP
+
 ## Basics 
 - ✅ Variables
 - ✅ Conditionals
@@ -8,7 +11,7 @@
 - ✅ Functions
 - ✅ Formatted Output
 - ✅ Random Numbers 
-- 🚧 Object Oriented Programming (OOP)
+- ✅ Object Oriented Programming (OOP)
   + ✅ Classes and Objects
   + ✅ Subclasses and Superclasses
   + ✅ Abstract classes and Interfaces
@@ -17,7 +20,7 @@
 - ✅ Nulls and Exceptions
 - ✅ Collections
 - ✅ Generics
-- 🚧 Lambdas and Higher-Order Functions
+- ✅ Lambdas and Higher-Order Functions
 - Coroutines
 - Annotations
 - Extensions
