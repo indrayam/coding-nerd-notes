@@ -15,9 +15,9 @@
   + ✅ Data Classes
   + Enums
 - ✅ Nulls and Exceptions
-- 🚧 Collections
-- Generics
-- Lambdas and Higher-Order Functions
+- ✅ Collections
+- ✅ Generics
+- 🚧 Lambdas and Higher-Order Functions
 - Coroutines
 - Annotations
 - Extensions
