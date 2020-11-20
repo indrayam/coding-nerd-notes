@@ -21,6 +21,13 @@
 
 ## Learning Spring and Spring Boot
 
+### Watch
+- ✅ [Kotlin + Spring Boot Essentials](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)
+- 🚧 [Safari Live Training: Getting Started with Spring and Spring Boot](https://learning.oreilly.com/live-training/courses/getting-started-with-spring-and-spring-boot/0636920277156/)
+- [Manning liveVideo: Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
+tlin/)
+- [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
+
 ### Read & Practice
 - [Ken Kousen: Spring and Spring Boot with Kotlin](http://www.kousenit.com/springbootkotlin/)
 - [Spring Docs: Building Web Apps with Spring Boot and Kotlin](https://spring.io/guides/tutorials/spring-boot-kotlin/)
@@ -30,22 +37,18 @@
 - [Book: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)
 - [Book: Spring in Action](https://livebook.manning.com/book/spring-in-action-sixth-edition?origin=dashboard)
 
-### Watch
-- 🚧 [Kotlin + Spring Boot Essentials](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)
-- [Safari Live Training: Getting Started with Spring and Spring Boot](https://learning.oreilly.com/live-training/courses/getting-started-with-spring-and-spring-boot/0636920277156/)
-- [Manning liveVideo: Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
-tlin/)
-- [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
-
 ## Learning the Java Ecosystem
 
 ### Watch
 - [Live Lessons: Gradle Fundamentals](https://learning.oreilly.com/videos/gradle-fundamentals/9781491937266/)
 - [Safari Live Training: Maven: Taming the Beast](https://learning.oreilly.com/live-training/courses/maven-taming-the-beast/0636920463481/)
 - [Safari Live Training: Next-generation Java testing with JUnit 5](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
+- [Ken Kousen: Spring and Spring Boot in Java](http://www.kousenit.com/springboot/)
 - **Java**:
   - [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
   - [Safari Live Training: Java 8 Generics in 3 Hours](https://learning.oreilly.com/live-training/courses/java-8-generics-in-3-hours/0636920306481/)
   - [Safari Live Training: Programming with Java Lambdas and Streams](https://learning.oreilly.com/live-training/courses/programming-with-java-lambdas-and-streams/0636920335337/)
 - [Safari Live Training: Learning Spring Boot 2](https://learning.oreilly.com/live-training/courses/learning-spring-boot-2/0636920257912/#instructors)
+- [Head First Design Patterns 2nd Ed](https://learning.oreilly.com/library/view/head-first-design/9781492077992/ch01.html#intro_to_design_patterns_welcome_to_desi)
+
 
