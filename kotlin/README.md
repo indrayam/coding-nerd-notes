@@ -16,14 +16,17 @@
   + ✅ Subclasses and Superclasses
   + ✅ Abstract classes and Interfaces
   + ✅ Data Classes
-  + Enums
 - ✅ Nulls and Exceptions
 - ✅ Collections
 - ✅ Generics
 - ✅ Lambdas and Higher-Order Functions
-- Coroutines
-- Annotations
-- Extensions
+- Others:
+  - Annotations
+  - Extensions
+  - Enums
+  - Varargs
+  - Inline Functions
+  - Coroutines
 
 ## Use-Case Driven
 - IO
@@ -36,7 +39,7 @@
 - Logging
 - Unit Tests
 
-## Simple Koans
+## Koans
 - Use IntelliJ IDEA and Maven to write code and generate a fat jar. Run it from within IntelliJ and using `mvn` and `java`
 - Use IntelliJ IDEA and Gradle to write code and generate a fat jar. Run it from within IntelliJ and using `gradle` and `java`
 - Create an App that implements Rock, Paper and Scissors game where user's input is received from the Console
@@ -49,7 +52,7 @@
 - Create an App that uses Dates to find current date in different timezones, difference between two dates, a future date and a past date
 - Use IntelliJ IDEA, Spring Boot and Maven to write code and generate a fat jar. Run it from within IntelliJ and using `mvn` and `java`
 - Create a /hello API returning JSON payload of the string sent
-- Create an App that consumes JSON payload from httpbin (or other public) APIs
+- Create a REST client by displaying JSON results from httpbin (or other public) APIs
 - Create an App that interacts with PostgreSQL
 - Create an App that interacts with MongoDB
 - Create an App that interacts with Redis
