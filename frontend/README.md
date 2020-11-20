@@ -1,5 +1,6 @@
 # Web Frontend Technologies
 
+## Core Skills
 - HTML5
 - CSS
 - VS Code
