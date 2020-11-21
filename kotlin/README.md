@@ -3,6 +3,14 @@
 ✅ Done
 🚧 WIP
 
+## Core Skills
+- Kotlin Language
+- Spring and Spring Boot
+- Gradle
+- IntelliJ IDEA
+- JUnit 5
+- Docker
+
 ## Basics 
 - ✅ Variables
 - ✅ Conditionals
