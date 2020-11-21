@@ -1,4 +1,4 @@
-# Programming in Kotlin
+# Building Apps in Kotlin
 
 ✅ Done
 🚧 WIP
@@ -6,10 +6,11 @@
 ## Core Skills
 - Kotlin Language
 - Spring and Spring Boot
-- Gradle
-- IntelliJ IDEA
-- JUnit 5
-- Docker
+- Ecosystem Tools:
+  - *IntelliJ IDEA*
+  - *Gradle*
+  - *JUnit 5*
+  - *Docker*
 
 ## Basics 
 - ✅ Variables
