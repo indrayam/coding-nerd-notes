@@ -1,9 +1,9 @@
 # Building Server-side Apps with Kotlin
 
 ## Core Skills
-- Kotlin Language
-- Spring
-- Spring Boot
+- 🚧 Kotlin Language
+- 🚧 Spring
+- 🚧 Spring Boot
 - **Ecosystem Tools:**
   - IntelliJ IDEA
   - Gradle (w/ Kotlin)
