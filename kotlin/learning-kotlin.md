@@ -1,8 +1,23 @@
-# Learning Kotlin & Spring Boot
+# Building Server-side Apps with Kotlin
 
-## Practice
+## Core Skills
+- Kotlin Language
+- Spring
+- Spring Boot
+- Ecosystem Tools:
+  - *IntelliJ IDEA*
+  - *Gradle (w/ Kotlin)*
+  - *JUnit 5*
+  - *Docker*
+
+## Exercises
 - [Learn Kotlin by Example](https://play.kotlinlang.org/byExample/overview)
 - [Coding Bat - Java](https://codingbat.com/java)
+- [Ken Kousen: Spring and Spring Boot with Kotlin Exercise](http://www.kousenit.com/springbootkotlin/)
+- [Spring Docs: Building Web Apps with Spring Boot and Kotlin](https://spring.io/guides/tutorials/spring-boot-kotlin/)
+- [Kotlin Lang: Creating a RESTful Web Service with Spring Boot](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html)
+- [Okta Blog: Build an Application with Spring Boot and Kotlin](https://developer.okta.com/blog/2019/09/17/build-a-spring-boot-kotlin-app)
+
 
 ## Learning Kotlin
 
@@ -19,7 +34,21 @@
 - [YouTube: Kotlin Jumpstart With Venkat and Josh, Part 1](https://vimeo.com/334594419)
 - [YouTube: Kotlin Jumpstart With Venkat and Josh, Part 2](https://vimeo.com/334638403)
 
+## Learning Spring Core
+
+### Read & Practice
+- [Book: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
+- [Book: Spring in Action 6th Edition](https://livebook.manning.com/book/spring-in-action-sixth-edition?origin=dashboard)
+
+
+### Watch
+- 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
+
 ## Learning Spring Boot
+
+### Read & Practice
+- [Book: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)
+- [Book: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
 
 ### Watch
 - ✅ [Kotlin + Spring Boot Essentials *Nov 2020*](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)
@@ -27,34 +56,21 @@
 - [Manning liveVideo: Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
 - [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
 
-### Read & Practice
-- [Ken Kousen: Spring and Spring Boot with Kotlin Exercise](http://www.kousenit.com/springbootkotlin/)
-- [Spring Docs: Building Web Apps with Spring Boot and Kotlin](https://spring.io/guides/tutorials/spring-boot-kotlin/)
-- [Kotlin Lang: Creating a RESTful Web Service with Spring Boot](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html)
-- [Okta Blog: Build an Application with Spring Boot and Kotlin](https://developer.okta.com/blog/2019/09/17/build-a-spring-boot-kotlin-app)
-- [Book: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
-- [Book: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)
-
-
-## Learning Spring Core
-
-### Read & Practice
-- [Book: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_2_Chapter.html)
-- [Book: Spring in Action 6th Edition](https://livebook.manning.com/book/spring-in-action-sixth-edition?origin=dashboard)
-
-### Watch
-- 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
-
 ## Learning Java Ecosystem
 
-### Watch
+### Gradle (w/ Kotlin)
 - [Live Lessons: Gradle Fundamentals *2015*](https://learning.oreilly.com/videos/gradle-fundamentals/9781491937266/)
-- [Safari Live Training: Maven: Taming the Beast *2019*](https://learning.oreilly.com/live-training/courses/maven-taming-the-beast/0636920463481/)
+- [Gradle Effective Implementations Guide](https://learning.oreilly.com/library/view/gradle-effective-implementations/9781784394974/ch04.html)
+- [Gradle Docs: Gradle + Kotlin](https://gradle.org/kotlin/)
+- [Gradle Docs: Gradle Kotlin DSL Primer](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+- [Kotlin Docs: Using Gradle](https://kotlinlang.org/docs/reference/using-gradle.html)
+
+### JUnit
 - [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
-- **Java**:
-  - [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
-  - [Safari Live Training: Java 8 Generics in 3 Hours](https://learning.oreilly.com/live-training/courses/java-8-generics-in-3-hours/0636920306481/)
-  - [Safari Live Training: Programming with Java Lambdas and Streams](https://learning.oreilly.com/live-training/courses/programming-with-java-lambdas-and-streams/0636920335337/)
-- [Safari Live Training: Learning Spring Boot 2](https://learning.oreilly.com/live-training/courses/learning-spring-boot-2/0636920257912/#instructors)
+
+### Java
+- [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
+- [Safari Live Training: Java 8 Generics in 3 Hours](https://learning.oreilly.com/live-training/courses/java-8-generics-in-3-hours/0636920306481/)
+- [Safari Live Training: Programming with Java Lambdas and Streams](https://learning.oreilly.com/live-training/courses/programming-with-java-lambdas-and-streams/0636920335337/)
 
 

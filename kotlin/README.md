@@ -1,16 +1,7 @@
-# Building Apps in Kotlin
+# Proramming in Kotlin
 
 ✅ Done
 🚧 WIP
-
-## Core Skills
-- Kotlin Language
-- Spring and Spring Boot
-- Ecosystem Tools:
-  - *IntelliJ IDEA*
-  - *Gradle*
-  - *JUnit 5*
-  - *Docker*
 
 ## Basics 
 - ✅ Variables
@@ -29,13 +20,14 @@
 - ✅ Collections
 - ✅ Generics
 - ✅ Lambdas and Higher-Order Functions
-- Others:
+- More Kotlin-specific features:
   - Annotations
   - Extensions
   - Enums
   - Varargs
   - Inline Functions
   - Coroutines
+  - Sealed Classes
 
 ## Use-Case Driven
 - IO
