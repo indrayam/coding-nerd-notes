@@ -61,9 +61,14 @@
 ### Gradle (w/ Kotlin)
 - [Live Lessons: Gradle Fundamentals *2015*](https://learning.oreilly.com/videos/gradle-fundamentals/9781491937266/)
 - [Gradle Effective Implementations Guide](https://learning.oreilly.com/library/view/gradle-effective-implementations/9781784394974/ch04.html)
-- [Gradle Docs: Gradle + Kotlin](https://gradle.org/kotlin/)
-- [Gradle Docs: Gradle Kotlin DSL Primer](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
-- [Kotlin Docs: Using Gradle](https://kotlinlang.org/docs/reference/using-gradle.html)
+- **Gradle Docs**
+  - [Building Java Applications Sample](https://docs.gradle.org/current/samples/sample_building_java_applications.html)
+  - [Building Kotlin Applications Sample](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html)
+  - [Gradle + Kotlin](https://gradle.org/kotlin/)
+  - [Gradle Kotlin DSL Primer](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+- **Kotlin Docs**
+  - [Kotlin Docs: Using Gradle](https://kotlinlang.org/docs/reference/using-gradle.html)
+
 
 ### JUnit
 - [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
