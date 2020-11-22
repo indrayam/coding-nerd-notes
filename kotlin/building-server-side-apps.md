@@ -4,11 +4,11 @@
 - Kotlin Language
 - Spring
 - Spring Boot
-- Ecosystem Tools:
-  - *IntelliJ IDEA*
-  - *Gradle (w/ Kotlin)*
-  - *JUnit 5*
-  - *Docker*
+- **Ecosystem Tools:**
+  - IntelliJ IDEA
+  - Gradle (w/ Kotlin)
+  - JUnit 5
+  - Docker
 
 ## Exercises
 - [Learn Kotlin by Example](https://play.kotlinlang.org/byExample/overview)
