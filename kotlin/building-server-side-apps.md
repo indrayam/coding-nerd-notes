@@ -18,7 +18,6 @@
 - [Kotlin Lang: Creating a RESTful Web Service with Spring Boot](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html)
 - [Okta Blog: Build an Application with Spring Boot and Kotlin](https://developer.okta.com/blog/2019/09/17/build-a-spring-boot-kotlin-app)
 
-
 ## Learning Kotlin
 
 ### Read & Practice
@@ -29,26 +28,27 @@
 - [Pragmatic Programmers: Programming DSLs in Kotlin](https://pragprog.com/titles/vsdsl/programming-dsls-in-kotlin/)
 
 ### Watch
-- [Safari: Kotlin from Ground Up Live Lessons](https://learning.oreilly.com/videos/kotlin-from-the/9780135263631/)
-- [YouTube: Kotlin for Java Programmers](https://www.youtube.com/watch?v=7EVXypZDOos)
+- 🚧 [Safari: Kotlin from Ground Up Live Lessons](https://learning.oreilly.com/videos/kotlin-from-the/9780135263631/)
+- 🚧 [YouTube: Kotlin for Java Programmers](https://www.youtube.com/watch?v=fsNhjYgXxlg)
 - [YouTube: Kotlin Jumpstart With Venkat and Josh, Part 1](https://vimeo.com/334594419)
 - [YouTube: Kotlin Jumpstart With Venkat and Josh, Part 2](https://vimeo.com/334638403)
 
 ## Learning Spring Core
 
 ### Read & Practice
-- [Book: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
+- 🚧 [Book: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
 - [Book: Spring in Action 6th Edition](https://livebook.manning.com/book/spring-in-action-sixth-edition?origin=dashboard)
-
 
 ### Watch
 - 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
+- [Learning Path: Spring and Spring Boot Fundamentals](https://learning.oreilly.com/learning-paths/learning-path-spring/9781492055334/)
 
 ## Learning Spring Boot
 
 ### Read & Practice
 - [Book: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)
 - [Book: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
+- [Book: Learning Microservices with Spring Boot 2nd Ed](https://github.com/Apress/learn-microservices-spring-boot-2e)
 
 ### Watch
 - ✅ [Kotlin + Spring Boot Essentials *Nov 2020*](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)
@@ -59,19 +59,18 @@
 ## Learning Java Ecosystem
 
 ### Gradle (w/ Kotlin)
-- [Live Lessons: Gradle Fundamentals *2015*](https://learning.oreilly.com/videos/gradle-fundamentals/9781491937266/)
-- [Gradle Effective Implementations Guide](https://learning.oreilly.com/library/view/gradle-effective-implementations/9781784394974/ch04.html)
 - **Gradle Docs**
-  - [Building Java Applications Sample](https://docs.gradle.org/current/samples/sample_building_java_applications.html)
-  - [Building Kotlin Applications Sample](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html)
-  - [Gradle + Kotlin](https://gradle.org/kotlin/)
-  - [Gradle Kotlin DSL Primer](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+  - 🚧 [Learning the Basics](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html)
+  - ✅ [Building Java Applications Sample](https://docs.gradle.org/current/samples/sample_building_java_applications.html)
+  - ✅ [Building Kotlin Applications Sample](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html)
+  - 🚧 [Build Java & JVM Projects](https://docs.gradle.org/6.7.1/userguide/building_java_projects.html)
 - **Kotlin Docs**
   - [Kotlin Docs: Using Gradle](https://kotlinlang.org/docs/reference/using-gradle.html)
 
 
 ### JUnit
 - [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
+- [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
 
 ### Java
 - [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
