@@ -1,4 +1,4 @@
-# Kotlin Memory Muscle
+# Java/Kotlin Memory Muscle
 
 ## Notes on Collections
 **Array:** Holds values in a sequence. Can be updated. Can't be resized.
