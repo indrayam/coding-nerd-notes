@@ -46,9 +46,3 @@
 - Writing apps that interact with MongoDB
 - Writing apps that interact with Redis
 - Post messages to Kafka. Write consumes to read the message
-
-## Software Delivery
-- Use an IDE (JetBrains-based or VSCode)
-- CI/CD Pipeline (Code, Build, Artifact, Deploy)
-- Containerized (or Serverless) Package
-- Deploy to a Container Orchestrator (or Serverless) Platform
