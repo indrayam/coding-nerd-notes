@@ -5,7 +5,6 @@
 - 🚧 Spring
 - 🚧 Spring Boot
 - **Ecosystem Tools:**
-  - IntelliJ IDEA
   - Gradle (w/ Kotlin)
   - JUnit 5
   - Docker
@@ -56,9 +55,8 @@
 - [Manning liveVideo: Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
 - [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
 
-## Learning Java Ecosystem
+## Learning Gradle (w/ Kotlin)
 
-### Gradle (w/ Kotlin)
 - **Gradle Docs**
   - 🚧 [Learning the Basics](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html)
   - ✅ [Building Java Applications Sample](https://docs.gradle.org/current/samples/sample_building_java_applications.html)
@@ -67,12 +65,19 @@
 - **Kotlin Docs**
   - [Kotlin Docs: Using Gradle](https://kotlinlang.org/docs/reference/using-gradle.html)
 
+## Learning JUnit 5, Mockito
 
-### JUnit
 - [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
 - [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
 
-### Java
+## Learning Docker
+- [Learn Docker in a Month of Lunches](https://learning.oreilly.com/library/view/learn-docker-in/9781617297052/)
+- [Docker in Practice 2nd Ed](https://learning.oreilly.com/library/view/docker-in-practice/9781617294808/)
+- [Docker in Action 2nd Ed](https://learning.oreilly.com/library/view/docker-in-action/9781617294761/)
+
+
+## Learning Java
+- [Java Tutorial - Budi Kurniawan 5th Ed](https://brainysoftware.com/book/9781771970365)
 - [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
 - [Safari Live Training: Java 8 Generics in 3 Hours](https://learning.oreilly.com/live-training/courses/java-8-generics-in-3-hours/0636920306481/)
 - [Safari Live Training: Programming with Java Lambdas and Streams](https://learning.oreilly.com/live-training/courses/programming-with-java-lambdas-and-streams/0636920335337/)
