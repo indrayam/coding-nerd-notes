@@ -48,6 +48,7 @@
 #### Learning JUnit 5, Mockito
 
 - [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
+- [Book: JUnit in Action, 3rd Ed](https://livebook.manning.com/book/junit-in-action-third-edition/welcome/v-6/)
 - [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
 
 #### Learning Docker
