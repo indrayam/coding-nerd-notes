@@ -1,11 +1,11 @@
-# Building Server-side Apps with Java/Kotlin
+# Building Microservices with Java/Kotlin
 
 ## Core Skills
 - 🚧 Kotlin Language
 - 🚧 Spring
 - 🚧 Spring Boot
 - **Ecosystem Tools:**
-  - Gradle (w/ Kotlin)
+  - ✅ Gradle (w/ Kotlin)
   - JUnit 5/Mockito
   - Docker
 
