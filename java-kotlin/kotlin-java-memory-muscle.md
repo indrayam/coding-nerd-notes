@@ -1,4 +1,32 @@
-# Java/Kotlin Memory Muscle
+# Kotlin/Java Memory Muscle
+
+## Running Kotlin
+
+```bash
+alias kj=kotlinc-jvm
+alias kt=kotlin
+alias kc=kotlinc
+
+# Kotlin Programs
+
+## Compile using kj. Run using kt or java
+code -n sample.kt
+kj sample.kt
+kt SampleKt
+# OR
+java -classpath . SampleKt
+
+## Compile using kc. Run using kt or java
+kc sample.kt -include-runtime -d sample.jar
+kt sample.jar
+# OR
+java -jar sample.jar
+
+# Kotlin Scripts
+code -n sample.kts
+kt sample.kts
+```
+
 
 ## Notes on Collections
 **Array:** Holds values in a sequence. Can be updated. Can't be resized.
