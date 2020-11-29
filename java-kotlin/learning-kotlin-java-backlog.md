@@ -4,10 +4,11 @@
 - 🚧 Kotlin/Java Language
 - 🚧 Spring Boot
 - **JVM Ecosystem:**
-  - 🚧 Spring
-  - ✅ Gradle (w/ Kotlin)
-  - 🚧 JUnit 5/Mockito
-  - Docker
+  - 🚧 Framework(s): Spring
+  - IDE: IntelliJ IDEA
+  - ✅ Build: Gradle (w/ Kotlin)
+  - 🚧 Test: JUnit 5/Mockito
+  - Package: Docker
 - Computer Science (CSc) Corner
   - OOP
   - Algorithms & Data Structures
@@ -48,6 +49,7 @@
 
 #### Learning Gradle (w/ Kotlin)
 
+- [Gradle Kotlin DSL Primer](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
 - 🚧 [Read: Learning the Basics (Gradle Docs)](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html) **Thread 4**
 - ✅ [Read: Building Java Applications Sample (Gradle Docs)](https://docs.gradle.org/current/samples/sample_building_java_applications.html)
 - ✅ [Read: Building Kotlin Applications Sample (Gradle Docs)](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html)
@@ -60,6 +62,7 @@
 - [Read: JUnit in Action, 3rd Ed](https://livebook.manning.com/book/junit-in-action-third-edition/welcome/v-6/)
 - Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)
 - [Read: JUnit 5 User Guide (JUnit Docs)](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
+- [Read: Hamcrest Tutorial](http://hamcrest.org/JavaHamcrest/tutorial)
 
 #### Learning Docker
 - [Safari - Introduction to Docker and containers *2016*](https://learning.oreilly.com/videos/the-docker-video/9781491968246/9781491968246-video248904)
@@ -89,3 +92,4 @@
 - Read: Write Great Code - Vol 2 (Thinking Low Level, Writing High Level)
 - Read: Write Great Code - Vol 3 (Engineering Software)
 - [Harvard CS50 Lectures 2020](https://www.youtube.com/playlist?list=PLhQjrBD2T382AvyLN85USYYc2IapRptWI)
+- [MIT: Missing Semester Lectures](https://missing.csail.mit.edu/2020/)

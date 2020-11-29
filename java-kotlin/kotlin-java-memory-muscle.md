@@ -1,5 +1,53 @@
 # Kotlin/Java Memory Muscle
 
+## Unit Testing
+
+Format: `(expected, actual, string)` OR `(expected, actual, Supplier String)`
+
+### JUnit
+- Annotations
+  - Test Annotations: @Test, @ParameterizedTest, @RepeatedTest, @Disabled (Method or Class Level), @DisplayName()
+  - Lifecycle Annotations: @BeforeEach, @AfterEach, @BeforeAll (must be static), @AfterAll (must be static)
+  - Conditional Execution Annotations: 
+    + @EnabledOnOs, @DisabledOnOs
+      - AIX, MAC, LINUX, WINDOWS, OTHER
+    + @EnabledOnJre, @EnabledOnJreRange, @DisabledOnJre
+      - JAVA_8, JAVA_9, JAVA_10, JAVA_11, JAVA_12, JAVA_13, JAVA_14, OTHER
+    + @EnabledIfEnvironmentVariable, @DisabledIfEnvironmentVariable
+    + @EnabledIfSystemProperty, @DisabledIfSystemProperty
+  - Tagging/Filtering: @Tag
+  - Test Instance Lifecycle: 
+    + TestInstance.Lifecycle.PER_CLASS
+    + TestInstance.Lifecycle.PER_METHOD
+- Assertions
+  - assertAll()
+  - assertTrue()
+  - assertFalse()
+  - assertEquals()
+  - assertNotEquals()
+  - assertNull()
+  - assertNotNull()
+  - assertSame()
+  - assertNotSame()
+  - assertThrows()
+  - assertTimeout()
+  - assertTimeoutPreemptively()
+  - fail()
+  - *assertArrayEquals()*
+  - *assertIterableEquals()*
+  - *assertLinesMatch()*
+- Assumptions
+  - assumeTrue()
+  - assumeFalse()
+  - assumingThat()
+
+### Hamster
+- assertThat()
+
+### Mockito
+
+
+
 ## Running Kotlin
 
 ```bash
