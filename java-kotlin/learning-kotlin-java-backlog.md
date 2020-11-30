@@ -11,8 +11,8 @@
 ## Learning Kotlin
 
 - **[Read: Programming Kotlin](https://learning.oreilly.com/library/view/programming-kotlin/9781680507287/f_0004.xhtml)**
-- 🚧 **[Read: Head First Kotlin](https://learning.oreilly.com/library/view/head-first-kotlin/9781491996683/)**
-- 🚧 **[Safari: Kotlin from Ground Up Live Lessons](https://learning.oreilly.com/videos/kotlin-from-the/9780135263631/)**
+- 🚧 [Read: Head First Kotlin](https://learning.oreilly.com/library/view/head-first-kotlin/9781491996683/)
+- 🚧 [Safari: Kotlin from Ground Up Live Lessons](https://learning.oreilly.com/videos/kotlin-from-the/9780135263631/)
 - [Read: Atomic Kotlin](https://www.atomickotlin.com/atomickotlin/)
 - ✅ [Safari: Kotlin Fundamentals](https://learning.oreilly.com/live-training/courses/kotlin-fundamentals/0636920467892/)
 - 🚧 [YouTube: Kotlin for Java Programmers](https://www.youtube.com/watch?v=fsNhjYgXxlg)
@@ -28,10 +28,10 @@
 - [Safari Live Training: Programming with Java Lambdas and Streams](https://learning.oreilly.com/live-training/courses/programming-with-java-lambdas-and-streams/0636920335337/)
 
 ## Learning Spring Boot
-- ✅ **[Kotlin + Spring Boot Essentials *Nov 2020*](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)**
-- **[Safari Live Training: Getting Started with Spring and Spring Boot *Dec 2020*]()**
 - **[Read: Spring and Spring Boot with Kotlin Exercise - Ken Kousen](http://www.kousenit.com/springbootkotlin/)**
 - **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**
+- ✅ [Kotlin + Spring Boot Essentials *Nov 2020*](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)
+- [Safari Live Training: Getting Started with Spring and Spring Boot *Dec 2020*]()
 - [Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
 - [Read: Building Web Apps with Spring Boot and Kotlin (Spring Docs)](https://spring.io/guides/tutorials/spring-boot-kotlin/)
 - [Read: Creating a RESTful Web Service with Spring Boot (Kotlin Docs)](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html)
@@ -51,12 +51,15 @@
 ## Dev Ecosystem
 
 #### Learning JUnit 5, Mockito
-- **Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)**
-- 🚧 **[Safari Live Training: Next-generation Java testing with JUnit 5 *Dec 2020*]()**
-  + ✅ [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
+- **[Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)](http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)**
 - [Read: JUnit in Action, 3rd Ed](https://livebook.manning.com/book/junit-in-action-third-edition/welcome/v-6/)
+- 🚧 [Safari Live Training: Next-generation Java testing with JUnit 5 *Dec 2020*]()
+  + ✅ [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
 - [Read: JUnit 5 User Guide (JUnit Docs)](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
 - [Read: Hamcrest Tutorial](http://hamcrest.org/JavaHamcrest/tutorial)
+- [Master Java Unit Testing with Spring Boot and Mockito](https://learning.oreilly.com/videos/master-java-unit/9781789346077)
+- [Mockito Tutorial](https://learning.oreilly.com/videos/mockito-tutorial/9781789135039)
+
 
 #### Learning Gradle (w/ Kotlin)
 - **[Read: Gradle Kotlin DSL Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/kotlin_dsl.html)**
@@ -69,7 +72,7 @@
 
 #### Learning Docker
 - **[Read: Docker in Practice 2nd Ed](https://learning.oreilly.com/library/view/docker-in-practice/9781617294808/)**
-- **[Intro to Docker](https://www.youtube.com/playlist?list=PLBAFXs0YjviLgqTum8MkspG_8VzGl6C07)** / [Intro to Docker - Slides](https://qconsf2017intro.container.training/#1) / [container.training](https://container.training/)
+- [Intro to Docker](https://www.youtube.com/playlist?list=PLBAFXs0YjviLgqTum8MkspG_8VzGl6C07) / [Intro to Docker - Slides](https://qconsf2017intro.container.training/#1) / [container.training](https://container.training/)
   + [Safari - Introduction to Docker and containers *2016*](https://learning.oreilly.com/videos/the-docker-video/9781491968246/9781491968246-video248904)
 - [Docker Beyond the Basics](https://learning.oreilly.com/live-training/courses/docker-beyond-the-basics-ci-cd/0636920344759/)
 - [Read: Docker in Action 2nd Ed](https://learning.oreilly.com/library/view/docker-in-action/9781617294761/)

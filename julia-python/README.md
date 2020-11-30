@@ -1,5 +1,11 @@
-# Proramming in Julia/Python (AI & Numberical Computing)
+# Proramming in Julia/Python
+
+Scientific Programming. AI/ML!
 
 ✅ Done
 🚧 WIP
 
+## Julia
+
+
+## Python
