@@ -1,5 +1,19 @@
 # Kotlin/Java Memory Muscle
 
+## Notes
+
+### Popular Java Utility SDKs
+- GSON for JSON Parsing
+- Apache Commons for Validators
+- JUnit 5, Mockito 
+
+### Popular Kotlin Utility SDKs
+- MockK
+- Ktor
+
+### Public APIs
+- open-notify.org
+
 ## Unit Testing
 
 Format: `(expected, actual, string)` OR `(expected, actual, Supplier String)`

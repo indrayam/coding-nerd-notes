@@ -4,30 +4,30 @@
 - 🚧 Kotlin/Java Language
 - 🚧 Spring Boot/Spring
 - **Dev Ecosystem:**
-  - 🚧 Test: JUnit 5/Mockito
-  - 🚧 Build: Gradle (w/ Kotlin)
-  - Package: Docker
+  - 🚧 *Test:* JUnit 5/Mockito
+  - 🚧 *Build:* Gradle (w/ Kotlin)
+  - *Package:* Docker
 
 ## Learning Kotlin
 
 - **[Read: Programming Kotlin](https://learning.oreilly.com/library/view/programming-kotlin/9781680507287/f_0004.xhtml)**
+- 🚧 **[Read: Head First Kotlin](https://learning.oreilly.com/library/view/head-first-kotlin/9781491996683/)**
 - 🚧 **[Safari: Kotlin from Ground Up Live Lessons](https://learning.oreilly.com/videos/kotlin-from-the/9780135263631/)**
-- 🚧 [Read: Head First Kotlin](https://learning.oreilly.com/library/view/head-first-kotlin/9781491996683/)
 - [Read: Atomic Kotlin](https://www.atomickotlin.com/atomickotlin/)
-- [Read: Kotlin Cookbook](https://learning.oreilly.com/library/view/kotlin-cookbook/9781492046660/)
+- ✅ [Safari: Kotlin Fundamentals](https://learning.oreilly.com/live-training/courses/kotlin-fundamentals/0636920467892/)
 - 🚧 [YouTube: Kotlin for Java Programmers](https://www.youtube.com/watch?v=fsNhjYgXxlg)
 - [YouTube: Kotlin Jumpstart With Venkat and Josh, Part 1](https://vimeo.com/334594419)
 - [YouTube: Kotlin Jumpstart With Venkat and Josh, Part 2](https://vimeo.com/334638403)
 
 #### Java
 - [Read: Java Tutorial - Budi Kurniawan 5th Ed](https://brainysoftware.com/book/9781771970365)
+- [Read: Java The Complete Reference - Herbert Schildt](https://www.amazon.com/Java-Complete-Reference-Eleventh/dp/1260440230)
 - [Read: Modern Java in Action](https://learning.oreilly.com/library/view/modern-java-in/9781617293566/)
 - [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
 - [Safari Live Training: Java 8 Generics in 3 Hours](https://learning.oreilly.com/live-training/courses/java-8-generics-in-3-hours/0636920306481/)
 - [Safari Live Training: Programming with Java Lambdas and Streams](https://learning.oreilly.com/live-training/courses/programming-with-java-lambdas-and-streams/0636920335337/)
 
 ## Learning Spring Boot
-
 - ✅ **[Kotlin + Spring Boot Essentials *Nov 2020*](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)**
 - **[Safari Live Training: Getting Started with Spring and Spring Boot *Dec 2020*]()**
 - **[Read: Spring and Spring Boot with Kotlin Exercise - Ken Kousen](http://www.kousenit.com/springbootkotlin/)**
