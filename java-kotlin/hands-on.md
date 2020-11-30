@@ -18,10 +18,11 @@ All Apps use `gen`, `gensb`, IntelliJ IDEA, Gradle w/ Kotlin and unit tests usin
 - Create an App that uses Locale, Number Formatting and Currency Formatting to print money in acceptable format in US, UK, Germany and India 
 - Create an App that uses Dates to find current date in different timezones, difference between two dates, a future date and a past date
 
-#### Domain Skills
-- Create a /hello API returning JSON payload of the string sent
-- Create a REST client by displaying JSON results from httpbin (or other public) APIs
-- Create an App that interacts with PostgreSQL
-- Create an App that interacts with MongoDB
-- Create an App that interacts with Redis
-- Create a Producer App that posts messages to Kafka and a Consumer App that consumes messages from Kafka
+#### Building Apps
+- Create RESTful API returning JSON payload
+- Create RESTful API that in turn acts as a REST client by displaying JSON results from httpbin (or other public) APIs
+- Create RESTful API that interacts with PostgreSQL
+- Create RESTful API that interacts with MongoDB
+- Create RESTful API that interacts with Redis
+- Create RESTful API that that posts messages to Kafka/RabbitMQ
+  + Create an eWorker that reads messages from Kafka/RabbitMQ
