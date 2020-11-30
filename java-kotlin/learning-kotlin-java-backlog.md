@@ -53,7 +53,7 @@
 #### Learning JUnit 5, Mockito
 - **Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)**
 - 🚧 **[Safari Live Training: Next-generation Java testing with JUnit 5 *Dec 2020*]()**
-  + 🚧 [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
+  + ✅ [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
 - [Read: JUnit in Action, 3rd Ed](https://livebook.manning.com/book/junit-in-action-third-edition/welcome/v-6/)
 - [Read: JUnit 5 User Guide (JUnit Docs)](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
 - [Read: Hamcrest Tutorial](http://hamcrest.org/JavaHamcrest/tutorial)
@@ -74,11 +74,9 @@
 - [Docker Beyond the Basics](https://learning.oreilly.com/live-training/courses/docker-beyond-the-basics-ci-cd/0636920344759/)
 - [Read: Docker in Action 2nd Ed](https://learning.oreilly.com/library/view/docker-in-action/9781617294761/)
 - [Read: Learn Docker in a Month of Lunches](https://learning.oreilly.com/library/view/learn-docker-in/9781617297052/)
+- [Read: Building Serverless Applications with Google Cloud Run](https://learning.oreilly.com/library/view/building-serverless-applications/9781492057086/#toc)
 
 ## Open Source Nuggets
-
-#### Frameworks
-- [Micronaut](https://micronaut.io/)
 
 #### Popular Java Utility SDKs
 - [Apache Commons for Validators](https://commons.apache.org/components.html)

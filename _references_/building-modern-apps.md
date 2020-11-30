@@ -1,14 +1,18 @@
 # Building Modern Apps
 
+All Apps use IntelliJ IDEA, Gradle w/ Kotlin, Unit tests using JUnit 5 (w/ Hamcret and AssertJ) and Mockito. Also, they are packaged as Docker images
+
 ## Starter Apps
-- Web App with a simple frontend form that submits values to a backend
-- Web API that responds with a simple JSON "Hello World" payload
-- Web API that integrates with *DynamoDB* (or, *MongoDB*)
-- Web API that integrates with *Aurora/Postgres* (or, *PostgreSQL*)
-- Web API that integrates with *ElastiCache* (or, *Redis*)
-- Web API that integrates with *SNS* and/or *SQS* (or, *Kafka*)
-- Lambda App that integrates with *S3*
-- Lambda App that integrates with *SNS* and/or *SQS*
+- Single Page App (SPA)
+- Containerized Microservice or Serverless App that...
+  + Performs a Computational logic and returns JSON payload
+  + Acts as a REST client and gets data from httpbin (or other public) APIs
+  + Integrates with *DynamoDB* (or, *MongoDB*)
+  + Integrates with *Aurora/Postgres* (or, *PostgreSQL*)
+  + Integrates with *ElastiCache* (or, *Redis*)
+  + Integrates with *SNS* and/or *SQS* (or, *Kafka*)
+  + Integrates with *S3*
+  + Integrates with *SNS* and/or *SQS*
 
 ## Stox Shop! 
 - Capabilities:

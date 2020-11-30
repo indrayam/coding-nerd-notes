@@ -4,9 +4,8 @@
 - [Learn Kotlin by Example](https://play.kotlinlang.org/byExample/overview)
 - [Coding Bat - Java](https://codingbat.com/java)
 
-
 ## Exercises
-All Apps use `gen`, `gensb`, IntelliJ IDEA, Gradle w/ Kotlin and unit tests using JUnit 5
+All Apps use IntelliJ IDEA, Gradle w/ Kotlin, Unit tests using JUnit 5 (w/ Hamcret and AssertJ) and Mockito. Also, they are packaged as Docker images
 
 #### Basics
 - Create an App that implements Rock, Paper and Scissors game where user's input is received from the Console
@@ -26,3 +25,4 @@ All Apps use `gen`, `gensb`, IntelliJ IDEA, Gradle w/ Kotlin and unit tests usin
 - Create RESTful API that interacts with Redis
 - Create RESTful API that that posts messages to Kafka/RabbitMQ
   + Create an eWorker that reads messages from Kafka/RabbitMQ
+- Create a Serverless App
