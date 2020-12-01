@@ -1,6 +1,6 @@
 # Learning Kotlin/Java Backlog
 
-## Core Skills and their Learning Source
+## Core Learning Sources
 - 🚧 Kotlin/Java Language
   + **[Read: Atomic Kotlin](https://www.atomickotlin.com/atomickotlin/)**
 - 🚧 Spring Boot/Spring
