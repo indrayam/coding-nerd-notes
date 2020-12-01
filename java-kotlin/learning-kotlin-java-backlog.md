@@ -1,18 +1,12 @@
 # Learning Kotlin/Java Backlog
 
 ## Core Learning Sources
-- 🚧 Kotlin/Java Language
-  + **[Read: Atomic Kotlin](https://www.atomickotlin.com/atomickotlin/)**
-- 🚧 Spring Boot/Spring
-  - **[Read: Spring in Action 6th Edition](https://livebook.manning.com/book/spring-in-action-sixth-edition?origin=dashboard)**
-  - **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**
+- 🚧 Kotlin/Java Language (**[Read: Atomic Kotlin](https://www.atomickotlin.com/atomickotlin/)**)
+- 🚧 Spring Boot/Spring (**[Read: Spring in Action 6th Edition](https://livebook.manning.com/book/spring-in-action-sixth-edition?origin=dashboard)**, **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**)
 - **Dev Ecosystem:**
-  - 🚧 *Test:* JUnit 5/Mockito
-    + **[Read: JUnit in Action, 3rd Ed](https://livebook.manning.com/book/junit-in-action-third-edition/welcome/v-6/)**
-  - 🚧 *Build:* Gradle (w/ Kotlin)
-    + **[Read: Gradle Kotlin DSL Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/kotlin_dsl.html)**
-  - *Package:* Docker
-    + **[Read: Docker in Practice 2nd Ed](https://learning.oreilly.com/library/view/docker-in-practice/9781617294808/)**
+  - 🚧 *Test:* JUnit 5/Mockito (**[Read: JUnit in Action, 3rd Ed](https://livebook.manning.com/book/junit-in-action-third-edition/welcome/v-6/)**)
+  - 🚧 *Build:* Gradle (w/ Kotlin) (**[Read: Gradle Kotlin DSL Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/kotlin_dsl.html)**)
+  - *Package:* Docker (**[Read: Docker in Practice 2nd Ed](https://learning.oreilly.com/library/view/docker-in-practice/9781617294808/)**)
 
 ## Learning Kotlin
 - ✅ [Read: Head First Kotlin](https://learning.oreilly.com/library/view/head-first-kotlin/9781491996683/)
