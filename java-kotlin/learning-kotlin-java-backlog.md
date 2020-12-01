@@ -38,6 +38,8 @@
 - [Manning liveVideo: Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
 - [Learning Path: Spring and Spring Boot Fundamentals](https://learning.oreilly.com/learning-paths/learning-path-spring/9781492055334/)
 - [Read: Learning Microservices with Spring Boot 2nd Ed](https://github.com/Apress/learn-microservices-spring-boot-2e)
+- [What's new in Spring Boot 2.3?](https://spring.io/blog/2020/06/18/what-s-new-in-spring-boot-2-3)
+- [What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
 
 #### Spring Core
 - 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
