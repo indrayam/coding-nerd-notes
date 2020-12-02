@@ -46,8 +46,6 @@ Format: `(expected, actual, string)` OR `(expected, actual, Supplier String)`
 
 ### Mockito
 
-
-
 ## Running Kotlin
 
 ```bash

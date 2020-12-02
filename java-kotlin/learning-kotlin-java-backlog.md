@@ -34,6 +34,7 @@
 - [Read: Building Web Apps with Spring Boot and Kotlin (Spring Docs)](https://spring.io/guides/tutorials/spring-boot-kotlin/)
 - [Read: Creating a RESTful Web Service with Spring Boot (Kotlin Docs)](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html)
 - [Read: Build an Application with Spring Boot and Kotlin (Okta Blog)](https://developer.okta.com/blog/2019/09/17/build-a-spring-boot-kotlin-app)
+- [Building Microservices with Spring Boot, Second Edition](https://learning.oreilly.com/videos/building-microservices-with/9780134678658/)
 - [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
 - [Manning liveVideo: Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
 - [Learning Path: Spring and Spring Boot Fundamentals](https://learning.oreilly.com/learning-paths/learning-path-spring/9781492055334/)
@@ -43,7 +44,9 @@
 
 #### Spring Core
 - 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
+- [Spring Framework - Josh Long (2013)](https://learning.oreilly.com/videos/spring-framework/9780133477252/)
 - [Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
+- [Read: Spring Quick Reference Guide](https://learning.oreilly.com/library/view/spring-quick-reference/9781484261446/)
 
 ## Dev Ecosystem
 
