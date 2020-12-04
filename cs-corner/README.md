@@ -7,10 +7,12 @@
 - Understanding the Machine
 
 ## List
-- [Read: Practical Object-Oriented Design - Sandy Metz (2nd Ed)](https://learning.oreilly.com/library/view/practical-object-oriented-design/9780134445588/)
 - [Read: Head First Design Patterns (2nd Ed)](https://learning.oreilly.com/library/view/head-first-design/9781492077992/)
+- [Victor Rentea YouTube Channel](https://www.youtube.com/playlist?list=PLggcOULvfLL_MfFS_O0MKQ5W_6oWWbIw5) ([Site](http://victorrentea.ro/))
 - [Read: Head First Object-Oriented Analysis and Design](https://learning.oreilly.com/library/view/head-first-object-oriented/0596008678/)
 - [Read: Object-Oriented Analysis and Design with Applications, Third Edition](https://learning.oreilly.com/library/view/object-oriented-analysis-and/9780201895513/)
+- [Read: Practical Object-Oriented Design - Sandy Metz (2nd Ed)](https://learning.oreilly.com/library/view/practical-object-oriented-design/9780134445588/)
+- [Domain Driven Design](https://www.youtube.com/watch?v=pMuiVlnGqjk)
 - Read: Cracking the Coding Interview 6th Ed
 - Read: Inside the Machine
 - Read: Common Sense Guide to Data Structures and Algorithms
