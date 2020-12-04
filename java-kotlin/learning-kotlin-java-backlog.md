@@ -28,25 +28,31 @@
 ## Learning Spring Boot
 - ✅ [Kotlin + Spring Boot Essentials *Nov 2020*](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)
 - ✅ [Safari Live Training: Getting Started with Spring and Spring Boot *Jul 2019*](https://learning.oreilly.com/live-training/courses/getting-started-with-spring-and-spring-boot/0636920277156/)
-- [Safari Live Training: Getting Started with Spring and Spring Boot *Dec 2020*]()
-- [Read: Spring and Spring Boot with Kotlin Exercise - Ken Kousen](http://www.kousenit.com/springbootkotlin/)
+- ✅ [Safari Live Training: Getting Started with Spring and Spring Boot *Dec 2020*](https://learning.oreilly.com/live-training/courses/getting-started-with-spring-and-spring-boot/0636920462705/)
+- [Hands-On: Spring and Spring Boot with Kotlin Exercise - Ken Kousen](http://www.kousenit.com/springbootkotlin/)
+- [Hands-On: Building Web Apps with Spring Boot and Kotlin (Spring Docs)](https://spring.io/guides/tutorials/spring-boot-kotlin/)
+- [Hands-On: Creating a RESTful Web Service with Spring Boot (Kotlin Docs)](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html)
+- [Hands-On: Build an Application with Spring Boot and Kotlin (Okta Blog)](https://developer.okta.com/blog/2019/09/17/build-a-spring-boot-kotlin-app)
 - [Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
-- [Read: Building Web Apps with Spring Boot and Kotlin (Spring Docs)](https://spring.io/guides/tutorials/spring-boot-kotlin/)
-- [Read: Creating a RESTful Web Service with Spring Boot (Kotlin Docs)](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html)
-- [Read: Build an Application with Spring Boot and Kotlin (Okta Blog)](https://developer.okta.com/blog/2019/09/17/build-a-spring-boot-kotlin-app)
+- [Read: Learning Microservices with Spring Boot 2nd Ed](https://github.com/Apress/learn-microservices-spring-boot-2e)
+- [Read: Hacking with Spring Boot 2.3 Reactive Edition](https://www.amazon.com/Hacking-Spring-Boot-2-3-Reactive-ebook/dp/B086722L4L)
+- [What's new in Spring Boot 2.3?](https://spring.io/blog/2020/06/18/what-s-new-in-spring-boot-2-3)
+- [What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
 - [Building Microservices with Spring Boot, Second Edition](https://learning.oreilly.com/videos/building-microservices-with/9780134678658/)
 - [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
 - [Manning liveVideo: Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
 - [Learning Path: Spring and Spring Boot Fundamentals](https://learning.oreilly.com/learning-paths/learning-path-spring/9781492055334/)
-- [Read: Learning Microservices with Spring Boot 2nd Ed](https://github.com/Apress/learn-microservices-spring-boot-2e)
-- [What's new in Spring Boot 2.3?](https://spring.io/blog/2020/06/18/what-s-new-in-spring-boot-2-3)
-- [What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
+
+#### Spring Security
+- [Spring Security & OAuth 2.0 - In-Depth](https://www.marcobehler.com/guides/spring-security-oauth2)
 
 #### Spring Core
 - 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
 - [Spring Framework - Josh Long (2013)](https://learning.oreilly.com/videos/spring-framework/9780133477252/)
 - [Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
 - [Read: Spring Quick Reference Guide](https://learning.oreilly.com/library/view/spring-quick-reference/9781484261446/)
+- [Read: What is Spring MVC: @Controllers & @RestControllers](https://www.marcobehler.com/guides)
+- [The Confident Spring Professional](https://www.marcobehler.com/courses/spring-professional)
 
 ## Dev Ecosystem
 
@@ -75,3 +81,44 @@
 - [Read: Docker in Action 2nd Ed](https://learning.oreilly.com/library/view/docker-in-action/9781617294761/)
 - [Read: Learn Docker in a Month of Lunches](https://learning.oreilly.com/library/view/learn-docker-in/9781617297052/)
 - [Read: Building Serverless Applications with Google Cloud Run](https://learning.oreilly.com/library/view/building-serverless-applications/9781492057086/#toc)
+
+## Open Source Nuggets
+
+#### Popular Java Utility SDKs
+- Lombok: [Stable](https://projectlombok.org/features/all), [API Doc](https://projectlombok.org/api/)
+- [SL4J](http://www.slf4j.org/manual.html), [Logback](https://stackify.com/logging-logback/)
+- JUnit 5 ([User Guide](https://junit.org/junit5/docs/current/user-guide/), [API Doc](https://junit.org/junit5/docs/current/api/org.junit.jupiter.api/org/junit/jupiter/api/package-summary.html)), Hamcrest Matchers ([Tutorial](http://hamcrest.org/JavaHamcrest/tutorial), [API Doc](http://hamcrest.org/JavaHamcrest/javadoc/2.2/)), [AssertJ Assertions](https://assertj.github.io/doc/)
+- [Mockito](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
+- [Apache Commons for Validators](https://commons.apache.org/components.html)
+- [Google Guava](https://github.com/google/guava)
+- [Google Gson](https://github.com/google/gson/blob/master/UserGuide.md)
+- Jackson: [Core](https://github.com/FasterXML/jackson-core), [Annotations](https://github.com/FasterXML/jackson-annotations), [Databind](https://github.com/FasterXML/jackson-databind)
+- [JAXB](https://javaee.github.io/jaxb-v2/doc/user-guide/release-documentation.html)
+- [more...](https://towardsdatascience.com/25-lesser-known-java-libraries-you-should-try-ff8abd354a94)
+
+#### Popular Kotlin Utility SDKs
+- MockK
+- Ktor
+
+#### Public RESTful APIs
+- [Space Station and Astronauts API](http://open-notify.org/)
+- [EC2 Shop API](https://ec2.shop/)
+- CoinMarket API
+  + [Pro](https://pro.coinmarketcap.com/account/)
+  + [Sandbox](https://sandbox.coinmarketcap.com/account/)
+- [AlphaVantage API](https://www.alphavantage.co/documentation/)
+- [JSONbox.io](https://jsonbox.io/)
+- [Httpbin.org](https://httpbin.org/)
+
+
+#### Popular GitHub Repos
+- [Awesome Java](https://github.com/akullpp/awesome-java)
+- [Java Design Patterns](https://github.com/iluwatar/java-design-patterns)
+- [Interviews](https://github.com/kdn251/interviews)
+- [The Algorithms - Java](https://github.com/TheAlgorithms/Java)
+- [Realworld](https://github.com/gothinkster/realworld)
+- [GitHub: Modern Java Tutorial with Simple Examples](https://github.com/winterbe/java8-tutorial)
+  + [Java 8 Tutorial](https://winterbe.com/posts/2014/03/16/java-8-tutorial/)
+  + [Java 8 Streams Tutorial](https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
+  + [Java 11 Tutorial](https://winterbe.com/posts/2018/09/24/java-11-tutorial/)
+- [Cracking the Coding Interview - Java](https://github.com/careercup/CtCI-6th-Edition) 

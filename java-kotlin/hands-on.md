@@ -1,6 +1,12 @@
 # Hands-On Skills
 
-All Apps use IntelliJ IDEA, Gradle w/ Kotlin, Unit tests using JUnit 5 (w/ Hamcret and AssertJ) and Mockito. Also, they are packaged as Docker images
+## Axioms
+- Use an IDE (IntelliJ IDEA)
+- Use a Build tool (Gradle w/ Kotlin)
+- Write Unit tests! (JUnit 5 w/ Hamcret Matchers, and Mockito)
+- Package it as OCI compliant image
+- Use Git as SCM along with an actual CI/CD Pipeline
+- All Apps MUST read the secrets necessary to integrate with the backends at startup time by talking to Vault (or similar AWS services)
 
 ## Basics
 - Create an App that implements Rock, Paper and Scissors game where user's input is received from the Console
@@ -13,14 +19,26 @@ All Apps use IntelliJ IDEA, Gradle w/ Kotlin, Unit tests using JUnit 5 (w/ Hamcr
 - Create an App that uses Dates to find current date in different timezones, difference between two dates, a future date and a past date
 
 ## Building Apps
-- Create RESTful API returning JSON payload
-- Create RESTful API that in turn acts as a REST client by displaying JSON results from httpbin (or other public) APIs
-- Create RESTful API that interacts with PostgreSQL
-- Create RESTful API that interacts with MongoDB
-- Create RESTful API that interacts with Redis
-- Create RESTful API that that posts messages to Kafka/RabbitMQ
-  + Create an eWorker that reads messages from Kafka/RabbitMQ
-- Create a Serverless App
+- Create a server-side delivered Web App
+  + With AuthC
+- Create RESTful API
+  + Responds with JSON Payload
+  + With CORS enabled
+- Create an App that interacts with RESTful API
+  + JSON Payload
+  + With AuthC
+  + GET, POST, PUT, DELETE
+- Create an App that interacts with PostgreSQL
+- Create an App that interacts with MongoDB
+- Create an App that interacts with Redis
+- Create an App that publishes messages to Kafka
+  + Create an App that that publishes messages to RabbitMQ
+- Create an App that reads messages from Kafka
+  + Create an App that reads messages from RabbitMQ
+- Create an App that uploads file to S3 compliant backend like Minio (or *S3*)
+- Create Serverless App
+  + AWS Lambda 
+  + Google Cloud Run
 
 ## Reference Sites
 - [Learn Kotlin by Example](https://play.kotlinlang.org/byExample/overview)
