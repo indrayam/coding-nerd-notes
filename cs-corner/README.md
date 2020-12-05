@@ -20,5 +20,6 @@
 - Read: Write Great Code - Vol 1 (Understanding the Machine)
 - Read: Write Great Code - Vol 2 (Thinking Low Level, Writing High Level)
 - Read: Write Great Code - Vol 3 (Engineering Software)
+- [Clean Code](https://learning.oreilly.com/videos/clean-code/9780134661742/)
 - [Harvard CS50 Lectures 2020](https://www.youtube.com/playlist?list=PLhQjrBD2T382AvyLN85USYYc2IapRptWI)
 - [MIT: Missing Semester Lectures](https://missing.csail.mit.edu/2020/)

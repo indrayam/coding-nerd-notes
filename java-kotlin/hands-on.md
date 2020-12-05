@@ -6,9 +6,10 @@
 - Write Unit tests! (JUnit 5 w/ Hamcret Matchers, and Mockito)
 - Package it as OCI compliant image
 - Use Git as SCM along with an actual CI/CD Pipeline
-- All Apps MUST read the secrets necessary to integrate with the backends at startup time by talking to Vault (or similar AWS services)
+- All Apps **MUST** read the secrets necessary to integrate with the backends at startup time by talking to Vault (or similar AWS services)
 
 ## Basics
+- Single Page App (SPA)
 - Create an App that implements Rock, Paper and Scissors game where user's input is received from the Console
 - Create an App that implements a Class Hierarchy: Employee, Manager, Executive
 - Create an App that implements a List of Employees and perform all kinds of operations on it
