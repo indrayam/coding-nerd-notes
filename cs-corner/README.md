@@ -1,8 +1,8 @@
 # Computer Science (CSc.) Corner
 
 ## Skills
-- Object Oriented Analysis and Design
 - Design Patterns
+- Programming Paradigms
 - Data Structures & Algorithms
 - Understanding the Machine
 
