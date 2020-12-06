@@ -1,4 +1,4 @@
-# Computer Science (CSc.) Corner
+# Computer Science Corner
 
 ## Skills
 - Design Patterns
