@@ -1,4 +1,4 @@
-# Learning Kotlin/Java Backlog
+# Learning Java/Kotlin Backlog
 
 ## Core Learning Sources
 - 🚧 Java/Kotlin Language 

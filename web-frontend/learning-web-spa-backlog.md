@@ -1,4 +1,4 @@
-# Building Modern Frontend Single Page App
+# Learning Web/SPA Backlog
 
 ## Core Skills
 - HTML5, CSS/SaSS

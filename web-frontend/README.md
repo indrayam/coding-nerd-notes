@@ -1,13 +1,15 @@
-# Programming in HTML5, CSS and TypeScript/Angular
+# Programming in HTML5/CSS
 
 ✅ Done
 🚧 WIP
 
-## HTML5 Basics
+## Basics
+- ...
+- ...
 
-## CSS Basics
+# Programming in Modern JavaScript
 
-## TypeScript Basics
+## Basics
 - Variables
 - Conditionals
 - Looping
