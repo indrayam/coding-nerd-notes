@@ -34,7 +34,7 @@
       + An *Analytics Plane* which allows teams to get access to rich analytics about their software development practices as well as Software characteristics like code quality and security metrics.
 - While I have continued to dabble with writing software during my time as an IT Architect, these were small utility softwares created to get a specific task(s) automated. To no one's surprise, I got into writing more and more [Python](https://www.python.org/) during this time. Since Python and Perl were peers, at times I wondered if I should have embraced Python instead of Perl during my CGI writing days. That said, I really *enjoyed* my time with Perl. So, no regrets there. :smile: 
 
-### Phase 4: Transitioning to Software 2.0
+### Phase 4: Software for Good (and for Myself)!
 - Understanding [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
 - My :heart: for C++ never really went away. However, instead of diving into [C++ 17](https://isocpp.org/std/status), I've decided it is time for me to move on
 - For Software 1.0 stuff, these will be my go-to languages:
