@@ -10,6 +10,8 @@
 - **Dev Ecosystem:**
   - 🚧 *Test:* JUnit 5/Mockito 
     + **Read: JUnit in Action, 3rd Ed**
+  - 🚧 *Commit:* Git/GitHub using IntelliJ IDEA
+    + **[Read: Git in IntelliJ](https://www.jetbrains.com/help/idea/version-control-integration.html)**
   - 🚧 *Build:* Gradle (w/ Kotlin) 
     + **[Read: Gradle Kotlin DSL Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/kotlin_dsl.html)**
   - *Package:* Docker
@@ -70,6 +72,14 @@
 - [Read: Hamcrest Tutorial](http://hamcrest.org/JavaHamcrest/tutorial)
 - [Master Java Unit Testing with Spring Boot and Mockito](https://learning.oreilly.com/videos/master-java-unit/9781789346077)
 - [Mockito Tutorial](https://learning.oreilly.com/videos/mockito-tutorial/9781789135039)
+
+#### Learning Git using IntelliJ
+- [Trisha Gee: Share a Project on GitHub](https://www.youtube.com/watch?v=4ukhZvOmAtk)
+- [Trisha Gee: Cloning a Project from GitHub](https://www.youtube.com/watch?v=aBVOAnygcZw)
+- [Trisha Gee: GitHub Pull Requests](https://www.youtube.com/watch?v=MoXxF3aWW8k)
+- [Read: Manage Git Branches](https://www.jetbrains.com/help/idea/manage-branches.html)
+- [Read: Use Git to work on several features simultaneously](https://www.jetbrains.com/help/idea/work-on-several-features-simultaneously.html)
+- [more...](https://www.youtube.com/c/intellijidea/videos)
 
 
 #### Learning Gradle (w/ Kotlin)
