@@ -26,7 +26,8 @@
 - [YouTube: Kotlin Jumpstart With Venkat and Josh, Part 1](https://vimeo.com/334594419)
 - [YouTube: Kotlin Jumpstart With Venkat and Josh, Part 2](https://vimeo.com/334638403)
 - [Read: Java Tutorial - Budi Kurniawan 5th Ed](https://brainysoftware.com/book/9781771970365)
-- [Read: Java The Complete Reference - Herbert Schildt](https://learning.oreilly.com/library/view/java-the-complete/9781260440249/)
+  - [Read: Java The Complete Reference - Herbert Schildt](https://learning.oreilly.com/library/view/java-the-complete/9781260440249/)
+  - [Read: Java 9 for Programmers](https://learning.oreilly.com/library/view/java-9-for/9780134778167/)
 - [Read: Modern Java in Action](https://learning.oreilly.com/library/view/modern-java-in/9781617293566/)
 - [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
 - [Safari Live Training: Java 8 Generics in 3 Hours](https://learning.oreilly.com/live-training/courses/java-8-generics-in-3-hours/0636920306481/)
@@ -55,9 +56,11 @@
 
 #### Spring Core
 - 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
+- [Victor Rentea YouTube Channel](https://www.youtube.com/playlist?list=PLggcOULvfLL_MfFS_O0MKQ5W_6oWWbIw5) ([Site](http://victorrentea.ro/))
 - [Spring Framework - Josh Long (2013)](https://learning.oreilly.com/videos/spring-framework/9780133477252/)
 - [Read: Marco Behler: What is Spring MVC: @Controllers & @RestControllers](https://www.marcobehler.com/guides)
 - [Marco Behler: The Confident Spring Professional](https://www.marcobehler.com/courses/spring-professional)
+- [Marco Behler: ]
 - [Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
 - [Read: Spring Quick Reference Guide](https://learning.oreilly.com/library/view/spring-quick-reference/9781484261446/)
 
@@ -103,6 +106,8 @@
 #### Popular Java Utility SDKs
 - Lombok: [Stable](https://projectlombok.org/features/all), [API Doc](https://projectlombok.org/api/)
 - [SL4J](http://www.slf4j.org/manual.html), [Logback](https://stackify.com/logging-logback/)
+  + [Marco Behler: Understanding Java Logging Hell](https://www.youtube.com/watch?v=czPt3UFSK4Q)
+  + [Marco Behler: How to properly use Slf4j](https://www.youtube.com/watch?v=JahvBA-PQFM)
 - JUnit 5 ([User Guide](https://junit.org/junit5/docs/current/user-guide/), [API Doc](https://junit.org/junit5/docs/current/api/org.junit.jupiter.api/org/junit/jupiter/api/package-summary.html)), Hamcrest Matchers ([Tutorial](http://hamcrest.org/JavaHamcrest/tutorial), [API Doc](http://hamcrest.org/JavaHamcrest/javadoc/2.2/)), [AssertJ Assertions](https://assertj.github.io/doc/)
 - [Mockito](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
 - [Apache Commons for Validators](https://commons.apache.org/components.html)
@@ -125,6 +130,7 @@
 - [AlphaVantage API](https://www.alphavantage.co/documentation/)
 - [JSONbox.io](https://jsonbox.io/)
 - [Httpbin.org](https://httpbin.org/)
+- [Internet Chuck Norris Jokes Database](http://www.icndb.com/api/)
 
 
 #### Popular GitHub Repos
@@ -137,4 +143,4 @@
   + [Java 8 Tutorial](https://winterbe.com/posts/2014/03/16/java-8-tutorial/)
   + [Java 8 Streams Tutorial](https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
   + [Java 11 Tutorial](https://winterbe.com/posts/2018/09/24/java-11-tutorial/)
-- [Cracking the Coding Interview - Java](https://github.com/careercup/CtCI-6th-Edition) 
+- [Cracking the Coding Interview - Java](https://github.com/careercup/CtCI-6th-Edition)

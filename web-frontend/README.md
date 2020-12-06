@@ -1,4 +1,4 @@
-# Proramming in HTML5, CSS and TypeScript/Angular
+# Programming in HTML5, CSS and TypeScript/Angular
 
 ✅ Done
 🚧 WIP

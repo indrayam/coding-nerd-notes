@@ -1,35 +1,12 @@
 # Building Modern Apps
 
-## Axioms
+## Tools of the Trade
 - Use an IDE (IntelliJ IDEA)
 - Use a Build tool (Gradle w/ Kotlin)
 - Write Unit tests! (JUnit 5 w/ Hamcret Matchers, and Mockito)
 - Package it as OCI compliant image
 - Use Git as SCM along with an actual CI/CD Pipeline
-- All Apps MUST read the secrets necessary to integrate with the backends at startup time by talking to Vault (or similar AWS services)
-
-## Starter Apps
-- Single Page App (SPA)
-- Create a server-side delivered Web App
-  + With AuthC
-- Create RESTful API
-  + Responds with JSON Payload
-  + With CORS enabled
-- Create an App that interacts with RESTful API
-  + JSON Payload
-  + With AuthC
-  + GET, POST, PUT, DELETE
-- Create an App that interacts with PostgreSQL (or *Aurora/Postgres*)
-- Create an App that interacts with MongoDB (or *DynamoDB*)
-- Create an App that interacts with Redis (or *ElastiCache*)
-- Create an App that publishes messages to Kafka (or *SNS* and/or *SQS*)
-  + Create an App that that publishes messages to RabbitMQ
-- Create an App that reads messages from Kafka (or *SNS* and/or *SQS*)
-  + Create an App that reads messages from RabbitMQ
-- Create an App that uploads file to S3 compliant backend like Minio (or *S3*)
-- Create Serverless App
-  + AWS Lambda 
-  + Google Cloud Run
+- All Apps **MUST** read the secrets necessary to integrate with the backends at startup time by talking to Vault (or similar AWS services)
 
 ## S4! Sharma Stox Shop Simulator
 - Capabilities:
