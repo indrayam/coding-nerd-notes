@@ -32,11 +32,61 @@
   + [Read: Java The Complete Reference - Herbert Schildt](https://learning.oreilly.com/library/view/java-the-complete/9781260440249/)
   + [Read: Java 9 for Programmers](https://learning.oreilly.com/library/view/java-9-for/9780134778167/)
   + [Read: Modern Java in Action](https://learning.oreilly.com/library/view/modern-java-in/9781617293566/)
+- Marco Behler
+  + [Marco Behler: How to easily create Lists, Sets and Maps in Java ](https://www.youtube.com/watch?v=BS7tY-Exo0w)
+  + [Marco Behler: How to work with Java enums](https://www.youtube.com/watch?v=9AlKnPY-ROc&t=1s)
+  + [Marco Behler: Mastering Java 8 Streams - Part 1 | Java 8 Features](https://www.youtube.com/watch?v=NEcA1JRT7pg)
+  + [Marco Behler: Mastering Java 8 Streams - Part 2 | Java 8 Features](https://www.youtube.com/watch?v=7yKom_LjuXE)
+  + [Marco Behler: Mastering Java 8 Streams - Part 3 | Java 8 Features](https://www.youtube.com/watch?v=TmzgxGKMwrk)
+  + [Marco Behler: Mastering Java 8 Streams - Part 4 | Java 8 Features](https://www.youtube.com/watch?v=oc8JROktUgo)
+  + [Marco Behler: Mastering Java 8 Streams - Part 5 | Java 8 Features](https://www.youtube.com/watch?v=yvsCXAiClcc)
+  + [Marco Behler: Mastering Java 8 Optionals - Part 3 | Java 8 Features](https://www.youtube.com/watch?v=kcJhWubKcm4)
+  + [Marco Behler: Creating And Reading Files with java.nio.Path | How To Work With Files In Java](https://www.youtube.com/watch?v=M_5o4Ixb-8U)
+  + [Marco Behler: How to properly debug Java Lambdas](https://www.youtube.com/watch?v=CRzLZH68rRo)
+  + [Marco Behler: How to properly debug Java Streams](https://www.youtube.com/watch?v=txLc78RaORo)
+  + [Marco Behler: How to properly edit non-Java strings (xml, json, sql) in Java files](https://www.youtube.com/watch?v=aHD3QNx_oSk)
+  + [Marco Behler: How to properly run Java programs which need dynamic program arguments](https://www.youtube.com/watch?v=HQ3ibOG2a9k)
 - [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
 - [Safari Live Training: Java 8 Generics in 3 Hours](https://learning.oreilly.com/live-training/courses/java-8-generics-in-3-hours/0636920306481/)
 - [Safari Live Training: Programming with Java Lambdas and Streams](https://learning.oreilly.com/live-training/courses/programming-with-java-lambdas-and-streams/0636920335337/)
 
 ## Learning Spring Boot
+
+#### Spring Core
+- Marco Behler
+  + [Read: Marco Behler: What is Spring MVC: @Controllers & @RestControllers](https://www.marcobehler.com/guides)
+  + ✅ [Marco Behler: Spring Core: A world without Spring](https://www.youtube.com/watch?v=rVxMCEyQfvk)
+  + ✅ [Marco Behler: Spring Core: You First Spring Application](https://www.youtube.com/watch?v=xN6yXgeZdWs)
+  + ✅ [Marco Behler: Spring Core: 5000 ways to build and wire your Spring Beans](https://www.youtube.com/watch?v=gVQijiDliuI)
+  + ✅ [Marco Behler: Spring Transaction Management: Finally Understandable](https://www.youtube.com/watch?v=4BD6pF7dkkc)
+  + [Marco Behler: Spring & CGLIB: Finally Understandable](https://www.youtube.com/watch?v=hskHMSlvm6U)
+  + [Marco Behler: Spring Boot & Embedded Web Servers](https://www.youtube.com/watch?v=UsVR41JmUgY)
+  + [Marco Behler: Spring Boot 'Properties' Magic - Part 1](https://www.youtube.com/watch?v=QS9xIcg9KnA)
+  + [Marco Behler: Putting a Webserver (Nginx) in front of your Spring Boot Application](https://www.youtube.com/watch?v=KZFkssRuBLE)
+    - [Marco Behler: Why you should use a web server (Nginx) in front of your Spring Boot application](https://www.youtube.com/watch?v=A0Il8_03_Mo)
+  + [Marco Behler: How to setup Spring Boot's JDBC/database support](https://www.youtube.com/watch?v=HzhdzZq34JA)
+  + [Marco Behler: Spring Boot - Behind the curtains: Autoconfiguration](https://www.youtube.com/watch?v=Ybfo8Dwactg)
+  + [Marco Behler: Making your Rest Controllers cacheable with Etags](https://www.youtube.com/watch?v=BJiBvlgrOkA)
+  + [Marco Behler: Writing a 'Login With GitHub' Button (Oauth2 / Spring Boot 2.x / Spring Security 5.x)](https://www.youtube.com/watch?v=W0UqG0iUpYk)
+  + [Marco Behler: Fetching GitHub User Details & Customizing Oauth2 Logins (Oauth2 / Spring Boot 2.x / Spring Security 5.x](https://www.youtube.com/watch?v=o-0ygtI-Vxg)
+  + [Marco Behler: RabbitMQ & Java: Meet the project you are going to build](https://www.youtube.com/watch?v=XR_UbEpolD8)
+  + [Marco Behler: How to install RabbitMQ and enable its web interface](https://www.youtube.com/watch?v=oRIF1xKEI0I)
+  + [Marco Behler: How to create a simple RabbitMQ & Java project with Maven](https://www.youtube.com/watch?v=6lPK_LgTZ9Y)
+  + [Marco Behler: How to send messages to a RabbitMQ broker and queues with Java](https://www.youtube.com/watch?v=gaLmPqrm5LI)
+  + [Marco Behler: How to consume RabbitMQ messages from queues with Java](https://www.youtube.com/watch?v=BS7tY-Exo0w)
+  + [Marco Behler: How to look inside RabbitMQ queues for messages (Command Line & Web Interface)](https://www.youtube.com/watch?v=2SE9w1XfevA)
+- Ken Kousen
+  + 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
+- Victor Rentea
+  + [Victor Rentea: The Proxy fairy and the magic of Spring](https://www.youtube.com/watch?v=HbbvyZh3IZo)
+  + [Victor Rentea: The Art of Clean Code](https://www.youtube.com/watch?v=AeWbJ5LIFNg)
+  + [Victor Rentea: Structural Design Patterns with Spring](https://learning.oreilly.com/live-training/courses/structural-design-patterns-with-spring/0636920478041/)
+- Josh Long
+  + [Spring Framework - Josh Long (2013)](https://learning.oreilly.com/videos/spring-framework/9780133477252/)
+- [Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
+- [Read: Spring Quick Reference Guide](https://learning.oreilly.com/library/view/spring-quick-reference/9781484261446/)
+
+#### Spring Boot
 - Ken Kousen
   + ✅ [Kotlin + Spring Boot Essentials *Nov 2020*](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)
   + ✅ [Safari Live Training: Getting Started with Spring and Spring Boot *Jul 2019*](https://learning.oreilly.com/live-training/courses/getting-started-with-spring-and-spring-boot/0636920277156/)
@@ -57,27 +107,8 @@
 - [Read: Learning Microservices with Spring Boot 2nd Ed](https://github.com/Apress/learn-microservices-spring-boot-2e)
 - [Read: Hacking with Spring Boot 2.3 Reactive Edition](https://www.amazon.com/Hacking-Spring-Boot-2-3-Reactive-ebook/dp/B086722L4L)
 
-
 #### Spring Security
 - [Spring Security & OAuth 2.0 - In-Depth](https://www.marcobehler.com/guides/spring-security-oauth2)
-
-#### Spring Core
-- Ken Kousen
-  + 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
-- Victor Rentea
-  + [Victor Rentea: The Proxy fairy and the magic of Spring](https://www.youtube.com/watch?v=HbbvyZh3IZo)
-  + [Victor Rentea: The Art of Clean Code](https://www.youtube.com/watch?v=AeWbJ5LIFNg)
-  + [Victor Rentea: Structural Design Patterns with Spring](https://learning.oreilly.com/live-training/courses/structural-design-patterns-with-spring/0636920478041/)
-- Josh Long
-  + [Spring Framework - Josh Long (2013)](https://learning.oreilly.com/videos/spring-framework/9780133477252/)
-- Marco Behler
-  + [Read: Marco Behler: What is Spring MVC: @Controllers & @RestControllers](https://www.marcobehler.com/guides)
-  + ✅ [Marco Behler: Spring Core: A world without Spring](https://www.youtube.com/watch?v=rVxMCEyQfvk)
-  + ✅ [Marco Behler: Spring Core: You First Spring Application](https://www.youtube.com/watch?v=xN6yXgeZdWs)
-  + ✅ [Marco Behler: Spring Core: 5000 ways to build and wire your Spring Beans](https://www.youtube.com/watch?v=gVQijiDliuI)
-  + ✅ [Marco Behler: Spring Transaction Management: Finally Understandable](https://www.youtube.com/watch?v=4BD6pF7dkkc)
-- [Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
-- [Read: Spring Quick Reference Guide](https://learning.oreilly.com/library/view/spring-quick-reference/9781484261446/)
 
 
 ## Dev Ecosystem
@@ -116,6 +147,10 @@
 - 🚧 [Read: Build Java & JVM Projects (Gradle Docs)](https://docs.gradle.org/6.7.1/userguide/building_java_projects.html)
 
 #### Learning Docker
+- Marco Behler
+  + [Marco Behler: Setting Up Docker & Getting Started](https://www.youtube.com/watch?v=hck-UtTBNIw)
+  + [Marco Behler: Building your own Docker images](https://www.youtube.com/watch?v=F9cegTWgyTc)
+  + [Marco Behler: Packaging your .jar or .war files into a Docker container](https://www.youtube.com/watch?v=6rGMvws--kk)
 - [Intro to Docker](https://www.youtube.com/playlist?list=PLBAFXs0YjviLgqTum8MkspG_8VzGl6C07) / [Intro to Docker - Slides](https://qconsf2017intro.container.training/#1) / [container.training](https://container.training/)
   + [Safari - Introduction to Docker and containers *2016*](https://learning.oreilly.com/videos/the-docker-video/9781491968246/9781491968246-video248904)
 - [Docker Beyond the Basics](https://learning.oreilly.com/live-training/courses/docker-beyond-the-basics-ci-cd/0636920344759/)
