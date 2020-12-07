@@ -114,8 +114,10 @@
 ## Dev Ecosystem
 
 #### Learning JUnit 5, Mockito
-- ✅ [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
-- 🚧 [Safari Live Training: Next-generation Java testing with JUnit 5 *Dec 2020*]()
+- Ken Kousen
+  - [NFJS - Next Gen JUnit 5 & Mockito](https://nofluffjuststuff.com/app/webinar/31/replay/32?mkt=true&userId=430&utm_source=webinareplay&utm_medium=email&utm_campaign=showmail&x=y)
+  - ✅ [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
+  - 🚧 [Safari Live Training: Next-generation Java testing with JUnit 5 *Dec 2020*]()
 - [Read: JUnit 5 User Guide (JUnit Docs)](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
 - [Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)](http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)
 - [Read: Hamcrest Tutorial](http://hamcrest.org/JavaHamcrest/tutorial)
