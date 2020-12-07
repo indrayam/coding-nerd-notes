@@ -1,12 +1,13 @@
 # Learning Java/Kotlin Backlog
 
 ## Core Learning Sources
+- 🚧 Spring Boot, including Spring Core 
+  + **Read: Spring 5 Recipes**
+  + **Read: Spring in Action 6th Edition**
+  + **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**
 - 🚧 Java/Kotlin Language 
   + **Read: Java A Beginner's Tutorial - Budi Kurniawan**
   + **Read: Atomic Kotlin**
-- 🚧 Spring Boot, including Spring Core 
-  + **Read: Spring in Action 6th Edition**
-  + **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**
 - **Dev Ecosystem:**
   - 🚧 *Test:* JUnit 5/Mockito 
     + **Read: JUnit in Action, 3rd Ed**
