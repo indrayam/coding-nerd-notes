@@ -46,7 +46,7 @@
   - Coroutines
   - Sealed Classes
 
-# Simple Tasks
+# Common Programming Tasks
 ## Skills
 - IO
   + ✅ Console
@@ -68,7 +68,7 @@
 - Create an App that uses Locale, Number Formatting and Currency Formatting to print money in acceptable format in US, UK, Germany and India 
 - Create an App that uses Dates to find current date in different timezones, difference between two dates, a future date and a past date
 
-# Server-side Software Tasks
+# Distributed Systems Tasks
 
 ## Skills
 - RESTful API (GET, POST, PUT, DELETE)
