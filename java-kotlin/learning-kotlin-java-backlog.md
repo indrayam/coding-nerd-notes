@@ -193,6 +193,7 @@
 - [JSONbox.io](https://jsonbox.io/)
 - [Httpbin.org](https://httpbin.org/)
 - [Internet Chuck Norris Jokes Database](http://www.icndb.com/api/)
+- [Google GeoCode API](https://developers.google.com/maps/documentation/geocoding/start)
 
 
 #### Popular GitHub Repos
