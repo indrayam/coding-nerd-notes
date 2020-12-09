@@ -12,6 +12,7 @@
   - 🚧 *Unit Testing:* JUnit 5/Mockito/AssertJ/Hamcrest Matchers/Spring Boot Test
     + **Read: JUnit in Action, 3rd Ed**
     + **[Read: Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing)**
+      - **[spring.io Guide: Testing the Web Layer](https://spring.io/guides/gs/testing-web/)**
   - 🚧 *Commit:* Git/GitHub using IntelliJ IDEA
     + **[Read: Git in IntelliJ](https://www.jetbrains.com/help/idea/version-control-integration.html)**
   - 🚧 *Build:* Gradle (w/ Kotlin) 
