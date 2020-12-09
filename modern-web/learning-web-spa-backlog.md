@@ -19,14 +19,14 @@
 - [Brad Traversy: Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/)
 - [Brad Traversy: Sass Crash Course](https://www.youtube.com/watch?v=nu5mdN2JIwM)
 
-## Learning Modern JavaScript/TypeScript
+## Learning Modern JavaScript
 - [Brad Traversy: Modern JavaScript From The Beginning](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/)
 - [Brad Traversy: 20 Web Projects with Vanilla JavaScript](https://learning.oreilly.com/videos/20-web-projects/9781800563049/)
 - [Cay Horstmann: Modern JavaScript for the Impatient](https://learning.oreilly.com/library/view/modern-javascript-for/9780136502166/) ([Video](https://learning.oreilly.com/videos/modern-javascript-for/9780135812778))
 - [Wes Bos: Beginner JavaScript](https://courses.wesbos.com/account/access/5f24630f13180209c92cf558)
 - [Wes Bos: ES6 for Everyone](https://courses.wesbos.com/account/access/59d02f9c57b1ab0976835d7f)
 
-## Learning React/Angular
+## Learning React
 - [Andy Olsen: React in 4 Hrs](https://learning.oreilly.com/live-training/courses/react-in-4-hours/0636920477624/)
 - [Charles David Crawford: ReactJS Fundamentals, 3rd Edition](https://learning.oreilly.com/videos/reactjs-fundamentals-3rd/9780136612117)
 - [Shaun Wassell: Learn React for Modern Web Applications](https://learning.oreilly.com/videos/learn-react-for/9780136784395/)
