@@ -71,8 +71,9 @@
 # Distributed Systems Tasks
 
 ## Skills
+- Server Rendered Web App
 - RESTful API (GET, POST, PUT, DELETE)
-- REST Client
+- REST Client (GET, POST, PUT, DELETE)
 - SQL Database
 - NoSQL Database
 - Message Queues
