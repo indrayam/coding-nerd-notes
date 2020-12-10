@@ -1,6 +1,6 @@
 # Learning Modern Java and Kotlin Backlog
 
-## December 2020
+## December 2020 (Modern Java and Spring Edition)
 - 🚧 Spring Boot 
   + **Read: Spring in Action 6th Edition**
   + **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**
@@ -10,6 +10,7 @@
   + **Read: Spring 5 Recipes**
 - 🚧 Modern Java 
   + **Read: Java A Beginner's Tutorial - Budi Kurniawan**
+  + **Read: Modern Java in Action - Manning**
 - 🚧 *Unit Testing:* JUnit 5/Mockito/AssertJ
   + **Read: JUnit in Action, 3rd Ed**
   + **[Read: Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing)**
