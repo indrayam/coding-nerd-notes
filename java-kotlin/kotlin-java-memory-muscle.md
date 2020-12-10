@@ -1,4 +1,7 @@
-# Kotlin/Java Memory Muscle
+# Modern Java and Kotlin Memory Muscle
+
+## Spring Boot
+- `logging.level.sql=DEBUG`
 
 ## Unit Testing
 

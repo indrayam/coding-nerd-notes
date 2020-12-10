@@ -1,10 +1,13 @@
 # Learning Modern Java and Kotlin Backlog
 
 ## Core Learning Sources
-- 🚧 Spring Boot, including Spring Core 
-  + **Read: Spring 5 Recipes**
+- 🚧 Spring Boot 
   + **Read: Spring in Action 6th Edition**
   + **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**
+- Spring
+  + [Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
+  + **Read: Spring 5 Recipes**
+  + [Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
 - 🚧 Java/Kotlin Language 
   + **Read: Java A Beginner's Tutorial - Budi Kurniawan**
   + **Read: Atomic Kotlin**
@@ -27,8 +30,10 @@
   + ✅ [Kotlin + Spring Boot Essentials *Nov 2020*](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)
   + ✅ [Safari Live Training: Getting Started with Spring and Spring Boot *Jul 2019*](https://learning.oreilly.com/live-training/courses/getting-started-with-spring-and-spring-boot/0636920277156/)
   + ✅ [Safari Live Training: Getting Started with Spring and Spring Boot *Dec 2020*](https://learning.oreilly.com/live-training/courses/getting-started-with-spring-and-spring-boot/0636920462705/)
-  + 🚧 [Learning Path: Spring and Spring Boot Fundamentals](https://learning.oreilly.com/learning-paths/learning-path-spring/9781492055334/)
+  + ✅ [Learning Path: Spring and Spring Boot Fundamentals](https://learning.oreilly.com/learning-paths/learning-path-spring/9781492055334/)
   + 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
+- Josh Long & Pivotal Folks
+  - [Building Microservices with Spring Boot, Second Edition](https://learning.oreilly.com/videos/building-microservices-with/9780134678658/)
 - Hands-On
   + [Hands-On: Spring and Spring Boot with Kotlin Exercise - Ken Kousen](http://www.kousenit.com/springbootkotlin/)
   + [Hands-On: Building Web Apps with Spring Boot and Kotlin (Spring Docs)](https://spring.io/guides/tutorials/spring-boot-kotlin/)
@@ -36,11 +41,8 @@
   + [Hands-On: Build an Application with Spring Boot and Kotlin (Okta Blog)](https://developer.okta.com/blog/2019/09/17/build-a-spring-boot-kotlin-app)
   + [Hands-On: What's new in Spring Boot 2.3?](https://spring.io/blog/2020/06/18/what-s-new-in-spring-boot-2-3)
   + [Read: What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
-  + [Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
-- Josh Long & Pivotal Folks
-  - [Building Microservices with Spring Boot, Second Edition](https://learning.oreilly.com/videos/building-microservices-with/9780134678658/)
-  - [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
-- Manning liveVideo
+- Spring Boot w/ Kotlin
+  + [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
   + [Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
 
 
@@ -71,9 +73,6 @@
   + [Victor Rentea: Structural Design Patterns with Spring](https://learning.oreilly.com/live-training/courses/structural-design-patterns-with-spring/0636920478041/)  
   + [Victor Rentea: The Proxy fairy and the magic of Spring](https://www.youtube.com/watch?v=HbbvyZh3IZo)
   + [Victor Rentea: The Art of Clean Code](https://www.youtube.com/watch?v=AeWbJ5LIFNg)
-- Josh Long LiveLesson
-  + [Spring Framework - Josh Long (2013)](https://learning.oreilly.com/videos/spring-framework/9780133477252/)
-- [Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
 
 #### Spring Security
 - [Spring Security & OAuth 2.0 - In-Depth](https://www.marcobehler.com/guides/spring-security-oauth2)
