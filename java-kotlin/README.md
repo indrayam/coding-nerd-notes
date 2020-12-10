@@ -1,53 +1,173 @@
-# Programming in Java
+# Learning Modern Java and Kotlin Backlog
 
-✅ Done
-🚧 WIP
+## December 2020
+- 🚧 Spring Boot 
+  + **Read: Spring in Action 6th Edition**
+  + **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**
+- Spring
+  + **[Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)**
+  + **[Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)**
+  + **Read: Spring 5 Recipes**
+- 🚧 Modern Java 
+  + **Read: Java A Beginner's Tutorial - Budi Kurniawan**
+- 🚧 *Unit Testing:* JUnit 5/Mockito/AssertJ
+  + **Read: JUnit in Action, 3rd Ed**
+  + **[Read: Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing)**
+  + **[spring.io Guide: Testing the Web Layer](https://spring.io/guides/gs/testing-web/)**
+- Dev Ecosystem:
+  - ✅ *Commit:* Git/GitHub using IntelliJ IDEA
+  - ✅ *Build:* Gradle (w/ Kotlin) 
+  - ✅ *Package:* Docker
 
-## Basics
-- Variables
-- Conditionals
-- Looping
-- Arrays
-- Object Oriented Programming (OOP)
-  + Classes and Objects
-  + Inheritance: Nested and Inner Classes
-  + Polymorphism: Interfaces and Abstract Classes
-- Exceptions
-- Collections
-- Generics
-- Lambdas & Streams
-- Annotations
+## Learning Spring and Spring Boot
 
-# Programming in Kotlin
+#### Spring Boot
+- Ken Kousen
+  + ✅ [Kotlin + Spring Boot Essentials *Nov 2020*](https://learning.oreilly.com/live-training/courses/kotlin-spring-boot-essentials/0636920463443/)
+  + ✅ [Safari Live Training: Getting Started with Spring and Spring Boot *Jul 2019*](https://learning.oreilly.com/live-training/courses/getting-started-with-spring-and-spring-boot/0636920277156/)
+  + ✅ [Safari Live Training: Getting Started with Spring and Spring Boot *Dec 2020*](https://learning.oreilly.com/live-training/courses/getting-started-with-spring-and-spring-boot/0636920462705/)
+  + ✅ [Learning Path: Spring and Spring Boot Fundamentals](https://learning.oreilly.com/learning-paths/learning-path-spring/9781492055334/)
+  + 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
+  + [Spring MVC Fundamentals *2020*](https://learning.oreilly.com/live-training/courses/spring-mvc-fundamentals/0636920463313/)
+- Josh Long & Pivotal Folks
+  - [Building Microservices with Spring Boot, Second Edition](https://learning.oreilly.com/videos/building-microservices-with/9780134678658/)
+- Hands-On
+  + [Hands-On: Spring and Spring Boot with Kotlin Exercise - Ken Kousen](http://www.kousenit.com/springbootkotlin/)
+  + [Hands-On: Building Web Apps with Spring Boot and Kotlin (Spring Docs)](https://spring.io/guides/tutorials/spring-boot-kotlin/)
+  + [Hands-On: Creating a RESTful Web Service with Spring Boot (Kotlin Docs)](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html)
+  + [Hands-On: Build an Application with Spring Boot and Kotlin (Okta Blog)](https://developer.okta.com/blog/2019/09/17/build-a-spring-boot-kotlin-app)
+  + [Hands-On: What's new in Spring Boot 2.3?](https://spring.io/blog/2020/06/18/what-s-new-in-spring-boot-2-3)
+  + [Read: What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
+- Spring Boot w/ Kotlin
+  + [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
+  + [Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
 
-## Basics 
-- ✅ Variables
-- ✅ Conditionals
-- ✅ Looping
-- ✅ Arrays
-- ✅ Functions
-  + Varargs
-- ✅ Formatted Output
-- ✅ Random Numbers 
-- ✅ Object Oriented Programming (OOP)
-  + ✅ Classes and Objects
-  + ✅ Subclasses and Superclasses
-  + ✅ Abstract classes and Interfaces
-  + Enums
-- ✅ Nulls and Exceptions
-- ✅ Collections
-- ✅ Generics
-- ✅ Lambdas and Higher-Order Functions
-- Annotations
-- More Kotlin-specific features:
-  + ✅ Data Classes
-  - Extensions
-  - Inline Functions
-  - Coroutines
-  - Sealed Classes
+#### Spring Core
+- Victor Rentea Talks
+  + [Victor Rentea: Structural Design Patterns with Spring](https://learning.oreilly.com/live-training/courses/structural-design-patterns-with-spring/0636920478041/)  
+  + [Victor Rentea: The Proxy fairy and the magic of Spring](https://www.youtube.com/watch?v=HbbvyZh3IZo)
+  + [Victor Rentea: The Art of Clean Code](https://www.youtube.com/watch?v=AeWbJ5LIFNg)
+- Marco Behler Videos and Articles
+  + [Read: Marco Behler Blog articles on Java and Spring](https://www.marcobehler.com/guides)
+  + ✅ [Marco Behler: Spring Core: A world without Spring](https://www.youtube.com/watch?v=rVxMCEyQfvk)
+  + ✅ [Marco Behler: Spring Core: You First Spring Application](https://www.youtube.com/watch?v=xN6yXgeZdWs)
+  + ✅ [Marco Behler: Spring Core: 5000 ways to build and wire your Spring Beans](https://www.youtube.com/watch?v=gVQijiDliuI)
+  + ✅ [Marco Behler: Spring Transaction Management: Finally Understandable](https://www.youtube.com/watch?v=4BD6pF7dkkc)
+  + [Marco Behler: Spring & CGLIB: Finally Understandable](https://www.youtube.com/watch?v=hskHMSlvm6U)
+  + [Marco Behler: Spring Boot & Embedded Web Servers](https://www.youtube.com/watch?v=UsVR41JmUgY)
+  + [Marco Behler: Spring Boot 'Properties' Magic - Part 1](https://www.youtube.com/watch?v=QS9xIcg9KnA)
+  + [Marco Behler: Putting a Webserver (Nginx) in front of your Spring Boot Application](https://www.youtube.com/watch?v=KZFkssRuBLE)
+    - [Marco Behler: Why you should use a web server (Nginx) in front of your Spring Boot application](https://www.youtube.com/watch?v=A0Il8_03_Mo)
+  + [Marco Behler: How to setup Spring Boot's JDBC/database support](https://www.youtube.com/watch?v=HzhdzZq34JA)
+  + [Marco Behler: Spring Boot - Behind the curtains: Autoconfiguration](https://www.youtube.com/watch?v=Ybfo8Dwactg)
+  + [Marco Behler: Making your Rest Controllers cacheable with Etags](https://www.youtube.com/watch?v=BJiBvlgrOkA)
+  + [Marco Behler: Writing a 'Login With GitHub' Button (Oauth2 / Spring Boot 2.x / Spring Security 5.x)](https://www.youtube.com/watch?v=W0UqG0iUpYk)
+  + [Marco Behler: Fetching GitHub User Details & Customizing Oauth2 Logins (Oauth2 / Spring Boot 2.x / Spring Security 5.x](https://www.youtube.com/watch?v=o-0ygtI-Vxg)
+  + [Marco Behler: RabbitMQ & Java: Meet the project you are going to build](https://www.youtube.com/watch?v=XR_UbEpolD8)
+  + [Marco Behler: How to install RabbitMQ and enable its web interface](https://www.youtube.com/watch?v=oRIF1xKEI0I)
+  + [Marco Behler: How to create a simple RabbitMQ & Java project with Maven](https://www.youtube.com/watch?v=6lPK_LgTZ9Y)
+  + [Marco Behler: How to send messages to a RabbitMQ broker and queues with Java](https://www.youtube.com/watch?v=gaLmPqrm5LI)
+  + [Marco Behler: How to consume RabbitMQ messages from queues with Java](https://www.youtube.com/watch?v=BS7tY-Exo0w)
+  + [Marco Behler: How to look inside RabbitMQ queues for messages (Command Line & Web Interface)](https://www.youtube.com/watch?v=2SE9w1XfevA)
 
-# Common Programming Tasks
-## Skills
+
+#### Spring Security
+- [Spring Security & OAuth 2.0 - In-Depth](https://www.marcobehler.com/guides/spring-security-oauth2)
+
+## Learning Modern Java and Kotlin
+- Modern Java Books
+  + [Read: Java Tutorial - Budi Kurniawan 5th Ed](https://brainysoftware.com/book/9781771970365)
+  + [Read: Java The Complete Reference - Herbert Schildt](https://learning.oreilly.com/library/view/java-the-complete/9781260440249/)
+  + [Read: Java 9 for Programmers](https://learning.oreilly.com/library/view/java-9-for/9780134778167/)
+  + [Read: Modern Java in Action](https://learning.oreilly.com/library/view/modern-java-in/9781617293566/)
+  + Marco Behler Videos and Articles
+    - [Marco Behler: How to easily create Lists, Sets and Maps in Java ](https://www.youtube.com/watch?v=BS7tY-Exo0w)
+    - [Marco Behler: How to work with Java enums](https://www.youtube.com/watch?v=9AlKnPY-ROc&t=1s)
+    - [Marco Behler: Mastering Java 8 Streams - Part 1 | Java 8 Features](https://www.youtube.com/watch?v=NEcA1JRT7pg)
+    - [Marco Behler: Mastering Java 8 Streams - Part 2 | Java 8 Features](https://www.youtube.com/watch?v=7yKom_LjuXE)
+    - [Marco Behler: Mastering Java 8 Streams - Part 3 | Java 8 Features](https://www.youtube.com/watch?v=TmzgxGKMwrk)
+    - [Marco Behler: Mastering Java 8 Streams - Part 4 | Java 8 Features](https://www.youtube.com/watch?v=oc8JROktUgo)
+    - [Marco Behler: Mastering Java 8 Streams - Part 5 | Java 8 Features](https://www.youtube.com/watch?v=yvsCXAiClcc)
+    - [Marco Behler: Mastering Java 8 Optionals - Part 3 | Java 8 Features](https://www.youtube.com/watch?v=kcJhWubKcm4)
+    - [Marco Behler: Creating And Reading Files with java.nio.Path | How To Work With Files In Java](https://www.youtube.com/watch?v=M_5o4Ixb-8U)
+    - [Marco Behler: How to properly debug Java Lambdas](https://www.youtube.com/watch?v=CRzLZH68rRo)
+    - [Marco Behler: How to properly debug Java Streams](https://www.youtube.com/watch?v=txLc78RaORo)
+    - [Marco Behler: How to properly edit non-Java strings (xml, json, sql) in Java files](https://www.youtube.com/watch?v=aHD3QNx_oSk)
+    - [Marco Behler: How to properly run Java programs which need dynamic program arguments](https://www.youtube.com/watch?v=HQ3ibOG2a9k)
+    - ✅ [Squash Commits in IntelliJ](https://www.youtube.com/watch?v=x5vpLeMZ_Us)
+  + Safari Java Training Videos
+    - [Dynamic Proxies in Java](https://learning.oreilly.com/live-training/courses/dynamic-proxies-in-java/0636920420316/)
+    - [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
+    - [Safari Live Training: Java 8 Generics in 3 Hours](https://learning.oreilly.com/live-training/courses/java-8-generics-in-3-hours/0636920306481/)
+    - [Safari Live Training: Programming with Java Lambdas and Streams](https://learning.oreilly.com/live-training/courses/programming-with-java-lambdas-and-streams/0636920335337/)
+- Kotlin Books/Videos
+  + Read: Atomic Kotlin
+  + ✅ [Read: Head First Kotlin](https://learning.oreilly.com/library/view/head-first-kotlin/9781491996683/)
+  + ✅ [Safari: Kotlin Fundamentals](https://learning.oreilly.com/live-training/courses/kotlin-fundamentals/0636920467892/)
+  + 🚧 [Safari: Kotlin from Ground Up Live Lessons](https://learning.oreilly.com/videos/kotlin-from-the/9780135263631/)
+  + Venkat S. & Josh Long
+    - [Read: Programming Kotlin](https://learning.oreilly.com/library/view/programming-kotlin/9781680507287/f_0004.xhtml)
+    - [YouTube: Kotlin Jumpstart With Venkat and Josh, Part 1](https://vimeo.com/334594419)
+    - [YouTube: Kotlin Jumpstart With Venkat and Josh, Part 2](https://vimeo.com/334638403)
+    - 🚧 [YouTube: Kotlin for Java Programmers](https://www.youtube.com/watch?v=fsNhjYgXxlg)
+
+## Learning JUnit 5, Mockito, AssertJ
+- [Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)](http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)
+- Ken Kousen
+  - [NFJS - Next Gen JUnit 5 & Mockito](https://nofluffjuststuff.com/app/webinar/31/replay/32?mkt=true&userId=430&utm_source=webinareplay&utm_medium=email&utm_campaign=showmail&x=y)
+  - ✅ [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
+  - 🚧 [Safari Live Training: Next-generation Java testing with JUnit 5 *Dec 2020*]()
+- [Master Java Unit Testing with Spring Boot and Mockito](https://learning.oreilly.com/videos/master-java-unit/9781789346077)
+- [Mockito Tutorial](https://learning.oreilly.com/videos/mockito-tutorial/9781789135039)
+- Online Docs/Tutorials:
+  + [Read: JUnit 5 User Guide (JUnit Docs)](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
+  + [AssertJ Docs](https://assertj.github.io/doc/)
+  + [Read: Hamcrest Tutorial](http://hamcrest.org/JavaHamcrest/tutorial)
+
+## Dev Ecosystem
+
+#### Learning Git using IntelliJ
+- [Read: Git in IntelliJ](https://www.jetbrains.com/help/idea/version-control-integration.html)
+- Trisha Gee
+  + ✅ [Trisha Gee: Share a Project on GitHub](https://www.youtube.com/watch?v=4ukhZvOmAtk)
+  + ✅ [Trisha Gee: Cloning a Project from GitHub](https://www.youtube.com/watch?v=aBVOAnygcZw)
+  + ✅ [Trisha Gee: GitHub Pull Requests](https://www.youtube.com/watch?v=MoXxF3aWW8k)
+- Marco Behler
+  + ✅ [Marco Behler: Git Integration - Trusting your IDE](https://www.youtube.com/watch?v=_QtvWN2pVeA)
+  + ✅ [Marco Behler: Committing files with Git and IntelliJ](https://www.youtube.com/watch?v=qBWS-_zfwmM)
+  + ✅ [Marco Behler: Working with Git Feature Branches](https://www.youtube.com/watch?v=u-YdIyV_apI)
+  + ✅ ✅[Marco Behler: Keeping Feature Branches Up To Date With Rebasing](https://www.youtube.com/watch?v=dqVqMwLzOjU)
+  + ✅ [Marco Behler: Git Cherry-Picking: Handling urgent hotfixes](https://www.youtube.com/watch?v=plZT7PQtijg)
+- [Read: Manage Git Branches](https://www.jetbrains.com/help/idea/manage-branches.html)
+- [Read: Use Git to work on several features simultaneously](https://www.jetbrains.com/help/idea/work-on-several-features-simultaneously.html)
+- [more...](https://www.youtube.com/c/intellijidea/videos)
+
+
+#### Learning Gradle (w/ Kotlin)
+- [Read: Gradle Kotlin DSL Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+- ✅ [Read: Building Java Applications Sample (Gradle Docs)](https://docs.gradle.org/current/samples/sample_building_java_applications.html)
+- ✅ [Read: Building Kotlin Applications Sample (Gradle Docs)](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html)
+- ✅ [Read: Using Gradle (Kotlin Docs)](https://kotlinlang.org/docs/reference/using-gradle.html)
+- 🚧 [Getting Started with Gradle Kotlin DSL](https://www.youtube.com/watch?v=KN-_q3ss4l0)
+- 🚧 [Read: Learning the Basics (Gradle Docs)](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html)
+- 🚧 [Read: Build Java & JVM Projects (Gradle Docs)](https://docs.gradle.org/6.7.1/userguide/building_java_projects.html)
+
+#### Learning Docker
+- Marco Behler
+  + [Marco Behler: Setting Up Docker & Getting Started](https://www.youtube.com/watch?v=hck-UtTBNIw)
+  + [Marco Behler: Building your own Docker images](https://www.youtube.com/watch?v=F9cegTWgyTc)
+  + [Marco Behler: Packaging your .jar or .war files into a Docker container](https://www.youtube.com/watch?v=6rGMvws--kk)
+- [Read: Docker in Practice 2nd Ed](https://learning.oreilly.com/library/view/docker-in-practice/9781617294808/)
+- [Intro to Docker](https://www.youtube.com/playlist?list=PLBAFXs0YjviLgqTum8MkspG_8VzGl6C07) / [Intro to Docker - Slides](https://qconsf2017intro.container.training/#1) / [container.training](https://container.training/)
+  + [Safari - Introduction to Docker and containers *2016*](https://learning.oreilly.com/videos/the-docker-video/9781491968246/9781491968246-video248904)
+- [Docker Beyond the Basics](https://learning.oreilly.com/live-training/courses/docker-beyond-the-basics-ci-cd/0636920344759/)
+- [Read: Docker in Action 2nd Ed](https://learning.oreilly.com/library/view/docker-in-action/9781617294761/)
+- [Read: Learn Docker in a Month of Lunches](https://learning.oreilly.com/library/view/learn-docker-in/9781617297052/)
+- [Read: Building Serverless Applications with Google Cloud Run](https://learning.oreilly.com/library/view/building-serverless-applications/9781492057086/#toc)
+
+## Muscle Memory for Common Programming Tasks
+
+### Skills
 - IO
   + ✅ Console
   + File
@@ -58,7 +178,7 @@
 - Logging
 - Unit Tests
 
-## Hands-on Exercises
+### Hands-on Exercises
 - Create an App that implements Rock, Paper and Scissors game where user's input is received from the Console
 - Create an App that implements a Class Hierarchy: Employee, Manager, Executive
 - Create an App that implements a List of Employees and perform all kinds of operations on it
@@ -68,9 +188,9 @@
 - Create an App that uses Locale, Number Formatting and Currency Formatting to print money in acceptable format in US, UK, Germany and India 
 - Create an App that uses Dates to find current date in different timezones, difference between two dates, a future date and a past date
 
-# Distributed Systems Tasks
+## Muscle Memory for Distributed Systems Tasks
 
-## Skills
+### Skills
 - Server Rendered Web App
 - RESTful API (GET, POST, PUT, DELETE)
 - REST Client (GET, POST, PUT, DELETE)
@@ -78,7 +198,7 @@
 - NoSQL Database
 - Message Queues
 
-## Hands-on Exercises
+### Hands-on Exercises
 - Single Page App (SPA)
 - Create a server-side delivered Web App
   + With AuthC
@@ -101,7 +221,7 @@
   + AWS Lambda 
   + Google Cloud Run
 
-# Koans References
+## Koans References
 - [Coding Bat - Java](https://codingbat.com/java)
 - [Learn Kotlin by Example](https://play.kotlinlang.org/byExample/overview)
 
