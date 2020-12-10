@@ -1,5 +1,8 @@
 # Awesome Modern Java and Kotlin
 
+## Spring Cloud
+- [Spring Cloud Config](https://spring.io/projects/spring-cloud-config)
+
 ## Popular Java Utility SDKs
 - Lombok: [Stable](https://projectlombok.org/features/all), [API Doc](https://projectlombok.org/api/)
 - [SL4J](http://www.slf4j.org/manual.html), [Logback](https://stackify.com/logging-logback/)

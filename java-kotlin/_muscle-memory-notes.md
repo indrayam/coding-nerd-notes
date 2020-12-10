@@ -2,6 +2,7 @@
 
 ## Spring Boot
 - `logging.level.sql=DEBUG`
+- Use classes under `org.springframework.boot.autoconfigure.condition` to setup AutoConfiguration conditionals
 
 ## Unit Testing
 

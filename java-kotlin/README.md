@@ -31,7 +31,7 @@
   + 🚧 [Live Lessons: Spring Framework Essentials *2015*](https://learning.oreilly.com/videos/spring-framework-essentials/9781491942680)
   + [Spring MVC Fundamentals *2020*](https://learning.oreilly.com/live-training/courses/spring-mvc-fundamentals/0636920463313/)
 - Josh Long & Pivotal Folks
-  - [Building Microservices with Spring Boot, Second Edition](https://learning.oreilly.com/videos/building-microservices-with/9780134678658/)
+  - 🚧 [Building Microservices with Spring Boot, Second Edition](https://learning.oreilly.com/videos/building-microservices-with/9780134678658/)
 - Hands-On
   + [Hands-On: Spring and Spring Boot with Kotlin Exercise - Ken Kousen](http://www.kousenit.com/springbootkotlin/)
   + [Hands-On: Building Web Apps with Spring Boot and Kotlin (Spring Docs)](https://spring.io/guides/tutorials/spring-boot-kotlin/)
@@ -180,14 +180,16 @@
 - Unit Tests
 
 ### Hands-on Exercises
-- Create an App that implements Rock, Paper and Scissors game where user's input is received from the Console
-- Create an App that implements a Class Hierarchy: Employee, Manager, Executive
-- Create an App that implements a List of Employees and perform all kinds of operations on it
-- Create an App that Reads and Writes from/to a CSV file
-- Create an App that Reads and Writes from/to a JSON file
-- Create an App that traverses a folder structure and prints file and folder name with additional file/folder attributes
-- Create an App that uses Locale, Number Formatting and Currency Formatting to print money in acceptable format in US, UK, Germany and India 
-- Create an App that uses Dates to find current date in different timezones, difference between two dates, a future date and a past date
+- Create a command line app that implements Rock, Paper and Scissors game where user's input is received from the Console
+- Create a command line app that implements a Class Hierarchy: Employee, Manager, Executive
+- Create a command line app that implements a List of Employees and perform all kinds of operations on it
+- Create a command line app that Reads and Writes from/to a CSV file
+- Create a command line app that Reads and Writes from/to a JSON file
+- Create a command line app that traverses a folder structure and prints file and folder name with additional file/folder attributes
+- Create a command line app that uses Locale, Number Formatting and Currency Formatting to print money in acceptable format in US, UK, Germany and India 
+- Create a command line app that uses Dates to find current date in different timezones, difference between two dates, a future date and a past date
+- Create a command line app that reads environment variables, runs a process on the operating system, reads its output etc.
+- Create a multi-module app, each app basically being a standalone gradle project!
 
 ## Muscle Memory for Distributed Systems Tasks
 
@@ -200,13 +202,14 @@
 - Message Queues
 
 ### Hands-on Exercises
+- Basic: Make sure your App loads configuration properties from "external" sources, especially secrets!
 - Single Page App (SPA)
 - Create a server-side delivered Web App
   + With AuthC
 - Create RESTful API
   + Responds with JSON Payload
   + With CORS enabled
-- Create an App that interacts with RESTful API
+- Create a command line app that interacts with RESTful API
   + JSON Payload
   + With AuthC
   + GET, POST, PUT, DELETE
