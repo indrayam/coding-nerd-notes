@@ -12,6 +12,7 @@
 - [Mockito](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
 - [Apache Commons for Validators](https://commons.apache.org/components.html)
 - [Eclipse Collections](https://medium.com/oracledevs/ten-reasons-to-use-eclipse-collections-91593104af9d)
+- [JScience](http://jscience.org/)
 - [Google Guava](https://github.com/google/guava)
 - [Google Gson](https://github.com/google/gson/blob/master/UserGuide.md)
 - Jackson: [Core](https://github.com/FasterXML/jackson-core), [Annotations](https://github.com/FasterXML/jackson-annotations), [Databind](https://github.com/FasterXML/jackson-databind)

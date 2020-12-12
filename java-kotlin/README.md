@@ -1,6 +1,6 @@
 # Learning Modern Java and Kotlin Backlog
 
-## December 2020 (Modern Java and Spring Edition)
+## December 2020 (The COVID Winter of Modern Java and Spring)
 - 🚧 Spring Boot 
   + **Read: Spring in Action 6th Edition**
   + **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**
@@ -12,13 +12,17 @@
   + **Read: Java A Beginner's Tutorial - Budi Kurniawan**
   + **Read: Modern Java in Action - Manning**
 - 🚧 *Unit Testing:* JUnit 5/Mockito/AssertJ
+  + **[Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)](http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)**
   + **Read: JUnit in Action, 3rd Ed**
   + **[Read: Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing)**
-  + **[spring.io Guide: Testing the Web Layer](https://spring.io/guides/gs/testing-web/)**
 - Dev Ecosystem:
-  - ✅ *Commit:* Git/GitHub using IntelliJ IDEA
-  - ✅ *Build:* Gradle (w/ Kotlin) 
-  - ✅ *Package:* Docker
+  + ✅ *Commit:* Git/GitHub using IntelliJ IDEA
+  + ✅ *Build:* Gradle (w/ Kotlin) 
+  + ✅ *Package:* Docker
+  + Non-Standard Open-Source Java SDKs:
+    - Lombok
+    - SL4J with Logback
+    - Jackson Core/Databind
 
 ## Learning Spring and Spring Boot
 
@@ -113,7 +117,7 @@
     - 🚧 [YouTube: Kotlin for Java Programmers](https://www.youtube.com/watch?v=fsNhjYgXxlg)
 
 ## Learning JUnit 5, Mockito, AssertJ
-- [Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)](http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)
+- [spring.io Guide: Testing the Web Layer](https://spring.io/guides/gs/testing-web/)
 - Ken Kousen
   - [NFJS - Next Gen JUnit 5 & Mockito](https://nofluffjuststuff.com/app/webinar/31/replay/32?mkt=true&userId=430&utm_source=webinareplay&utm_medium=email&utm_campaign=showmail&x=y)
   - ✅ [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
