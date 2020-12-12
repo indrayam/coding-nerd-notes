@@ -1,5 +1,12 @@
 # Modern Java and Kotlin Memory Muscle
 
+## Java Proxies
+1. Implement Decorator with Spring
+2. InterfaceProxy.proxy (no Spring)
+3. ClassProxy.proxy (no Spring)
+4. Spring Cache support
+5. Spring Aspect, @Facade and @Logged
+
 ## Spring Boot
 - `logging.level.sql=DEBUG`
 - Use classes under `org.springframework.boot.autoconfigure.condition` to setup AutoConfiguration conditionals
