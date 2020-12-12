@@ -11,6 +11,7 @@
 - 🚧 Modern Java 
   + **Read: Java A Beginner's Tutorial - Budi Kurniawan**
   + **Read: Modern Java in Action - Manning**
+  + **Read: Dynamic Proxies in Java - Dr. Heinz Kabutz**
 - 🚧 *Unit Testing:* JUnit 5/Mockito/AssertJ
   + **[Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)](http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)**
   + **Read: JUnit in Action, 3rd Ed**
@@ -101,10 +102,11 @@
     - [Marco Behler: How to properly run Java programs which need dynamic program arguments](https://www.youtube.com/watch?v=HQ3ibOG2a9k)
     - ✅ [Squash Commits in IntelliJ](https://www.youtube.com/watch?v=x5vpLeMZ_Us)
   + Safari Java Training Videos
-    - [Dynamic Proxies in Java](https://learning.oreilly.com/live-training/courses/dynamic-proxies-in-java/0636920420316/)
     - [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
     - [Safari Live Training: Java 8 Generics in 3 Hours](https://learning.oreilly.com/live-training/courses/java-8-generics-in-3-hours/0636920306481/)
     - [Safari Live Training: Programming with Java Lambdas and Streams](https://learning.oreilly.com/live-training/courses/programming-with-java-lambdas-and-streams/0636920335337/)
+  + Proxies:
+    - [Dynamic Proxies in Java](https://learning.oreilly.com/live-training/courses/dynamic-proxies-in-java/0636920420316/)
 - Kotlin Books/Videos
   + Read: Atomic Kotlin
   + ✅ [Read: Head First Kotlin](https://learning.oreilly.com/library/view/head-first-kotlin/9781491996683/)
