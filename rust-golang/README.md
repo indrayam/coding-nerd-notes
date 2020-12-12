@@ -1,1 +1,1 @@
-# Proramming in Rust/Go
+# Proramming in Rust and/or Go
