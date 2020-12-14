@@ -4,8 +4,10 @@
 - [Spring Cloud Config](https://spring.io/projects/spring-cloud-config)
 
 ## Popular Java Utility SDKs
-- Lombok: [Documentation of Stable Features](https://projectlombok.org/features/all), [API Doc](https://projectlombok.org/api/)
+- Lombok ([API Doc](https://projectlombok.org/api/)): 
+  + [Documentation of Stable Features](https://projectlombok.org/features/all)
   + [Medium Article: Java + Lombok](https://medium.com/danielpadua/java-lombok-2984afff3e0a)
+  + [Victor Rentea: Decluttering Java](https://www.youtube.com/watch?v=DaOmyyRA8VU&ab_channel=VictorRentea)
 - [SL4J](http://www.slf4j.org/manual.html), [Logback](https://stackify.com/logging-logback/)
   + [Marco Behler: Understanding Java Logging Hell](https://www.youtube.com/watch?v=czPt3UFSK4Q)
   + [Marco Behler: How to properly use Slf4j](https://www.youtube.com/watch?v=JahvBA-PQFM)
