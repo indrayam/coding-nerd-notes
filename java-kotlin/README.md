@@ -25,7 +25,7 @@
   + [Read: Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing)
 - Dev Ecosystem:
   + ✅ *Commit:* Git/GitHub using IntelliJ IDEA
-  + ✅ *Build:* Gradle (w/ Kotlin) 
+  + ✅ *Build:* Use Gradle with Kotlin DSL; Multi-Modules Gradle Project 
   + ✅ *Package:* Docker
   + Non-Standard Open-Source Java SDKs:
     - Lombok
