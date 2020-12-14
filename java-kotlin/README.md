@@ -9,6 +9,8 @@
   + **[Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)**
   + **Read: Spring 5 Recipes**
 - 🚧 Modern Java 
+  - **Read: Core Java 1 11th Ed - Cay Horstmann**
+  - **Read: Core Java 2 11th Ed - Cay Horstmann**
   + **Read: Java A Beginner's Tutorial - Budi Kurniawan**
   + **Read: Modern Java in Action - Manning**
   + **Read: Dynamic Proxies in Java - Dr. Heinz Kabutz**
