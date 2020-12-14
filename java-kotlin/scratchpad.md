@@ -1,15 +1,28 @@
-# Modern Java and Kotlin Memory Muscle
+# Scratchpad to build Muscle Memory
 
-## Java Proxies
+#### Lombok
+- @Getter
+- @Setter
+- @ToString, @ToString(onlyExplicitlyIncluded = true), @ToString.Exclude, @ToString.Include, 
+- @EqualsAndHashCode, @EqualsAndHashCode(onlyExplicitlyIncluded = true), @EqualsAndHashCode.Exclude, @EqualsAndHashCode.Include, 
+- @NoArgsContructor
+- @AllArgsConstructor
+- @RequiredArgsConstructor
+- @Sl4j
+- @Data
+  + Shortform for @ToString, @EqualsAndHashCode, @Getter on all fields, @Setter on all non-final fields and @RequiredArgsConstructor
+- @Value
+- @Builder
+
+#### Java Proxies
 1. Implement Decorator with Spring
 2. InterfaceProxy.proxy (no Spring)
 3. ClassProxy.proxy (no Spring)
 4. Spring Cache support
 5. Spring Aspect, @Facade and @Logged
 
-## Spring Boot
 
-#### Annotations
+#### Spring Boot Annotations
 - @SpringBootApplication
 - @Controller
 - @RestController
@@ -25,11 +38,8 @@
 - `logging.level.sql=DEBUG`
 - Use classes under `org.springframework.boot.autoconfigure.condition` to setup AutoConfiguration conditionals
 
-## Unit Testing
-
-Format: `(expected, actual, string)` OR `(expected, actual, Supplier String)`
-
-### JUnit
+#### JUnit
+- Format: `(expected, actual, string)` OR `(expected, actual, Supplier String)`
 - Annotations
   - Test Annotations: @Test, @ParameterizedTest, @RepeatedTest, @Disabled (Method or Class Level), @DisplayName()
   - Lifecycle Annotations: @BeforeEach, @AfterEach, @BeforeAll (must be static), @AfterAll (must be static)
@@ -66,12 +76,10 @@ Format: `(expected, actual, string)` OR `(expected, actual, Supplier String)`
   - assumeFalse()
   - assumingThat()
 
-### Hamster
+#### Hamcrest Matchers
 - assertThat()
 
-### Mockito
-
-## Running Kotlin
+#### Running Kotlin
 
 ```bash
 alias kj=kotlinc-jvm
@@ -99,7 +107,7 @@ kt sample.kts
 ```
 
 
-## Notes on Collections
+#### Notes on Kotlin Collections
 **Array:** Holds values in a sequence. Can be updated. Can't be resized.
 **List:** Holds values in a sequence. Can't be updated. Can't be resized.
 **Set:** Holds values in no particular order. Can't be updated. Can't be resized.
@@ -109,7 +117,7 @@ kt sample.kts
 **MutableMap:** Holds key/value pairs. Can be updated. Can be resized.
 
 
-## Arrays
+#### Kotlin Arrays
 - Types: Array<>
 - Create: arrayOf(with entries), arrayOfNulls(with size of the array)
 - Copy and Add: .plus(with the additional entry)
@@ -124,10 +132,7 @@ kt sample.kts
 - Math: .sum(), .average()
 - Iterate: .map {}
 
-
-## Collections
-
-### List
+#### Kotlin List
 - Types: List<>, MutableList<>
 - Create: listOf(), mutableListOf()
 - Copy/Transform: toList(), toMutableList(), toSet(), toMutableSet(), toTypedArray()
@@ -141,7 +146,7 @@ kt sample.kts
 - Math: .sum(), .average()
 - Iterate: .map {}
 
-### Set
+#### Kotlin Set
 - Types: Set<>, MutableSet<>, SortedSet<>
 - Create: setOf(), mutableSetOf()
 - Copy/Transform: toList(), toMutableList(), toSet(), toMutableSet(), toTypedArray()
@@ -155,7 +160,7 @@ kt sample.kts
 - Math: .sum(), .average()
 - Iterate: .map {}
 
-### Map
+#### Kotlin Map
 - Types: Map<>, MutableMap<>, SortedMap<>
 - Create: mapOf(foo1 to bar1, foo2 to bar2)
 - Copy/Transform: toMap(), toMutableMap(), toSortedMap()

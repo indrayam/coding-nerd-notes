@@ -1,32 +1,15 @@
 # Learning Modern Java and Kotlin Backlog
 
 ## December 2020 (The COVID Winter of Modern Java and Spring)
-
-### Lightweight Books
+- [Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)
 - Read: Spring in Action 6th Edition
 - Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)
-- Read: Java A Beginner's Tutorial - Budi Kurniawan
-
-### Wishlist
-- 🚧 Spring Boot 
-  + Read: Spring in Action 6th Edition
-  + [Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)
-- Spring
-  + [Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
-  + [Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
-  + Read: Spring 5 Recipes
-- 🚧 Modern Java 
-  + Read: Java A Beginner's Tutorial - Budi Kurniawan
-  + Read: Modern Java in Action - Manning
-  + Read: Dynamic Proxies in Java - Dr. Heinz Kabutz
-- 🚧 *Unit Testing:* JUnit 5/Mockito/AssertJ
-  + [Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)](http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)
-  + Read: JUnit in Action, 3rd Ed
-  + [Read: Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing)
+- Read: Core Java 1 11th Ed - Cay Horstmann
+- Read: Core Java 2 11th Ed - Cay Horstmann
 - Dev Ecosystem:
-  + ✅ *Commit:* Git/GitHub using IntelliJ IDEA
-  + ✅ *Build:* Use Gradle with Kotlin DSL; Multi-Modules Gradle Project 
-  + ✅ *Package:* Docker
+  + ✅ *Commit:* Git/GitHub using IntelliJ IDEA 
+  + ✅ *Build:* Using Gradle with Kotlin DSL and creating Multi-Modules Gradle Project
+  + ✅ *Package:* Using Spring Boot features to create Docker images, Dockerfile
   + Non-Standard Open-Source Java SDKs:
     - Lombok
     - ✅ SL4J with Logback
@@ -56,6 +39,9 @@
   + [Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
 
 #### Spring Core
+- [Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
+- Read: Pro Spring 5
+- Read: Spring 5 Recipes
 - Victor Rentea Talks
   + [Victor Rentea: Structural Design Patterns with Spring](https://learning.oreilly.com/live-training/courses/structural-design-patterns-with-spring/0636920478041/)  
   + [Victor Rentea: The Proxy fairy and the magic of Spring](https://www.youtube.com/watch?v=HbbvyZh3IZo)
@@ -89,8 +75,9 @@
 
 ## Learning Modern Java and Kotlin
 - Modern Java Books
-  + Read: Core Java 1 11th Ed - Cay Horstmann
-  + Read: Core Java 2 11th Ed - Cay Horstmann
+  + Read: Java A Beginner's Tutorial - Budi Kurniawan
+  + Read: Modern Java in Action - Manning
+  + Read: Dynamic Proxies in Java - Dr. Heinz Kabutz
   + [Read: Java The Complete Reference - Herbert Schildt](https://learning.oreilly.com/library/view/java-the-complete/9781260440249/)
   + [Read: Java 9 for Programmers](https://learning.oreilly.com/library/view/java-9-for/9780134778167/)
   + Marco Behler Videos and Articles
@@ -112,8 +99,6 @@
     - [Safari Live Training: Getting Started with Java: From Core Concepts to Real Code in 4 Hours](https://learning.oreilly.com/live-training/courses/getting-started-with-java-from-core-concepts-to-real-code-in-4-hours/0636920318637/)
     - [Safari Live Training: Java 8 Generics in 3 Hours](https://learning.oreilly.com/live-training/courses/java-8-generics-in-3-hours/0636920306481/)
     - [Safari Live Training: Programming with Java Lambdas and Streams](https://learning.oreilly.com/live-training/courses/programming-with-java-lambdas-and-streams/0636920335337/)
-  + Proxies:
-    - [Dynamic Proxies in Java](https://learning.oreilly.com/live-training/courses/dynamic-proxies-in-java/0636920420316/)
 - Kotlin Books/Videos
   + Read: Atomic Kotlin
   + ✅ [Read: Head First Kotlin](https://learning.oreilly.com/library/view/head-first-kotlin/9781491996683/)
@@ -126,11 +111,12 @@
     - 🚧 [YouTube: Kotlin for Java Programmers](https://www.youtube.com/watch?v=fsNhjYgXxlg)
 
 ## Learning JUnit 5, Mockito, AssertJ
+- Read: JUnit in Action, 3rd Ed
+- [Read: Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing)
 - [spring.io Guide: Testing the Web Layer](https://spring.io/guides/gs/testing-web/)
 - Ken Kousen
-  - [NFJS - Next Gen JUnit 5 & Mockito](https://nofluffjuststuff.com/app/webinar/31/replay/32?mkt=true&userId=430&utm_source=webinareplay&utm_medium=email&utm_campaign=showmail&x=y)
-  - ✅ [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
   - 🚧 [Safari Live Training: Next-generation Java testing with JUnit 5 *Dec 2020*]()
+  - ✅ [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
 - [Master Java Unit Testing with Spring Boot and Mockito](https://learning.oreilly.com/videos/master-java-unit/9781789346077)
 - [Mockito Tutorial](https://learning.oreilly.com/videos/mockito-tutorial/9781789135039)
 - Online Docs/Tutorials:
