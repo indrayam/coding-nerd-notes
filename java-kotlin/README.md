@@ -29,7 +29,7 @@
   + ✅ *Package:* Docker
   + Non-Standard Open-Source Java SDKs:
     - Lombok
-    - SL4J with Logback
+    - ✅ SL4J with Logback
     - Jackson Core/Databind
 
 ## Learning Spring and Spring Boot
