@@ -1,6 +1,13 @@
 # Learning Modern Java and Kotlin Backlog
 
 ## December 2020 (The COVID Winter of Modern Java and Spring)
+
+### Minimal
+- Read: Spring in Action 6th Edition
+- Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)
+- Read: Java A Beginner's Tutorial - Budi Kurniawan
+
+### Full
 - 🚧 Spring Boot 
   + **Read: Spring in Action 6th Edition**
   + **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**
