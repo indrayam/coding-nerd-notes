@@ -2,27 +2,27 @@
 
 ## December 2020 (The COVID Winter of Modern Java and Spring)
 
-### Minimal
+### Lightweight Books
 - Read: Spring in Action 6th Edition
 - Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)
 - Read: Java A Beginner's Tutorial - Budi Kurniawan
 
-### Full
+### Wishlist
 - 🚧 Spring Boot 
-  + **Read: Spring in Action 6th Edition**
-  + **[Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)**
+  + Read: Spring in Action 6th Edition
+  + [Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)
 - Spring
-  + **[Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)**
-  + **[Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)**
-  + **Read: Spring 5 Recipes**
+  + [Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
+  + [Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)
+  + Read: Spring 5 Recipes
 - 🚧 Modern Java 
-  + **Read: Java A Beginner's Tutorial - Budi Kurniawan**
-  + **Read: Modern Java in Action - Manning**
-  + **Read: Dynamic Proxies in Java - Dr. Heinz Kabutz**
+  + Read: Java A Beginner's Tutorial - Budi Kurniawan
+  + Read: Modern Java in Action - Manning
+  + Read: Dynamic Proxies in Java - Dr. Heinz Kabutz
 - 🚧 *Unit Testing:* JUnit 5/Mockito/AssertJ
-  + **[Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)](http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)**
-  + **Read: JUnit in Action, 3rd Ed**
-  + **[Read: Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing)**
+  + [Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)](http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)
+  + Read: JUnit in Action, 3rd Ed
+  + [Read: Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing)
 - Dev Ecosystem:
   + ✅ *Commit:* Git/GitHub using IntelliJ IDEA
   + ✅ *Build:* Gradle (w/ Kotlin) 
