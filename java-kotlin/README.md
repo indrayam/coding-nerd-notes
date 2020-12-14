@@ -9,8 +9,6 @@
   + **[Read: Pro Spring 5](https://learning.oreilly.com/library/view/pro-spring-5/9781484228081/A315511_5_En_1_Chapter.html)**
   + **Read: Spring 5 Recipes**
 - 🚧 Modern Java 
-  - **Read: Core Java 1 11th Ed - Cay Horstmann**
-  - **Read: Core Java 2 11th Ed - Cay Horstmann**
   + **Read: Java A Beginner's Tutorial - Budi Kurniawan**
   + **Read: Modern Java in Action - Manning**
   + **Read: Dynamic Proxies in Java - Dr. Heinz Kabutz**
@@ -84,10 +82,10 @@
 
 ## Learning Modern Java and Kotlin
 - Modern Java Books
-  + [Read: Java Tutorial - Budi Kurniawan 5th Ed](https://brainysoftware.com/book/9781771970365)
+  + Read: Core Java 1 11th Ed - Cay Horstmann
+  + Read: Core Java 2 11th Ed - Cay Horstmann
   + [Read: Java The Complete Reference - Herbert Schildt](https://learning.oreilly.com/library/view/java-the-complete/9781260440249/)
   + [Read: Java 9 for Programmers](https://learning.oreilly.com/library/view/java-9-for/9780134778167/)
-  + [Read: Modern Java in Action](https://learning.oreilly.com/library/view/modern-java-in/9781617293566/)
   + Marco Behler Videos and Articles
     - [Marco Behler: How to easily create Lists, Sets and Maps in Java ](https://www.youtube.com/watch?v=BS7tY-Exo0w)
     - [Marco Behler: How to work with Java enums](https://www.youtube.com/watch?v=9AlKnPY-ROc&t=1s)

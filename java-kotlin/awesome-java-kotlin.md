@@ -11,6 +11,7 @@
 - JUnit 5 ([User Guide](https://junit.org/junit5/docs/current/user-guide/), [API Doc](https://junit.org/junit5/docs/current/api/org.junit.jupiter.api/org/junit/jupiter/api/package-summary.html)), Hamcrest Matchers ([Tutorial](http://hamcrest.org/JavaHamcrest/tutorial), [API Doc](http://hamcrest.org/JavaHamcrest/javadoc/2.2/)), [AssertJ Assertions](https://assertj.github.io/doc/)
 - [Mockito](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
 - [Apache Commons for Validators](https://commons.apache.org/components.html)
+- [Hibernate Validator](http://hibernate.org/validator/documentation/getting-started/)
 - [Eclipse Collections](https://medium.com/oracledevs/ten-reasons-to-use-eclipse-collections-91593104af9d)
 - [JScience](http://jscience.org/)
 - [Google Guava](https://github.com/google/guava)

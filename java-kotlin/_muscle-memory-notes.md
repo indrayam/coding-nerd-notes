@@ -8,6 +8,20 @@
 5. Spring Aspect, @Facade and @Logged
 
 ## Spring Boot
+
+#### Annotations
+- @SpringBootApplication
+- @Controller
+- @RestController
+- @Service
+- @Repository
+- @Bean
+- @Component
+- @Configuration
+- @ConfigurationProperties
+- @ConfigurationPropertiesScan
+
+#### application.properties
 - `logging.level.sql=DEBUG`
 - Use classes under `org.springframework.boot.autoconfigure.condition` to setup AutoConfiguration conditionals
 
