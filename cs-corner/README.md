@@ -25,3 +25,4 @@
 - [Clean Code](https://learning.oreilly.com/videos/clean-code/9780134661742/)
 - [Harvard CS50 Lectures 2020](https://www.youtube.com/playlist?list=PLhQjrBD2T382AvyLN85USYYc2IapRptWI)
 - [MIT: Missing Semester Lectures](https://missing.csail.mit.edu/2020/)
+- [Getting started with C programming: a lightning-fast start for absolute beginners](https://not.cafe/2020/10/12/getting-started-with-c-programming.html)

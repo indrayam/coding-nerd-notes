@@ -1,5 +1,9 @@
 # Scratchpad to build Muscle Memory
 
+#### Kotlin DSL questions
+- How do you read a property from gradle.properties inside the plugins block?
+
+
 #### Lombok
 - @Getter
 - @Setter

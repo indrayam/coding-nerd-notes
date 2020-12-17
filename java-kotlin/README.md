@@ -165,7 +165,9 @@
 #### Learning Docker
 - [Read: What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
 - Raju Gandhi
-  + [Creating Docker Images and Dockerfiles](https://learning.oreilly.com/learning-paths/learning-path-creating/9781098115180/)
+  + 🚧 [Creating Docker Images and Dockerfiles](https://learning.oreilly.com/learning-paths/learning-path-creating/9781098115180/)
+- [Docker Support in IntelliJ](https://www.jetbrains.com/help/idea/docker.html)
+- 🚧 [IntelliJ Webinar: Java, Containers and IntelliJ IDEA](https://www.youtube.com/watch?v=R4kxLsXkAE4)
 - Marco Behler
   + [Marco Behler: Setting Up Docker & Getting Started](https://www.youtube.com/watch?v=hck-UtTBNIw)
   + [Marco Behler: Building your own Docker images](https://www.youtube.com/watch?v=F9cegTWgyTc)
