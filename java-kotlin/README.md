@@ -7,13 +7,19 @@
 - Read: Core Java 1 11th Ed - Cay Horstmann
 - Read: Core Java 2 11th Ed - Cay Horstmann
 - Dev Ecosystem:
-  + ✅ *Commit:* Git/GitHub using IntelliJ IDEA 
-  + ✅ *Build:* Using Gradle with Kotlin DSL and creating Multi-Modules Gradle Project
-  + ✅ *Package:* Using Spring Boot features to create Docker images, Dockerfile
+  + ✅ *Commit:* 
+    - Git/GitHub using IntelliJ IDEA 
+  + ✅ *Build:* 
+    - Kotlin DSL 
+    - Multi-Modules Gradle Project
+  + ✅ *Package:* 
+    - Use Spring Boot to create optimized Docker images for SB projects
+    - Dockerfile with the smallest size
+    - Use .dockerignore
+    - Learn dive
   + Non-Standard Open-Source Java SDKs:
     - Lombok
     - ✅ SL4J with Logback
-    - Jackson Core/Databind
 
 ## Learning Spring and Spring Boot
 
@@ -32,11 +38,10 @@
   + [Hands-On: Building Web Apps with Spring Boot and Kotlin (Spring Docs)](https://spring.io/guides/tutorials/spring-boot-kotlin/)
   + [Hands-On: Creating a RESTful Web Service with Spring Boot (Kotlin Docs)](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html)
   + [Hands-On: Build an Application with Spring Boot and Kotlin (Okta Blog)](https://developer.okta.com/blog/2019/09/17/build-a-spring-boot-kotlin-app)
-  + [Hands-On: What's new in Spring Boot 2.3?](https://spring.io/blog/2020/06/18/what-s-new-in-spring-boot-2-3)
-  + [Read: What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
 - Spring Boot w/ Kotlin
   + [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
   + [Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
+- [Read: What's new in Spring Boot 2.3?](https://spring.io/blog/2020/06/18/what-s-new-in-spring-boot-2-3)
 
 #### Spring Core
 - [Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
@@ -144,15 +149,23 @@
 
 
 #### Learning Gradle (w/ Kotlin)
+- [Read: A Groovy Build Script Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/groovy_build_script_primer.html)
 - [Read: Gradle Kotlin DSL Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
-- ✅ [Read: Building Java Applications Sample (Gradle Docs)](https://docs.gradle.org/current/samples/sample_building_java_applications.html)
-- ✅ [Read: Building Kotlin Applications Sample (Gradle Docs)](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html)
-- ✅ [Read: Using Gradle (Kotlin Docs)](https://kotlinlang.org/docs/reference/using-gradle.html)
-- 🚧 [Getting Started with Gradle Kotlin DSL](https://www.youtube.com/watch?v=KN-_q3ss4l0)
-- 🚧 [Read: Learning the Basics (Gradle Docs)](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html)
-- 🚧 [Read: Build Java & JVM Projects (Gradle Docs)](https://docs.gradle.org/6.7.1/userguide/building_java_projects.html)
+- ✅ [Read: Using Kotlin Gradle Plugin (Kotlin Docs)](https://kotlinlang.org/docs/reference/using-gradle.html)
+- [Read: Medium Article - Gradle Kotlin DSL Tutorial](https://napperley.medium.com/gradle-kotlin-dsl-tutorial-223370af9cd8)
+- Getting Started with the Gradle Kotlin DSL
+  + [Online Article](https://gradle.com/blog/kotlin-dsl/)
+  + [YouTube](https://www.youtube.com/watch?v=KN-_q3ss4l0)
+- [Read: Spring Boot Gradle Plugin Reference](https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/)
+- Successful Open-Source Java Projects using Gradle
+  + [Junit 5 (uses Kotlin DSL)](https://github.com/junit-team/junit5)
+  + [Spinnaker Gate (uses Groovy DSL)](https://github.com/spinnaker/gate)
+  + [Spinnaker Clouddriver (uses Groovy DSL)](https://github.com/spinnaker/clouddriver)
 
 #### Learning Docker
+- [Read: What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
+- Raju Gandhi
+  + [Creating Docker Images and Dockerfiles](https://learning.oreilly.com/learning-paths/learning-path-creating/9781098115180/)
 - Marco Behler
   + [Marco Behler: Setting Up Docker & Getting Started](https://www.youtube.com/watch?v=hck-UtTBNIw)
   + [Marco Behler: Building your own Docker images](https://www.youtube.com/watch?v=F9cegTWgyTc)
