@@ -120,7 +120,7 @@
 - [Read: Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing)
 - [spring.io Guide: Testing the Web Layer](https://spring.io/guides/gs/testing-web/)
 - Ken Kousen
-  - 🚧 [Safari Live Training: Next-generation Java testing with JUnit 5 *Dec 2020*]()
+  - 🚧 [Safari Live Training: Next-generation Java testing with JUnit 5 *Dec 2020*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920463221/)
   - ✅ [Safari Live Training: Next-generation Java testing with JUnit 5 *2019*](https://learning.oreilly.com/live-training/courses/next-generation-java-testing-with-junit-5/0636920277316/)
 - [Master Java Unit Testing with Spring Boot and Mockito](https://learning.oreilly.com/videos/master-java-unit/9781789346077)
 - [Mockito Tutorial](https://learning.oreilly.com/videos/mockito-tutorial/9781789135039)
