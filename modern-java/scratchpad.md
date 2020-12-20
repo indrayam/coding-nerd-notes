@@ -1,8 +1,7 @@
 # Scratchpad to build Muscle Memory
 
 #### Kotlin DSL questions
-- How do you read a property from gradle.properties inside the plugins block?
-
+- How do you read a property from gradle.properties inside the plugins block? *Nope*
 
 #### Lombok
 - @Getter

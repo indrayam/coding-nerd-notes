@@ -1,4 +1,4 @@
-# Learning Modern Java and Kotlin Backlog
+# Learning Modern Java Backlog
 
 ## December 2020 (The COVID Winter of Modern Java and Spring)
 - [Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)
@@ -10,13 +10,13 @@
   + ✅ *Commit:* 
     - Git/GitHub using IntelliJ IDEA 
   + ✅ *Build:* 
-    - Kotlin DSL 
+    - Groovy DSL
     - Multi-Modules Gradle Project
   + ✅ *Package:* 
     - Use Spring Boot to create optimized Docker images for SB projects
-    - Dockerfile with the smallest size
+    - Use Dockerfile, as opposed to buildpacks (for now)
     - Use .dockerignore
-    - Learn dive
+    - Use dive
   + Non-Standard Open-Source Java SDKs:
     - Lombok
     - ✅ SL4J with Logback
@@ -41,7 +41,14 @@
 - Spring Boot w/ Kotlin
   + [Live Lessons: Spring Boot and Kotlin LiveLessons](https://learning.oreilly.com/videos/spring-boot-and/9780136836377/)
   + [Building Spring Boot Apps with the Kotlin Programming Language](https://livevideo.manning.com/module/81_1_1/building-spring-boot-applications-with-the-kotlin-programming-language/introduction/introduction?)
-- [Read: What's new in Spring Boot 2.3?](https://spring.io/blog/2020/06/18/what-s-new-in-spring-boot-2-3)
+- Spring Boot TODAY!
+  + Latest Features
+    - ✅ [Read: What's new in Spring Boot 2.3?](https://spring.io/blog/2020/06/18/what-s-new-in-spring-boot-2-3)
+    - ✅ [Read: What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
+  + [Spring Boot Reference Docs](https://docs.spring.io/spring-boot/docs/current/reference/html/index.html)
+  + [Spring Boot API Docs](https://docs.spring.io/spring-boot/docs/current/api/)
+  + [Spring Developer YouTube Channel](https://www.youtube.com/user/SpringSourceDev/videos)
+
 
 #### Spring Core
 - [Read: Spring Quickly](https://www.manning.com/books/spring-quickly?query=spring)
@@ -73,7 +80,9 @@
   + [Marco Behler: How to send messages to a RabbitMQ broker and queues with Java](https://www.youtube.com/watch?v=gaLmPqrm5LI)
   + [Marco Behler: How to consume RabbitMQ messages from queues with Java](https://www.youtube.com/watch?v=BS7tY-Exo0w)
   + [Marco Behler: How to look inside RabbitMQ queues for messages (Command Line & Web Interface)](https://www.youtube.com/watch?v=2SE9w1XfevA)
-
+- Spring Framework TODAY!
+  + [Spring Framework Reference Docs](https://docs.spring.io/spring-framework/docs/current/reference/html/index.html)
+  + [Spring Framework API Docs](https://docs.spring.io/spring-framework/docs/current/javadoc-api/)
 
 #### Spring Security
 - [Spring Security & OAuth 2.0 - In-Depth](https://www.marcobehler.com/guides/spring-security-oauth2)
@@ -161,12 +170,11 @@
   + [Junit 5 (uses Kotlin DSL)](https://github.com/junit-team/junit5)
   + [Spinnaker Gate (uses Groovy DSL)](https://github.com/spinnaker/gate)
   + [Spinnaker Clouddriver (uses Groovy DSL)](https://github.com/spinnaker/clouddriver)
+  + [Spring Boot (uses Groovy DSL)](https://github.com/spring-projects/spring-boot)
 
 #### Learning Docker
-- [Read: What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
 - Raju Gandhi
   + 🚧 [Creating Docker Images and Dockerfiles](https://learning.oreilly.com/learning-paths/learning-path-creating/9781098115180/)
-- [Docker Support in IntelliJ](https://www.jetbrains.com/help/idea/docker.html)
 - 🚧 [IntelliJ Webinar: Java, Containers and IntelliJ IDEA](https://www.youtube.com/watch?v=R4kxLsXkAE4)
 - Marco Behler
   + [Marco Behler: Setting Up Docker & Getting Started](https://www.youtube.com/watch?v=hck-UtTBNIw)
@@ -179,6 +187,7 @@
 - [Read: Docker in Action 2nd Ed](https://learning.oreilly.com/library/view/docker-in-action/9781617294761/)
 - [Read: Learn Docker in a Month of Lunches](https://learning.oreilly.com/library/view/learn-docker-in/9781617297052/)
 - [Read: Building Serverless Applications with Google Cloud Run](https://learning.oreilly.com/library/view/building-serverless-applications/9781492057086/#toc)
+- [Docker Support in IntelliJ](https://www.jetbrains.com/help/idea/docker.html)
 
 ## Muscle Memory for Common Programming Tasks
 
@@ -194,16 +203,15 @@
 - Unit Tests
 
 ### Hands-on Exercises
-- Create a command line app that implements Rock, Paper and Scissors game where user's input is received from the Console
 - Create a command line app that implements a Class Hierarchy: Employee, Manager, Executive
-- Create a command line app that implements a List of Employees and perform all kinds of operations on it
-- Create a command line app that Reads and Writes from/to a CSV file
-- Create a command line app that Reads and Writes from/to a JSON file
-- Create a command line app that traverses a folder structure and prints file and folder name with additional file/folder attributes
 - Create a command line app that uses Locale, Number Formatting and Currency Formatting to print money in acceptable format in US, UK, Germany and India 
 - Create a command line app that uses Dates to find current date in different timezones, difference between two dates, a future date and a past date
 - Create a command line app that reads environment variables, runs a process on the operating system, reads its output etc.
-- Create a multi-module app, each app basically being a standalone gradle project!
+- Create a command line app that implements a collection (Array, List, Set and Hashmap) of Employees and perform all kinds of operations on it
+- Create a command line app that Reads and Writes from/to a CSV file
+- Create a command line app that Reads and Writes from/to a JSON file
+- Create a command line app that traverses a folder structure and prints file and folder name with additional file/folder attributes
+- Create a command line app that implements Rock, Paper and Scissors game where user's input is received from the Console
 
 ## Muscle Memory for Distributed Systems Tasks
 
