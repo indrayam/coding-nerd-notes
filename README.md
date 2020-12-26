@@ -35,7 +35,7 @@
 - While I have continued to dabble with writing software during my time as an IT Architect, these were small utility softwares created to get a specific task(s) automated. To no one's surprise, I got into writing more and more [Python](https://www.python.org/) during this time. Since Python and Perl were peers, at times I wondered if I should have embraced Python instead of Perl during my CGI writing days. That said, I really *enjoyed* my time with Perl. So, no regrets there. :smile: 
 
 ### Phase 4: Software for Good (and for Myself)!
-- Continue to dive deep(er) into [Java](https://adoptopenjdk.net/)/[Kotlin](https://kotlinlang.org/). Why? Writing software in Modern Java and Kotlin is actually quite fun, especially if you're using [IntelliJ IDEA](https://www.jetbrains.com/idea/)! Plus, this is home turf!
+- Continue to dive deep(er) into [Modern Java](https://adoptopenjdk.net/). Why? Writing software in Modern Java and Kotlin is actually quite fun, especially if you're using [IntelliJ IDEA](https://www.jetbrains.com/idea/)! Plus, this is home turf!
 - My ❤️ for C++ never really went away. However, instead of diving into C++ 17, I've decided it is time for me to move on. I have my eyes on diving into [Rust](https://golang.org/), although [Go's](https://www.rust-lang.org/) dominance in Enterprise DevOps space might sway me away. Let's see how it plays out. 
 - [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
   - Perhaps, [Julia](https://julialang.org/) will bring me back full circle to a language like Fortran!
