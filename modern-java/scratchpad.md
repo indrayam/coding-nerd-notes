@@ -1,25 +1,121 @@
 # Scratchpad to build Muscle Memory
 
-### Bitwise Operators
-- `&` (and): The binary AND operation has two inputs and one output. Always produce a 1 output if both of its inputs are 1 and will produce a 0 output if one or both of its inputs are 0.
-  + 0, 0 => 0
-  + 1, 0 => 0
-  + 0, 1 => 0
-  + 1, 1 => 1
-- `|` (or): The binary OR operation has two inputs and one output. Always produce a 1 output if either of its inputs are 1 and will produce a 0 output if both of its inputs are 0.
-  + 0, 0 => 0
-  + 1, 0 => 0
-  + 0, 1 => 0
-  + 1, 1 => 1
-- `^` (xor): The binary XOR (exclusive OR) operation has two inputs and one output. Always produce a 1 output if either of its inputs are 1 and will produce a 0 output if both of its inputs are 0 or 1.
-  + 0, 0 => 0
-  + 1, 0 => 0
-  + 0, 1 => 0
-  + 1, 1 => 1
-- `~` (not): The binary NOT operation has one input and one output. Always produce a 1 output if its input is 0 and will produce a 0 output if its input is 1.
-  + 0 => 1
-  + 1 => 0
-- To convert a positive number into a negative number using the **Two’s complement** representation, invert all of the bits of the number and ​add 11. Let's play with 23:
+#### String API
+- Types
+  - String
+  - StringBuilder
+    + append
+    + appendCodePoint
+    + setCharAt, insert, delete
+    + toString
+- length
+- Getting to a subset of a string...
+  - substring
+  - startsWith
+  - endsWith
+  - indexOf
+  - lastIndexOf
+- trim, strip
+- isBlank, isEmpty
+- toUpperCase, toLowerCase
+- join
+- repeat
+- charAt, codePointAt, codePointCount, codePoints
+- equals, equalsIgnoreCase, compareTo, compareToIgnoreCase
+- format (static method)
+- valueOf (static method)
+
+#### Fundamental Programming Structures
+- Types
+  + byte (8 bits or 1 byte)
+  + short (16 bits or 2 bytes)
+  + int (32 bits or 4 bytes)
+  + long (64 bits or 8 bytes)
+  + double (32 bits or 4 bytes)
+  + boolean
+  + char (16 bits or 2 bytes)
+    - Character.toChars
+    - Character.isSupplementaryCodePoint
+      - Character.isBmpCodePoint
+      - Character.isHighSurrogate
+      - Character.isLowSurrogate
+    - Character.isJavaIdentifierStart
+      - Character.isJavaIdentifierPart
+      - Character.isDigit
+      - Character.isLetterOrDigit
+  + String
+  + enum
+  + class
+  + interface
+  + null
+- Byte, Short, Integer, Long, Float, Double, Boolean are the classes that represent the primitive types in Java. Use `.valueOf` static method for each of these classes to get an instance from a primitive type
+- Formatting
+  + `%[argument_index$][flags][width][.precision]conversion`
+  + `conversion`
+    + int: `%d` (decimal), `%x` (hexadecimal)
+    + double: `%m.n%f`, `%m.n%e`, `%m.n%g`
+    + char: `%c`
+    + String: `%s`
+    + boolean: `%b`
+    + Newline: `%n`
+  + `flags`
+    + '-' for left-justified
+    + '+' will always include a sign
+    + '0' the result will be zero-padded
+    + ',' locale specific group separators
+    + '(' negative numbers in parenthesis
+  + You can use `<` in place of argument index. It causes the argument for the previous format specifier to be re-used
+- Access Modifiers:
+  + private
+    - same class: **Y**
+    - sub-class in same package: **N**
+    - unrelated peer class in same package: **N**
+    - sub-class in a peer package: **N**
+    - unrelated peer class in a peer package: **N**
+  + default (or package private)
+    - same class: **Y**
+    - sub-class in same package: **Y**
+    - unrelated peer class in same package: **Y**
+    - sub-class in a peer package: **N**
+    - unrelated peer class in a peer package: **N**
+  + protected
+    - same class: **Y**
+    - sub-class in same package: **Y**
+    - unrelated peer class in same package: **Y**
+    - sub-class in a peer package: **Y**
+    - unrelated peer class in a peer package: **N**
+  + public
+    - same class: **Y**
+    - sub-class in same package: **Y**
+    - unrelated peer class in same package: **Y**
+    - sub-class in a peer package: **Y**
+    - unrelated peer class in a peer package: **Y**
+- A single Java file can have one public class with the same name as the file name. However, you can have as many types (class or interface) as you want, as long as they have 'default' access modifier.
+- A `.java` file is called a compilation unit. Each compilation unit may contain any number of top-level classes and interfaces. If there are no public top-level types then the compilation unit can be named anything. However, there can be only one public class/interface in a compilation unit and the compilation unit (the `.java` file) must be named exactly as this public top-level type.
+- Common Java Operators:
+  + `+`, `-`, `*`, `/`, `%`, `++`, `--`
+  + `>`, `>=`, `<`, `<=`, `!`
+  + `==`, `!=`
+- Bitwise Operators
+  - `&` (and): The binary AND operation has two inputs and one output. Always produce a 1 output if both of its inputs are 1 and will produce a 0 output if one or both of its inputs are 0.
+    + 0, 0 => 0
+    + 1, 0 => 0
+    + 0, 1 => 0
+    + 1, 1 => 1
+  - `|` (or): The binary OR operation has two inputs and one output. Always produce a 1 output if either of its inputs are 1 and will produce a 0 output if both of its inputs are 0.
+    + 0, 0 => 0
+    + 1, 0 => 0
+    + 0, 1 => 0
+    + 1, 1 => 1
+  - `^` (xor): The binary XOR (exclusive OR) operation has two inputs and one output. Always produce a 1 output if either of its inputs are 1 and will produce a 0 output if both of its inputs are 0 or 1.
+    + 0, 0 => 0
+    + 1, 0 => 0
+    + 0, 1 => 0
+    + 1, 1 => 1
+  - `~` (not): The binary NOT operation has one input and one output. Always produce a 1 output if its input is 0 and will produce a 0 output if its input is 1.
+    + 0 => 1
+    + 1 => 0
+  - To convert a positive number into a negative number using the **Two’s complement** representation, invert all of the bits of the number and ​add 11. Let's play with 23:
 
 ```
 23    = 00000000 00000000 00000000 00010111

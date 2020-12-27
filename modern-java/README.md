@@ -87,7 +87,7 @@
 #### Spring Security
 - [Spring Security & OAuth 2.0 - In-Depth](https://www.marcobehler.com/guides/spring-security-oauth2)
 
-## Learning Modern Java and Kotlin
+## Learning Modern Java
 - Modern Java Books
   + Read: Java A Beginner's Tutorial - Budi Kurniawan
   + Read: Modern Java in Action - Manning
@@ -157,7 +157,7 @@
 - [more...](https://www.youtube.com/c/intellijidea/videos)
 
 
-#### Learning Gradle (w/ Kotlin)
+#### Learning Gradle (w/ Groovy)
 - [Read: A Groovy Build Script Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/groovy_build_script_primer.html)
 - [Read: Gradle Kotlin DSL Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
 - ✅ [Read: Using Kotlin Gradle Plugin (Kotlin Docs)](https://kotlinlang.org/docs/reference/using-gradle.html)
