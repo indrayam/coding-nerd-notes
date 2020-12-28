@@ -34,10 +34,10 @@
       + An *Analytics Plane* which allows teams to get access to rich analytics about their software development practices as well as Software characteristics like code quality and security metrics.
 - While I have continued to dabble with writing software during my time as an IT Architect, these were small utility softwares created to get a specific task(s) automated. To no one's surprise, I got into writing more and more [Python](https://www.python.org/) during this time. Since Python and Perl were peers, at times I wondered if I should have embraced Python instead of Perl during my CGI writing days. That said, I really *enjoyed* my time with Perl. So, no regrets there. :smile: 
 
-### Phase 4: Software for Good (and for Myself)!
-- Continue to dive deep(er) into [Modern Java](https://adoptopenjdk.net/). Why? Writing software in Modern Java and Kotlin is actually quite fun, especially if you're using [IntelliJ IDEA](https://www.jetbrains.com/idea/)! Plus, this is home turf!
-- My ❤️ for C++ never really went away. However, instead of diving into C++ 17, I've decided it is time for me to move on. I have my eyes on diving into [Rust](https://golang.org/), although [Go's](https://www.rust-lang.org/) dominance in Enterprise DevOps space might sway me away. Let's see how it plays out. 
-- [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
-  - Perhaps, [Julia](https://julialang.org/) will bring me back full circle to a language like Fortran!
-  - With [Python's](https://www.python.org/) dominating presence in the AI/ML space, chances are I will continue to dabble with Python for a long time :smile:
+### Phase 4: This time, it's personal!
+- [Modern Java](https://adoptopenjdk.net/) is a lot more fun than the Java of late 1990s. *Lambdas*, *Streams*, *New Data and Time API* and fun frameworks like *Spring Boot* or libraries like *Lombok* are things that I have gotten quite familiar with. That said, I intend to go a lot more deeper into these. With [IntelliJ IDEA](https://www.jetbrains.com/idea/), of course! My ❤️ affair with Java started 24 years ago. And it's still going strong.
+  - I got upclose and personal with C++ back in Spring and Summer of 1996. However, instead of diving into C++ 20 today, I've decided it is time for me to move on. I have heard good things about [Rust](https://golang.org/), although [Go's](https://www.rust-lang.org/) dominance in Enterprise DevOps space might sway me towards it. Let's see how it plays out. 
+  - [Julia](https://julialang.org/) intrigues me. I have been told that folks at NASA use it quite a bit. Perhaps, Julia will bring me back full circle to a language like Fortran, especially for Scientific Computing use cases!
+- With [Python's](https://www.python.org/) dominating presence in the AI/ML space, chances are Python will demand my time and attention. It will hopefully lead me to the world of [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35).
 
+  

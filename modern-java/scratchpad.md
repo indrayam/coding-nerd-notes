@@ -1,4 +1,41 @@
-# Scratchpad to build Muscle Memory
+# Modern Java Scratchpad
+
+#### Control Flow
+- Conditional Statements
+  + `if`, `else if`
+  + `else`
+- Loops
+  + `while`
+  + `for (String arg : args)`
+  + `for (i = 0; i < <condition>; i++)`
+  + `break`
+  + `continue`
+
+#### File IO (Part 1)
+- System.getProperty("user.dir")
+- Path.of creates a Path instance from a String variable or literal written out using a relative or absolute name
+- new Scanner(Path.of(filename), StandardCharsets.UTF_8)
+- new PrintWriter(filename, StandardCharsets.UTF_8)
+
+#### Locale
+- Locale
+  + `new Locale(String language)`
+  + `new Locale(String language, String country)`
+  + `new Locale.Builder().setLanguage("en").setRegion("US").build();`
+- ISO 639-1 (alpha-2) or ISO 639-2 (alpha-3) language code (2 or 3 digit). Seems like the 639-1 language code works better.
+  + [Browse or Search the ISO Language Codes](https://www.loc.gov/standards/iso639-2/php/langcodes-search.php)
+  + [Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+- ISO 3166 alpha-2 country code OR 3 digit UN M.49 Area Code
+  + [ISO 3166 Country Codes](https://www.iso.org/iso-3166-country-codes.html)
+  + [Search Country Code](https://www.iso.org/obp/ui/#search)
+  + [ISO 3166 Codes (Countries)](http://kirste.userpage.fu-berlin.de/diverse/doc/ISO_3166.html)
+  + [UN Standard country or area codes for statistical use (M49)](https://unstats.un.org/unsd/methodology/m49/)
+
+#### Scanner
+- new Scanner(System.in)
+- nextLine
+- nextInt
+- nextDouble
 
 #### String API
 - Types
@@ -22,14 +59,15 @@
 - repeat
 - charAt, codePointAt, codePointCount, codePoints
 - equals, equalsIgnoreCase, compareTo, compareToIgnoreCase
-- format (static method)
+- format (static method): Useful to create string with a certain format but not for printing
 - valueOf (static method)
 
-#### Fundamental Programming Structures
+#### Types and Operators
 - Types
   + byte (8 bits or 1 byte)
   + short (16 bits or 2 bytes)
   + int (32 bits or 4 bytes)
+    - Integer.parseInt
   + long (64 bits or 8 bytes)
   + double (32 bits or 4 bytes)
   + boolean
@@ -52,18 +90,20 @@
 - Formatting
   + `%[argument_index$][flags][width][.precision]conversion`
   + `conversion`
-    + int: `%d` (decimal), `%x` (hexadecimal)
-    + double: `%m.n%f`, `%m.n%e`, `%m.n%g`
+    + int: `%d` (decimal), `%x` (hexadecimal), `%o` (octal)
+    + double: `%m.n%f` (fixed-point floating-point), `%m.n%e` (exponential floating-point)
     + char: `%c`
     + String: `%s`
     + boolean: `%b`
     + Newline: `%n`
+    + Date/Time: `%tx` (or `Tx`). *Obsolete*
   + `flags`
     + '-' for left-justified
     + '+' will always include a sign
     + '0' the result will be zero-padded
     + ',' locale specific group separators
     + '(' negative numbers in parenthesis
+    + '#' for float, include a decimal. for hexadecimal/octal, include 0x or 0
   + You can use `<` in place of argument index. It causes the argument for the previous format specifier to be re-used
 - Access Modifiers:
   + private
