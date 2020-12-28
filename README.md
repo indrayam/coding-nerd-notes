@@ -42,11 +42,10 @@ Now that that's not a pressing issue, I want to circle back and dive into things
   - I got upclose and personal with C++ back in Spring and Summer of 1996. However, instead of diving into C++ 20 today, I've decided it is time for me to move on. I have heard good things about [Rust](https://golang.org/), although [Go's](https://www.rust-lang.org/) dominance in Enterprise DevOps space might sway me towards it. Let's see how it plays out. 
   - [Julia](https://julialang.org/) intrigues me. I have been told that folks at NASA use it quite a bit. Perhaps, Julia will bring me back full circle to a language like Fortran, especially for Scientific Computing use cases!
 - Computer Science-y stuff
-  + Reading Code
-  + Clean Code
-  + Design Patterns
-  + Object-Oriented Design
-  + The Hardware/Software Interface: Inside the Machine
+  - Design Patterns
+  - Object-Oriented Design
+  - Data Structures & Algorithms
+  - The Hardware/Software Interface: Inside the Machine
 - With [Python's](https://www.python.org/) dominating presence in the AI/ML space, there is no getting around it. It will hopefully lead me to the world of [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35).
 
   
