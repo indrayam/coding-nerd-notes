@@ -5,7 +5,11 @@
 - Programming Paradigms
 - Data Structures & Algorithms
 - Understanding the Machine
-
+- Random CS Concepts
+  + Unicode
+  + Floating Point Artihmetic
+  + Locale
+  
 ## List
 - [Read: Head First Design Patterns (2nd Ed)](https://learning.oreilly.com/library/view/head-first-design/9781492077992/)
 - [Victor Rentea YouTube Channel](https://www.youtube.com/playlist?list=PLggcOULvfLL_MfFS_O0MKQ5W_6oWWbIw5) ([Site](http://victorrentea.ro/))

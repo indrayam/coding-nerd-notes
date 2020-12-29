@@ -1,11 +1,10 @@
 # Learning Modern Java Backlog
 
 ## December 2020 (The COVID Winter of Modern Java and Spring)
+- Read: *Chapters from books listed in **Learning Modern Java** section*
 - [Read: Spring Boot: Up and Running](https://learning.oreilly.com/library/view/spring-boot-up/9781492076971/)
 - Read: Spring in Action 6th Edition
 - Read: Practical Unit Testing with JUnit and Mockito (2nd Ed)
-- Read: Core Java 1 11th Ed - Cay Horstmann
-- Read: Core Java 2 11th Ed - Cay Horstmann
 - Dev Ecosystem:
   + ✅ *Commit:* 
     - Git/GitHub using IntelliJ IDEA 
@@ -89,11 +88,14 @@
 
 ## Learning Modern Java
 - Modern Java Books
+  + [Read: Java The Complete Reference - Herbert Schildt](https://learning.oreilly.com/library/view/java-the-complete/9781260440249/)
+  + Core Java 1, 11th Edition - Cay Horstmann
+  + Core Java 2, 11th Edition - Cay Horstmann
+  + Read: Java How to Program
   + Read: Java A Beginner's Tutorial - Budi Kurniawan
   + Read: Modern Java in Action - Manning
   + Read: Dynamic Proxies in Java - Dr. Heinz Kabutz
-  + [Read: Java The Complete Reference - Herbert Schildt](https://learning.oreilly.com/library/view/java-the-complete/9781260440249/)
-  + [Read: Java 9 for Programmers](https://learning.oreilly.com/library/view/java-9-for/9780134778167/)
+  
   + Marco Behler Videos and Articles
     - [Marco Behler: How to easily create Lists, Sets and Maps in Java ](https://www.youtube.com/watch?v=BS7tY-Exo0w)
     - [Marco Behler: How to work with Java enums](https://www.youtube.com/watch?v=9AlKnPY-ROc&t=1s)
