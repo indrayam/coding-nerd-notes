@@ -6,10 +6,12 @@
 - Data Structures & Algorithms
 - Understanding the Machine
 - Random CS Concepts
-  + Unicode
-  + Floating Point Artihmetic
-  + Locale
-  
+  + How are negative numbers stored?
+  + What happens when to convert an int into byte?
+  + Floating Point Arithmetic
+  + How does Java support Unicode?
+  + How does Locale work?
+
 ## List
 - [Read: Head First Design Patterns (2nd Ed)](https://learning.oreilly.com/library/view/head-first-design/9781492077992/)
 - [Victor Rentea YouTube Channel](https://www.youtube.com/playlist?list=PLggcOULvfLL_MfFS_O0MKQ5W_6oWWbIw5) ([Site](http://victorrentea.ro/))
