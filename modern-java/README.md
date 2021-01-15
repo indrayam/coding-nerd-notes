@@ -5,11 +5,16 @@
 - Modern Java with JUnit 5 and Mockito
 - Spring & Spring Boot
 - Dev Ecosystem:
+  - _DevelopmentTool_:
+    - 🚧 IntelliJ IDEA
+      - Writing code efficiently using Keyboard shortcuts (see Nerd Notes)
+    - ✅ Gradle
+    - ✅iTerm2
   - ✅ _Commit:_
     - Git/GitHub using IntelliJ IDEA
   - ✅ _Build:_
     - Groovy DSL
-    - Multi-Modules Gradle Project
+    - Multi-Modules Gradle Project (optional)
   - ✅ _Package:_
     - Use Spring Boot to create optimized Docker images for SB projects
     - Use Dockerfile, as opposed to buildpacks (for now)
