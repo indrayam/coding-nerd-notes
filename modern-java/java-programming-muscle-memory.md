@@ -118,8 +118,15 @@ radium 88 226
   - The sum of two vectors is just the element-wise sum of their elements. For example, the sum of `[1, 2, 3]` and `[4, 5, 6]` is `[5, 7, 9]`. Write a function called sparse_add that takes two sparse vectors stored as dictionaries and returns a new dictionary representing their sum.
   - The dot product of two vectors is the sum of the products of corresponding elements. For example, the dot product of `[1, 2, 3]` and `[4, 5, 6]` is `4+10+18`, or `32`. Write another function called sparse_dot that calculates the dot product of two sparse vectors.
 
+## Conceptual ones
+
+- Program that calls a method that shows the binary value of an integer
+
 ## Other Sources
 
+- Exercises in
+  - _Java How to Program Early Objects 10th Edition_ chapters
+  - _Exercises for Programmers_
+  - _Mazes for Programmers_
 - [Coding Bat](https://codingbat.com/java)
-- Exercises in _Java How to Program Early Objects 10th Edition_ chapters
 - [CodeGym](https://codegym.cc/quests/lectures/questsyntax.level00.lecture00)

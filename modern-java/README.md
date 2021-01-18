@@ -2,14 +2,15 @@
 
 ## Jan and Feb 2021
 
-- Modern Java with JUnit 5 and Mockito
+- 🚧 Modern Java
+- JUnit 5 and Mockito
 - Spring & Spring Boot
 - Dev Ecosystem:
   - _DevelopmentTool_:
-    - 🚧 IntelliJ IDEA
+    - ✅ IntelliJ IDEA
       - Writing code efficiently using Keyboard shortcuts (see Nerd Notes)
     - ✅ Gradle
-    - ✅iTerm2
+    - ✅ iTerm2
   - ✅ _Commit:_
     - Git/GitHub using IntelliJ IDEA
   - ✅ _Build:_
@@ -144,8 +145,24 @@
   - [Read: JUnit 5 User Guide (JUnit Docs)](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
   - [AssertJ Docs](https://assertj.github.io/doc/)
   - [Read: Hamcrest Tutorial](http://hamcrest.org/JavaHamcrest/tutorial)
+- [Refactoring Java, Part 1: Driving agile development with test-driven development](https://blogs.oracle.com/javamagazine/refactoring-java-part-1-driving-agile-development-with-test-driven-development)
+- [Refactoring Java, Part 2: Stabilizing your legacy code and technical debt](https://blogs.oracle.com/javamagazine/refactoring-java-part-2-stabilizing-your-legacy-code-and-technical-debt)
+- [Refactoring Java, Part 3: Regaining business agility by simplifying legacy code](https://blogs.oracle.com/javamagazine/refactoring-java-part-3-regaining-business-agility-by-simplifying-legacy-code)
 
 ## Dev Ecosystem
+
+#### IntelliJ Power User
+
+- [Top 5 IntelliJ shortcuts](https://www.youtube.com/watch?v=crnEBqbBWuo&feature=youtu.be&ab_channel=IntelliJIDEAbyJetBrains)
+- [Trisha Gee - Top 15 IntelliJ IDEA Shortcuts](https://blog.jetbrains.com/idea/2020/03/top-15-intellij-idea-shortcuts/)
+- [Trisha Gee - Be More Productive with IntelliJ](https://www.youtube.com/watch?v=CmPJzEqFS4s)
+- [IntelliJ IDEA how2pro 2020: Putting It All Together](https://blog.jetbrains.com/idea/2020/12/putting-it-all-together/)
+- By Topics
+  - [Scratch Files and Buffers](https://www.youtube.com/watch?v=vVcPEcbRiNI)
+  - [What’s new for Java Developer 2020.3](https://www.youtube.com/watch?v=KffXqIZ0tYg&feature=youtu.be)
+  - [Using Local History to Restore Code Fragments or Deleted Files](https://blog.jetbrains.com/idea/2020/02/local-history-in-intellij-idea-may-save-your-life-code/)
+  - [Keep Shortcuts Close, but Quick Lists and Favorites Closer](https://blog.jetbrains.com/idea/2020/11/quick-lists-and-favorites/)
+  - [3 Ways to Refactor Your Code in IntelliJ IDEA](https://blog.jetbrains.com/idea/2020/12/3-ways-to-refactor-your-code-in-intellij-idea/)
 
 #### Learning Git using IntelliJ
 
@@ -166,6 +183,7 @@
 
 #### Learning Gradle (w/ Groovy)
 
+- [The Problem with Gradle](https://www.bruceeckel.com/2021/01/02/the-problem-with-gradle/)
 - [Read: A Groovy Build Script Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/groovy_build_script_primer.html)
 - [Read: Gradle Kotlin DSL Primer (Gradle Docs)](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
 - ✅ [Read: Using Kotlin Gradle Plugin (Kotlin Docs)](https://kotlinlang.org/docs/reference/using-gradle.html)
@@ -179,6 +197,9 @@
   - [Spinnaker Gate (uses Groovy DSL)](https://github.com/spinnaker/gate)
   - [Spinnaker Clouddriver (uses Groovy DSL)](https://github.com/spinnaker/clouddriver)
   - [Spring Boot (uses Groovy DSL)](https://github.com/spring-projects/spring-boot)
+- [Spring dependencies in Gradle can be tricky](https://nexocode.com/blog/posts/spring-dependencies-in-gradle/)
+- [The problem with Gradle: really?](https://melix.github.io/blog/2021/01/the-problem-with-gradle.html)
+- [The Gradle team is excited to announce Gradle 6.8](https://docs.gradle.org/6.8/release-notes.html#java-toolchain-improvements)
 
 #### Learning Docker
 
@@ -197,6 +218,7 @@
 - [Read: Learn Docker in a Month of Lunches](https://learning.oreilly.com/library/view/learn-docker-in/9781617297052/)
 - [Read: Building Serverless Applications with Google Cloud Run](https://learning.oreilly.com/library/view/building-serverless-applications/9781492057086/#toc)
 - [Docker Support in IntelliJ](https://www.jetbrains.com/help/idea/docker.html)
+- [A Hitchhiker’s guide to containerizing Java apps](https://www.javaadvent.com/2020/12/hitchhikers-guide-containerizing-java-apps.html)
 
 ## Muscle Memory for Common Programming Tasks
 
