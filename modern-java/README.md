@@ -50,6 +50,8 @@
   - Latest Features
     - ✅ [Read: What's new in Spring Boot 2.3?](https://spring.io/blog/2020/06/18/what-s-new-in-spring-boot-2-3)
     - ✅ [Read: What's new in Spring Boot 2.4?](https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now)
+      - [Spring Boot 2.4 Release Notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.4-Release-Notes)
+      - [What's New in Spring Boot 2.4](https://www.youtube.com/watch?v=lgyO9C9zdrg&ab_channel=SpringDeveloper)
   - [Spring Boot Reference Docs](https://docs.spring.io/spring-boot/docs/current/reference/html/index.html)
   - [Spring Boot API Docs](https://docs.spring.io/spring-boot/docs/current/api/)
   - [Spring Developer YouTube Channel](https://www.youtube.com/user/SpringSourceDev/videos)
