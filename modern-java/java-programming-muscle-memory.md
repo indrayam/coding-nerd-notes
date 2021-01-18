@@ -125,8 +125,9 @@ radium 88 226
 ## Other Sources
 
 - Exercises in
+  - _Core Java SE 9 for the Impatient_ chapters
   - _Java How to Program Early Objects 10th Edition_ chapters
-  - _Exercises for Programmers_
-  - _Mazes for Programmers_
+  - _Exercises for Programmers_ chapters
+  - _Mazes for Programmers_ chapters
 - [Coding Bat](https://codingbat.com/java)
 - [CodeGym](https://codegym.cc/quests/lectures/questsyntax.level00.lecture00)

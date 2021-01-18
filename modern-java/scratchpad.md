@@ -1,5 +1,15 @@
 # Modern Java Scratchpad
 
+#### Interesting Classes with static methods
+
+- Math.abs, Math.pow, Math.Random
+- Path.of
+- Stream.of
+- Arrays.copyOf, Arrays.stream.boxed.toArray, Arrays.sort, Arrays.toString, Arrays.deepToString, Arrays.sort
+- Collections.fill, Collections.sort
+- List.of
+- Files.
+
 #### Enums, Autoboxing, Annotation
 
 - `enum <name> { val1, val2 }`. For example, `enum Winter {DEC, JAN, FEB}`
