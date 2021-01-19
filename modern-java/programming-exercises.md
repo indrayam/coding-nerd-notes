@@ -1,4 +1,4 @@
-# Programming Muscle Memory
+# Programming Exercises
 
 ## Getting Started
 
@@ -115,8 +115,30 @@ radium 88 226
 - Program that implements Rock, Paper and Scissors game where user's input is received from the Console
 - After doing a series of experiments, you have compiled a dictionary showing the probability of detecting certain kinds of subatomic particles. The particles’ names are the dictionary’s keys, and the probabilities are the values: `{'neutron': 0.55, 'proton': 0.21, 'meson': 0.03, 'muon': 0.07, 'neutrino': 0.14}`. Write a function that takes a single dictionary of this kind as input and returns the particle that is least likely to be observed. Given the dictionary shown earlier, for example, the function would return `'meson'`.
 - A sparse vector is a vector whose entries are almost all zero, like `[1, 0, 0, 0, 0, 0, 3, 0, 0, 0]`. Storing all those zeros in a list wastes memory, so program- mers often use dictionaries instead to keep track of just the nonzero entries. For example, the vector shown earlier would be represented as `{0:1, 6:3}`, because the vector it is meant to represent has the value 1 at index 0 and the value 3 at index 6.
+
   - The sum of two vectors is just the element-wise sum of their elements. For example, the sum of `[1, 2, 3]` and `[4, 5, 6]` is `[5, 7, 9]`. Write a function called sparse_add that takes two sparse vectors stored as dictionaries and returns a new dictionary representing their sum.
   - The dot product of two vectors is the sum of the products of corresponding elements. For example, the dot product of `[1, 2, 3]` and `[4, 5, 6]` is `4+10+18`, or `32`. Write another function called sparse_dot that calculates the dot product of two sparse vectors.
+
+  ## Enterprise Software
+
+- Create Web App
+  - With AuthC
+- Create REST API
+  - Responds with JSON Payload
+  - With CORS enabled
+- Create a Serverless App
+  - Responds to an Event
+  - Writes the event data to S3
+- Create CLI
+- Backend Integrations
+  - Interacts with a REST API
+      - JSON Payload
+      - GET, POST, PUT, DELETE
+  - Interacts with PostgreSQL
+  - Interacts with MongoDB
+  - Interacts with Redis
+  - Interacts with RabbitMQ
+  - Interacts with Kafka
 
 ## Conceptual ones
 
