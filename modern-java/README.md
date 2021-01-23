@@ -24,6 +24,7 @@
   - Non-Standard Open-Source Java SDKs:
     - Lombok
     - ✅ SL4J with Logback
+    - Java Faker
 
 ## Learning Spring and Spring Boot
 

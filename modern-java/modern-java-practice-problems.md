@@ -1,4 +1,4 @@
-# Programming Exercises
+# Modern Java Practice Problems
 
 ## Getting Started
 
