@@ -3,10 +3,14 @@
 ## 2021 (Jan, Feb and March)
 
 - 🚧 Modern Java
-  - Core Java SE for the Impatient (on page **125** of **567**)
-  - On Java 8 (on page **160** of **1777**)
+  - _Book: Core Java SE for the Impatient_ (on page **125** of **567**)
+  - _Book: On Java 8_ (on page **160** of **1777**)
 - JUnit 5 and Mockito
+  - _Book: Practical Unit Testing with JUnit and Mockito_ (**Not Started**)
 - Spring & Spring Boot
+  - _Book: Spring Boot: Up and Running_ (**Not Started**)
+  - _Book: Spring in Action 6th Ed_ (**Not Started**)
+  - _Book: Spring Quickly_ (**Not Started**)
 - Dev Ecosystem:
   - _DevelopmentTool_:
     - ✅ IntelliJ IDEA
