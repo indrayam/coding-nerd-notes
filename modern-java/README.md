@@ -3,7 +3,7 @@
 ## 2021 (Jan, Feb and March)
 
 - 🚧 Modern Java
-  - _Book: Core Java SE for the Impatient_ (on page **125** of **567**)
+  - _Book: Core Java SE for the Impatient_ (on page **161** of **567**)
   - _Book: On Java 8_ (on page **160** of **1777**)
 - JUnit 5 and Mockito
   - _Book: Practical Unit Testing with JUnit and Mockito_ (**Not Started**)
