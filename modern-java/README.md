@@ -1,6 +1,6 @@
 # Learning Modern Java Backlog
 
-## 2021 (Jan, Feb and March)
+## 2021 (Jan to July 20th)
 
 - 🚧 Modern Java
   - _Book: Core Java SE for the Impatient_ (on page **161** of **567**)
