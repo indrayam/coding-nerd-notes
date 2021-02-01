@@ -4,7 +4,8 @@
 
 - [A Half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) 🚧
 - [No Starch Press Book: The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
-- [Manning Book: Rust in Action](https://www.manning.com/books/rust-in-action?query=rust%20in%20motion)
+- [Stanford Class: Safety in Systems Programming](https://reberhardt.com/cs110l/spring-2020/)
+  - [Blog: Designing a New Rust Class at Stanford: Safety in Systems Programming](https://reberhardt.com/blog/2020/10/05/designing-a-new-class-at-stanford-safety-in-systems-programming.html)
 
 ## References
 

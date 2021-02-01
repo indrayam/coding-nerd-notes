@@ -30,14 +30,29 @@
 
 ## Object-Oriented Programming
 
-- Working with Objects
-- Implementing a Class
+- Defining a Class and creating objects from it
+  - `<access-specifier> class Name`
+  - `new ClassName(args list...)` to instantiate a class
   - `this`
-  - Constructors
-  - Static Members
+    - When used, it is in the sense of "the current object". As a result, it can only be used in non-static methods
+  - Constructors:
+    - If you create a class that has no constructors, the compiler will automatically create a no-arg constructor for you
+    - However, if you define any constructors (with or without arguments), the compiler will **NOT** synthesize one for you
+    - Constructor looks like a Java method, except it does **NOT** have a return type
+    - Also, the convention of having Java method names starting with a lowercase first letter does not apply in the case of Constructors
+    - Inside a constructor, the `this` keyword takes on a different meaning when you give it an argument list. It makes an explicit call to the constructor that matches that argument list
+      - `this(args list)` call must be the first thing you do inside the constructor
+      - Cannot use `this(args list...)` more than once inside a constructor!
+      - Cannot use `this(args list...)` inside a non-constructor Java method
+  - Static Members (Fields and Methods)
+    - Class level, as opposed to instance/object level member
+    - Don't need an object reference to call "static" methods
+    - You can call static methods from instance/object of that class (or another class, provided you have access), but cannot call non-static methods or fields from static methods
   - Instance Variables
   - Instance Methods
 - Method Overloading
+  - Each overloaded method MUST have the same name (duh) and must take a unique list of argument types
+  - Return types does not matter in deciding whether a method is overloaded or not
 - `final`
   - `final` class
   - `final` method
@@ -47,8 +62,6 @@
   - `private`
   - `protected`
   - `default` (or package-private)
-- Inheritance
-- Polymorphism
 - Classes can extend (`extends`) a single parent class at a time
 - `super`
 - An `abstract` class is a class which includes one or more method which is of type _abstract_. The method has no concrete implementation
@@ -73,6 +86,12 @@
 - **Anonymous Class** is also a class defined inside a method, except it does not have any name. The expression `new Interface() { methods }` means define a class implementing the interface that has the given methods, and construct one object of that class
   - the `()` in the `new` expression indicate the construction arguments. A default constructor of the anonymous class is invoked
   - Before Java had lambda expressions, anonymous inner classes were the most concise syntax available for providing runnables, comparators, and other functional objects.
+- Garbage Collection/Cleanup
+  - Garbage collection is only about memory.That is, the sole reason for the existence of the garbage collector is to recover memory your program is no longer using.
+  - Java's GC only knows how to release memory allocated with `new`
+  - The need for `finalize()` is limited to special cases where your object can allocate storage in some way other than creating an object. But, you might observe, everything in Java is an object, so how can this be?
+  - It would seem that `finalize()` is in place because you might do something C-like by allocating memory using a mechanism other than the normal one in Java. This can happen primarily through native methods, which are a way to call non-Java code from Java.
+  - Bottom line, you won’t use `finalize()` much since you won't, in all likelihood, be interacting with non-Java code inside your Java code.
 
 ## Lambdas
 
