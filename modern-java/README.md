@@ -1,40 +1,15 @@
 # Learning Modern Java Backlog
 
-## 2021 (Jan to July 20th)
+## Books
 
-- 🚧 Modern Java
-  - _Book: Core Java SE for the Impatient_ (on page **161** of **567**)
-  - _Book: On Java 8_ (on page **160** of **1777**)
-- JUnit 5 and Mockito
-  - _Book: Practical Unit Testing with JUnit and Mockito_ (**Not Started**)
-- Spring & Spring Boot
-  - _Book: Spring Boot: Up and Running_ (**Not Started**)
-  - _Book: Spring in Action 6th Ed_ (**Not Started**)
-  - _Book: Spring Quickly_ (**Not Started**)
-- Dev Ecosystem:
-  - _DevelopmentTool_:
-    - ✅ IntelliJ IDEA
-      - Writing code efficiently using Keyboard shortcuts (see Nerd Notes)
-    - ✅ Gradle
-    - ✅ iTerm2
-  - ✅ _Commit:_
-    - Git/GitHub using IntelliJ IDEA
-  - ✅ _Build:_
-    - Groovy DSL
-    - Multi-Modules Gradle Project (optional)
-  - ✅ _Package:_
-    - Use Spring Boot to create optimized Docker images for SB projects
-    - Use Dockerfile, as opposed to buildpacks (for now)
-    - Use .dockerignore
-    - Use dive
-  - Non-Standard Open-Source Java SDKs:
-    - Lombok
-    - ✅ SL4J with Logback
-    - Java Faker
+- Core Java SE for the Impatient\_ (on page **161** of **567**) 🚧
+- On Java 8 (on page **160** of **1777**) 🚧
+- Practical Unit Testing with JUnit and Mockito
+- Spring Boot: Up and Running
+- Spring in Action 6th Ed
+- Spring Quickly
 
-## Sources of Learning
-
-## Learning Modern Java and JUnit
+## References
 
 #### Modern Java
 
@@ -91,8 +66,6 @@
 - [Refactoring Java, Part 1: Driving agile development with test-driven development](https://blogs.oracle.com/javamagazine/refactoring-java-part-1-driving-agile-development-with-test-driven-development)
 - [Refactoring Java, Part 2: Stabilizing your legacy code and technical debt](https://blogs.oracle.com/javamagazine/refactoring-java-part-2-stabilizing-your-legacy-code-and-technical-debt)
 - [Refactoring Java, Part 3: Regaining business agility by simplifying legacy code](https://blogs.oracle.com/javamagazine/refactoring-java-part-3-regaining-business-agility-by-simplifying-legacy-code)
-
-### Learning Spring and Spring Boot
 
 #### Spring Boot
 
@@ -162,9 +135,7 @@
 
 - [Spring Security & OAuth 2.0 - In-Depth](https://www.marcobehler.com/guides/spring-security-oauth2)
 
-### Learning Dev Tools
-
-#### IntelliJ
+### IntelliJ
 
 - [Top 5 IntelliJ shortcuts](https://www.youtube.com/watch?v=crnEBqbBWuo&feature=youtu.be&ab_channel=IntelliJIDEAbyJetBrains)
 - [Trisha Gee - Top 15 IntelliJ IDEA Shortcuts](https://blog.jetbrains.com/idea/2020/03/top-15-intellij-idea-shortcuts/)
