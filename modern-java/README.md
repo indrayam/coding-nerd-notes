@@ -1,6 +1,6 @@
 # Learning Modern Java Backlog
 
-## Books
+## Building Muscle Memory
 
 - Core Java SE for the Impatient\_ (on page **161** of **567**) 🚧
 - On Java 8 (on page **160** of **1777**) 🚧
