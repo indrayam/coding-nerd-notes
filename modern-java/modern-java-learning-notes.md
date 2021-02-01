@@ -1,82 +1,80 @@
-# Modern Java Skills Table of Contents
+# Modern Java Learning Notes
 
 ## Basics
 
-- Primitive Types: ✅
-  - `int` (`byte`, `short`, `long`) ✅
-  - `double` (`float`) ✅
-  - `char` ✅
-  - `boolean` ✅
-- `String` ✅
-- Literals ✅
-- Variables ✅
-- Arrays ✅
-  - `int[] x = new int[N]` ✅
-  - `double[] y = {1.1, 2.3, 4.5}` ✅
-- `ArrayList<T>` ✅
-- Operators ✅
-  - Arithmetic: `+`, `-`, `*`, `/`, `%` ✅
-  - Relational: `>`, `>=`, `<`, `<=`, `==`, `!=` ✅
-  - Logical: `&&`, `||`, `!` ✅
-- Control Flow ✅
-  - `if-else if-else` ✅
-  - `switch` ✅
-  - `for( ; ; )` ✅
-  - `for (var : collection)` ✅
-- Console Input/Output ✅
-  - `System.out` ✅
-  - `System.in` ✅
-  - `Scanner` ✅
+- Primitive Types:
+  - `int` (`byte`, `short`, `long`)
+  - `double` (`float`)
+  - `char`
+  - `boolean`
+- `String`
+- Literals
+- Variables
+- Arrays
+  - `int[] x = new int[N]`
+  - `double[] y = {1.1, 2.3, 4.5}`
+- `ArrayList<T>`
+- Operators
+  - Arithmetic: `+`, `-`, `*`, `/`, `%`
+  - Relational: `>`, `>=`, `<`, `<=`, `==`, `!=`
+  - Logical: `&&`, `||`, `!`
+- Control Flow
+  - `if-else if-else`
+  - `switch`
+  - `for( ; ; )`
+  - `for (var : collection)`
+- Console Input/Output
+  - `System.out`
+  - `System.in`
+  - `Scanner`
 
 ## Object-Oriented Programming
 
-- Working with Objects ✅
-- Implementing a Class ✅
-  - `this` ✅
-  - Constructors ✅
-  - Static Members ✅
-  - Instance Variables ✅
-  - Instance Methods ✅
-- Method Overloading ✅
-- `final` ✅
-  - `final` class ✅
-  - `final` method ✅
-  - `final` variable ✅
-- Access Modifiers: ✅
-  - `public` ✅
-  - `private` ✅
-  - `protected` ✅
-  - `default` (or package-private) ✅
-- Inheritance ✅
+- Working with Objects
+- Implementing a Class
+  - `this`
+  - Constructors
+  - Static Members
+  - Instance Variables
+  - Instance Methods
+- Method Overloading
+- `final`
+  - `final` class
+  - `final` method
+  - `final` variable
+- Access Modifiers:
+  - `public`
+  - `private`
+  - `protected`
+  - `default` (or package-private)
+- Inheritance
 - Polymorphism
-- Classes can extend (`extends`) a single parent class at a time ✅
-- `super` ✅
-- An `abstract` classe is a class which includes one or more method which is of type _abstract_. The method has no concrete implementation ✅
-- Interfaces ✅
-  - all interface methods are `public` by default ✅
-  - any variable in an interface is `public static final` (Constants) ✅
-  - Interface with non-abstract methods (with concrete implementations) ✅
-    - `static` Methods ✅
-    - `default` Methods ✅
-    - `private` Method ✅
-- classes can implement (`implements`) multiple interfaces ✅
+- Classes can extend (`extends`) a single parent class at a time
+- `super`
+- An `abstract` class is a class which includes one or more method which is of type _abstract_. The method has no concrete implementation
+- Interfaces
+  - all interface methods are `public` by default
+  - any variable in an interface is `public static final` (Constants)
+  - Interface with non-abstract methods (with concrete implementations)
+    - `static` Methods
+    - `default` Methods
+    - `private` Method
+- classes can implement (`implements`) multiple interfaces
 - **Static Nested Class** is a class (think, type) inside another class. A static nested class is simply one that is declared as `static`, thereby ensuring that the type is a class type, not a member type
   - Each static nested class object does not have a reference to the object of the enclosing class, just like a static method does not have the `this` reference
   - Use a static nested class when the instances of the nested class don’t need to know to which instance of the enclosing class they belong.
-- _Inner Class_ is also a class inside another class, except it is an instance type and not a class type.
+- **Inner Class** is also a class inside another class, except it is an instance type and not a class type.
   - Each inner class object has a reference to an object of the enclosing class. That means an instance method of an inner class can access instance variables of its outer class.
   - Use an inner class when the instances do need to know to which instance of the enclosing class they belong.
 - **Local class** is a class defined inside a method. You would do this for classes that are just tactical. This occurs often when a class implements an interface and the caller of the method only cares about the interface, not the class.
-- Advantages of Local Class:
-  - Class name is hidden in the scope of the method
-  - The methods of the class can access variables from the enclosing scope, just like the variables of a lambda expression.
+  - Advantages of Local Class:
+    - Class name is hidden in the scope of the method
+    - The methods of the class can access variables from the enclosing scope, just like the variables of a lambda expression.
 - **Anonymous Class** is also a class defined inside a method, except it does not have any name. The expression `new Interface() { methods }` means define a class implementing the interface that has the given methods, and construct one object of that class
   - the `()` in the `new` expression indicate the construction arguments. A default constructor of the anonymous class is invoked
   - Before Java had lambda expressions, anonymous inner classes were the most concise syntax available for providing runnables, comparators, and other functional objects.
 
-## Modern Java
-
-### Lambdas
+## Lambdas
 
 - You know an interface in Java. Before diving into Lambdas in Java, it helps to understand what a Functional interface is. Basically, any Java interface with a single abstract method, also sometimes called SAM, is a _Functional Interface_. That said, a functional interface may still have multiple default methods
 - Java does not **natively** support Function types. As a matter of fact, everything (almost) is an object in Java
@@ -144,76 +142,87 @@
 - The `this` keyword inside a lambda expression denotes the `this` parameter of the method that **creates** the lambda expression, not the one where it is run!
 - Functions that process or return functions are called higher-order functions.
 
-### Generics
+## Generics
 
-### Collections
+## Collections
 
-### Streams
+## Streams
 
-### Date and Time API
+## Date and Time API
 
-### New I/O
+## New I/O
 
-### Optional
+## Optional
 
-### Concurrent Programming
+## Concurrent Programming
 
-### Java Modules
+## Java Modules
 
-## Java SDK and Open-source Java Libraries
+## Java Libraries
 
-### JDK Interfaces of Interest
+#### Comparing Objects
 
-- Comparing Objects
-  - `Comparable<T>` interface method
-    - `compareTo<T>(T other)`
-  - `Comparator<T>` interface method: Classes that implement this interface gives you more flexibility to implement a comparison of your choosing. Why? Because the `compare` method is called on the `Comparator` object, not the instance of `T`
-    - `compare<T>(T first, T second)`
-    - `Comparator.comparing()`
-    - `Comparator.thenComparing()`
-- Common Functional Interfaces
+- `Comparable<T>` interface method
+  - `compareTo<T>(T other)`
+- `Comparator<T>` interface method: Classes that implement this interface gives you more flexibility to implement a comparison of your choosing. Why? Because the `compare` method is called on the `Comparator` object, not the instance of `T`
+  - `compare<T>(T first, T second)`
+  - `Comparator.comparing()`
+  - `Comparator.thenComparing()`
 
-  - `java.lang.Runnable` (`run()`): Function that runs an action without arguments or return value
-  - `java.util.function.Supplier<T>` (`T get()`): Function that runs an action without arguments and returns a value of type T
-    - `java.util.function.PSupplier<T>` (`p getAsP()`) where P is `Int`, `Long` or `Double` and p is `int`, `long` or `double` respectively
-    - `java.util.function.BooleanSupplier<T>` (`boolean getAsBoolean()`)
-  - `java.util.function.Consumer<T>` (`void accept(T t)`): Function that takes type T as a parameter, runs an action that returns void
-    - `java.util.function.PConsumer` (`void accept(p)`): Function that takes a primitive `p` type as a parameter, runs an action that returns void where P is Int, Long or Double and p is int, long or double respectively
-    - `java.util.function.ObjPConsumer<T>` (`void accept(T t, p)`): Function that takes type T and a primitive `p` type as parameters, runs an action that returns void where P is Int, Long or Double and p is int, long or double respectively
-    - `java.util.function.BiConsumer<T, U>` (`void accept(T t, U u)`): Function that takes type T and U as parameters, runs an action that returns void
-  - `java.util.function.Function<T, R>` (`R apply(T t)`): Function that takes type T, runs an action that returns R
-    - `java.util.function.PFunction<T>` (`T apply(p)`): Function that takes a primitive `p` type as parameter, runs an action that returns type T where P is Int, Long or Double and p is int, long or double respectively
-    - `java.util.function.ToPFunction<T>` (`p applyAsP(T t)`): Function that takes type T as a parameter, runs an action that returns a primitive `p` type where P is Int, Long or Double and p is int, long or double respectively
-    - `java.util.function.PToQFunction<T>` (`q applyAsQ(p)`): Function that takes primitive type `p` as a parameter, runs an action that returns a primitive type `q` where P, Q is Int, Long or Double and p, q is int, long or double respectively
-    - `java.util.function.BiFunction<T, U, R>` (`R apply(T t, U u)`): Function that takes type T and type U as parameters, runs an action that returns R
-  - `java.util.function.Predicate<T>` (`test(T t)`): Function that takes type T as a parameter, runs an action that returns a boolean
-    - `java.util.function.PPredicate` (`test(p)`): Function that takes type a primitive type `p` as a parameter, runs an action that returns a boolean where P is Int, Long or Double and p is int, long or double respectively
-    - `java.util.function.BiPredicate<T, U>` (`test(T t, U u)`): Function that takes type T and type U as parameters, runs an action that returns a boolean
-  - `java.util.function.UnaryOperator<T>` (`T apply(T t)`): Function that takes type T as a parameter, runs an action that returns a type T
-    - `java.util.function.PUnaryOperator<T>` (`p applyAsP(p)`): Function that takes a primitive type `p` as a parameter, runs an action that returns the primitive type `p` where P is Int, Long or Double and p is int, long or double respectively
-  - `java.util.function.BinaryOperator<T>` (`T apply(T t, T t1)`): Function that takes two paramters each of type T, runs an action that returns a type T
-    - `java.util.function.PBinaryOperator` (`p applyAsP(p, p)`): Function that takes two parameters of primitive type `p`, runs an action that returns the primitive type `p` where P is Int, Long or Double and p is int, long or double respectively
+#### Common Functional Interfaces
 
-### JDK Classes of Interest
+- `java.lang.Runnable` (`run()`): Function that runs an action without arguments or return value
+- `java.util.function.Supplier<T>` (`T get()`): Function that runs an action without arguments and returns a value of type T
+  - `java.util.function.PSupplier<T>` (`p getAsP()`) where P is `Int`, `Long` or `Double` and p is `int`, `long` or `double` respectively
+  - `java.util.function.BooleanSupplier<T>` (`boolean getAsBoolean()`)
+- `java.util.function.Consumer<T>` (`void accept(T t)`): Function that takes type T as a parameter, runs an action that returns void
+  - `java.util.function.PConsumer` (`void accept(p)`): Function that takes a primitive `p` type as a parameter, runs an action that returns void where P is Int, Long or Double and p is int, long or double respectively
+  - `java.util.function.ObjPConsumer<T>` (`void accept(T t, p)`): Function that takes type T and a primitive `p` type as parameters, runs an action that returns void where P is Int, Long or Double and p is int, long or double respectively
+  - `java.util.function.BiConsumer<T, U>` (`void accept(T t, U u)`): Function that takes type T and U as parameters, runs an action that returns void
+- `java.util.function.Function<T, R>` (`R apply(T t)`): Function that takes type T, runs an action that returns R
+  - `java.util.function.PFunction<T>` (`T apply(p)`): Function that takes a primitive `p` type as parameter, runs an action that returns type T where P is Int, Long or Double and p is int, long or double respectively
+  - `java.util.function.ToPFunction<T>` (`p applyAsP(T t)`): Function that takes type T as a parameter, runs an action that returns a primitive `p` type where P is Int, Long or Double and p is int, long or double respectively
+  - `java.util.function.PToQFunction<T>` (`q applyAsQ(p)`): Function that takes primitive type `p` as a parameter, runs an action that returns a primitive type `q` where P, Q is Int, Long or Double and p, q is int, long or double respectively
+  - `java.util.function.BiFunction<T, U, R>` (`R apply(T t, U u)`): Function that takes type T and type U as parameters, runs an action that returns R
+- `java.util.function.Predicate<T>` (`test(T t)`): Function that takes type T as a parameter, runs an action that returns a boolean
+  - `java.util.function.PPredicate` (`test(p)`): Function that takes type a primitive type `p` as a parameter, runs an action that returns a boolean where P is Int, Long or Double and p is int, long or double respectively
+  - `java.util.function.BiPredicate<T, U>` (`test(T t, U u)`): Function that takes type T and type U as parameters, runs an action that returns a boolean
+- `java.util.function.UnaryOperator<T>` (`T apply(T t)`): Function that takes type T as a parameter, runs an action that returns a type T
+  - `java.util.function.PUnaryOperator<T>` (`p applyAsP(p)`): Function that takes a primitive type `p` as a parameter, runs an action that returns the primitive type `p` where P is Int, Long or Double and p is int, long or double respectively
+- `java.util.function.BinaryOperator<T>` (`T apply(T t, T t1)`): Function that takes two paramters each of type T, runs an action that returns a type T
+  - `java.util.function.PBinaryOperator` (`p applyAsP(p, p)`): Function that takes two parameters of primitive type `p`, runs an action that returns the primitive type `p` where P is Int, Long or Double and p is int, long or double respectively
 
-- Objects
-  - `Objects.isNull`
-- Math
-  - `Math.abs`, `Math.pow`, `Math.Random`
-- Collections
-  - `List.of`
-  - `Collections.fill`, `Collections.sort`
-  - `Arrays.copyOf`, `Arrays.stream.boxed.toArray`, `Arrays.sort`, `Arrays.toString`, `Arrays.deepToString`, `Arrays.sort`
-- Date/Time
-  - `LocalDate.of`
-- Files I/O
-  - `Path.of`
-- Streams
-  - `Stream.of`
-  - `..stream().map`
-  - `Collectors.toList`
+#### Objects
 
-### Open source Java libraries
+- `Objects.isNull`
+
+#### Math
+
+- `Math.abs`
+- `Math.pow`
+- `Math.Random`
+
+#### Collections
+
+- `List.of`
+- `Collections.fill`, `Collections.sort`
+- `Arrays.copyOf`, `Arrays.stream.boxed.toArray`, `Arrays.sort`, `Arrays.toString`, `Arrays.deepToString`, `Arrays.sort`
+
+#### Date/Time
+
+- `LocalDate.of`
+
+#### Files
+
+- `Path.of`
+
+#### Streams
+
+- `Stream.of`
+- `..stream().map`
+- `Collectors.toList`
+
+#### Open source Java libraries
 
 - Lombok
   - `@SneakyThrows`
