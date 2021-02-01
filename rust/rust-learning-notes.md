@@ -1,0 +1,3 @@
+# Rust Learning Notes
+
+Coming soon...
