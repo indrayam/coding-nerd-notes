@@ -3,11 +3,11 @@
 ## Basics
 
 - Primitive Types:
-  - `int` (`byte`, `short`, `long`)
-  - `double` (`float`)
-  - `char`
-  - `boolean`
-- `String`
+  - `int` (`byte`, `short`, `long`) default value (only if it the primitive type is a instance field) 0
+  - `double` (`float`) default value (only if it the primitive type is a instance field) 0.0
+  - `char` default value (only if it the primitive type is a instance field) 0x0
+  - `boolean` default value (only if it the primitive type is a instance field) false
+- `String` default value (only if it the primitive type is a instance field) null
 - Literals
 - Variables
 - Arrays
@@ -30,9 +30,16 @@
 
 ## Object-Oriented Programming
 
-- Defining a Class and creating objects from it
+- Basics
   - `<access-specifier> class Name`
   - `new ClassName(args list...)` to instantiate a class
+  - A `class` is basically a special kind of custom `type` (instead of being pre-defined types that come with Java language) that we create which comes with two types of elements or members:
+    - fields (think, state), sometimes called _data members_
+    - methods (think, behavior), sometimes called _member functions_
+  - When you see the word `class` think type and vice-versa.
+  - Each object has a state, behavior and identity
+  - The order of the fields defined within a class determines the order of initialization
+  - The field definitions can be scattered throughout and in between method definitions, but the fields are initialized before any methods can be called, even the constructor!
   - `this`
     - When used, it is in the sense of "the current object". As a result, it can only be used in non-static methods
   - Constructors:
@@ -91,7 +98,13 @@
   - Java's GC only knows how to release memory allocated with `new`
   - The need for `finalize()` is limited to special cases where your object can allocate storage in some way other than creating an object. But, you might observe, everything in Java is an object, so how can this be?
   - It would seem that `finalize()` is in place because you might do something C-like by allocating memory using a mechanism other than the normal one in Java. This can happen primarily through native methods, which are a way to call non-Java code from Java.
-  - Bottom line, you won’t use `finalize()` much since you won't, in all likelihood, be interacting with non-Java code inside your Java code.
+  - Java doesn’t allow you to create local objects (on the stack) — you must always use `new`. So, they are always created on the heap.
+  - Bottom line, you won’t use `finalize()` much since you won't, in all likelihood, be interacting with non-Java code inside your Java code. "...Finalizers are unpredictable, often dangerous, and
+    generally unnecessary" - Joshua Bloch
+  - Types of GC approaches:
+    - stop-and-copy
+    - mark-and-sweep
+    - Adaptive generational stop-and-copy mark-and-sweep
 
 ## Lambdas
 
