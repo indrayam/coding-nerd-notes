@@ -3,16 +3,19 @@
 ## Basics
 
 - Primitive Types:
-  - `int` (`byte`, `short`, `long`) default value (only if it the primitive type is a instance field) 0
-  - `double` (`float`) default value (only if it the primitive type is a instance field) 0.0
-  - `char` default value (only if it the primitive type is a instance field) 0x0
-  - `boolean` default value (only if it the primitive type is a instance field) false
-- `String` default value (only if it the primitive type is a instance field) null
-- Literals
-- Variables
-- Arrays
+  - `int` (`byte`, `short`, `long`) default value (only if the primitive type is an instance field) 0
+  - `double` (`float`) default value (only if the primitive type is an instance field) 0.0
+  - `char` default value default value (only if the primitive type is an instance field) 0x0
+  - `boolean` default value default value (only if the primitive type is an instance field) false
+- `String` default value default value (only if the primitive type is an instance field) null
+- Unlike instance fields, local variables inside a method must to be initialized before they are used. Otherwise, the compiler will throw an error.
+- Literals: `0, 21.3, 'c', "Hello"` and `true` are literals
+- Variables: `int x = 23;` makes x a variable
+- Arrays and Array initialization
   - `int[] x = new int[N]`
   - `double[] y = {1.1, 2.3, 4.5}`
+  - `Integer[] z = new Integer[]{ 1, 2, 3}`
+  - In the cases of initialization, the final comma in the list of initializers is optional
 - `ArrayList<T>`
 - Operators
   - Arithmetic: `+`, `-`, `*`, `/`, `%`
@@ -27,10 +30,29 @@
   - `System.out`
   - `System.in`
   - `Scanner`
+- Varargs
+  - `void add(int... num)`
+  - When the `add` method is called, you do not "need" to pass an array of `int`. The compiler takes care of that. However, if you already had an array of `int`, you could pass that as well
+  - Varargs works with primitive types (does not depend on autoboxing) just as well as it works with class types.
+  - Array Class Type: `class [Ljava.lang.Character;` (for array of class `Character`) or `class [Ljava.lang.Integer;` (for array of class `Integer`) or `class [I` (for array of primitive `int` type). Notice no semi-colon for primitive int array types
+  - Varargs do tend to make method overloading difficult. Or at least, error prone.
+- You can create a `main()` for each of your classes; this allows easy testing for each class. You don’t need to remove the `main()` when you’re finished; you can leave it in for later testing. Even if you have many classes in a program, the only `main()` that runs is the one invoked on the command line. Even if a class has `package` (read, default) access, a `public main()` is accessible. In particular cases you might have to make adjustments, but this is a useful guideline.
+
+## Enumerations
+
+- `enum` may appear to be a new data type. However, `enum` is a class that have their own methods (`ordinal()`, `values()` etc.)
+- `enum` names can produce a much clearer expression of intent.
+- Can be used in `switch` statements
 
 ## Object-Oriented Programming
 
-- Basics
+- OOP Concepts:
+  - Encapsulation: Wrapping data and methods within classes in combination with implementation hiding is called encapsulation
+  - Abstraction: All programming languages are abstractions. Assembly language is a minimal abstraction of the underlying machine. Many so-called "imperative" languages (such as FORTRAN, BASIC, and C) were themselves abstractions of assembly language. Bottom line, abstraction's main goal is to handle complexity by hiding unnecessary details from the user. OOP provides a more flexible and powerful language abstraction. How? Similar to a Car that you drive, you just need to know which methods of the object are available to call and which input parameters are needed to trigger a specific operation. You don’t need to understand how this method is implemented and which kinds of actions it has to perform to create the expected result.
+  - Inheritance: As the name suggests, in OOP, a class can inherit methods from a _parent_ class and extended.
+  - Polymorphism: Inheritance allows you to create class hierarchies, where a base class gives its behavior and attributes to a derived class. You are then free to modify or extend its functionality. Polymorphism ensures that the proper method will be executed based on the calling object’s type.
+- _An object has state, behavior and identity (Grady Booch)_. This means an object can have internal data (which gives it state), methods (to produce behavior), and each object is uniquely distinguished from every other object—that is, every object has a unique address in memory.
+- **Basics**
   - `<access-specifier> class Name`
   - `new ClassName(args list...)` to instantiate a class
   - A `class` is basically a special kind of custom `type` (instead of being pre-defined types that come with Java language) that we create which comes with two types of elements or members:
@@ -42,44 +64,28 @@
   - The field definitions can be scattered throughout and in between method definitions, but the fields are initialized before any methods can be called, even the constructor!
   - `this`
     - When used, it is in the sense of "the current object". As a result, it can only be used in non-static methods
-  - Constructors:
-    - If you create a class that has no constructors, the compiler will automatically create a no-arg constructor for you
-    - However, if you define any constructors (with or without arguments), the compiler will **NOT** synthesize one for you
-    - Constructor looks like a Java method, except it does **NOT** have a return type
-    - Also, the convention of having Java method names starting with a lowercase first letter does not apply in the case of Constructors
-    - Inside a constructor, the `this` keyword takes on a different meaning when you give it an argument list. It makes an explicit call to the constructor that matches that argument list
-      - `this(args list)` call must be the first thing you do inside the constructor
-      - Cannot use `this(args list...)` more than once inside a constructor!
-      - Cannot use `this(args list...)` inside a non-constructor Java method
-  - Static Members (Fields and Methods)
-    - Class level, as opposed to instance/object level member
-    - Don't need an object reference to call "static" methods
-    - You can call static methods from instance/object of that class (or another class, provided you have access), but cannot call non-static methods or fields from static methods
+- **Constructors:**
+  - If you create a class that has no constructors, the compiler will automatically create a no-arg constructor for you
+  - However, if you define any constructors (with or without arguments), the compiler will **NOT** synthesize one for you
+  - Constructor looks like a Java method, except it does **NOT** have a return type
+  - Also, the convention of having Java method names starting with a lowercase first letter does not apply in the case of constructors
+  - Inside a constructor, the `this` keyword takes on a different meaning when you give it an argument list. It makes an explicit call to the constructor that matches that argument list
+    - `this(args list)` call must be the first thing you do inside the constructor
+    - Cannot use `this(args list...)` more than once inside a constructor!
+    - Cannot use `this(args list...)` inside a non-constructor Java method
+- **Static Members (Fields and Methods)**
+  - Class level, as opposed to instance/object level member
+  - Don't need an object reference to call `static` methods
+  - You can call `static` methods from instance/object of that class (or another class, provided you have access), but cannot call `non-static` methods or fields from `static` methods
+  - Even though it does not explicitly use the `static` keyword, the constructor is actually a `static` method.
+  - `static` initialization: Order of initialization is `statics` first, then the non-static objects. The first time you create an object of type _C_ or the first time you access a static method or static field of class _C_, the Java interpreter must locate the _C.class_ which it does by searching through the classpath. As the _C.class_ is loaded (creating a _Class_ object), all of its static initializers are run. Thus, static initialization takes places only once, as the _Class_ object is loaded for the first time
   - Instance Variables
   - Instance Methods
-- Method Overloading
+  - Explicit `static` initialization (also called `static` block). It looks a little like a method, but it's just the `static` keyword followed by a block of code. This code, like other `static` data initializations, is executed only once: the first time you make an object of that class or the first time you access a `static` member of that class (even if you never make an object of that class)
+  - `non-static` instance initialization. These guarantee that certain operations occur regardless of which explicit constructor is called
+- **Method Overloading**
   - Each overloaded method MUST have the same name (duh) and must take a unique list of argument types
   - Return types does not matter in deciding whether a method is overloaded or not
-- `final`
-  - `final` class
-  - `final` method
-  - `final` variable
-- Access Modifiers:
-  - `public`
-  - `private`
-  - `protected`
-  - `default` (or package-private)
-- Classes can extend (`extends`) a single parent class at a time
-- `super`
-- An `abstract` class is a class which includes one or more method which is of type _abstract_. The method has no concrete implementation
-- Interfaces
-  - all interface methods are `public` by default
-  - any variable in an interface is `public static final` (Constants)
-  - Interface with non-abstract methods (with concrete implementations)
-    - `static` Methods
-    - `default` Methods
-    - `private` Method
-- classes can implement (`implements`) multiple interfaces
 - **Static Nested Class** is a class (think, type) inside another class. A static nested class is simply one that is declared as `static`, thereby ensuring that the type is a class type, not a member type
   - Each static nested class object does not have a reference to the object of the enclosing class, just like a static method does not have the `this` reference
   - Use a static nested class when the instances of the nested class don’t need to know to which instance of the enclosing class they belong.
@@ -93,7 +99,7 @@
 - **Anonymous Class** is also a class defined inside a method, except it does not have any name. The expression `new Interface() { methods }` means define a class implementing the interface that has the given methods, and construct one object of that class
   - the `()` in the `new` expression indicate the construction arguments. A default constructor of the anonymous class is invoked
   - Before Java had lambda expressions, anonymous inner classes were the most concise syntax available for providing runnables, comparators, and other functional objects.
-- Garbage Collection/Cleanup
+- **Garbage Collection/Cleanup:**
   - Garbage collection is only about memory.That is, the sole reason for the existence of the garbage collector is to recover memory your program is no longer using.
   - Java's GC only knows how to release memory allocated with `new`
   - The need for `finalize()` is limited to special cases where your object can allocate storage in some way other than creating an object. But, you might observe, everything in Java is an object, so how can this be?
@@ -105,6 +111,72 @@
     - stop-and-copy
     - mark-and-sweep
     - Adaptive generational stop-and-copy mark-and-sweep
+- **Code Organization in Java**
+  - If you’ve programmed with a compiled language, you might be used to the compiler spitting out an intermediate form (usually an “obj” file) that is then packaged together with others of its kind using a linker (to create an executable file) or a librarian (to create a library). That’s **NOT** how Java works.
+  - A working program is a bunch of `.class` files, which can be packaged and compressed into a Java ARchive (JAR) file (using the jar archiver). The Java interpreter is responsible for finding, loading, and interpreting these files.
+  - A library in Java is a group of these `.class` files. Each source file usually has a `public` class and any number of non-public classes, so there’s one public component for each source file. To say that all these components belong together, use the `package` keyword.
+  - If you use a `package` statement, it must appear as the first non-comment in the file.
+  - In other words, a Java `package` contains a group of classes, organized under a single namespace
+  - Note that the convention for Java package names is to use all lowercase letters, even for intermediate words.
+  - To import a single class from a `package`, you use the `import` keyword. For example, `import java.util.ArrayList`. Note: By using this particular `import` statement, class `ArrayList` is available for us. That said, none of the other classes from `java.util` package are. To import everything, you could use `import java.util.*`.
+  - The `package` and `import` keywords divide up the single global namespace so names don’t clash.
+- **Access Modifiers:**
+  - The class controls the code that has access to its members.
+  - If you don’t provide an access specifier, it means “package access.” So one way or another, everything has some kind of access control.
+  - For the record, there is no keyword for package access. It means that all the other classes in the current package have access to a member with no access modifier. To all the classes _outside_ of this package, the member appears as private.
+  - Package access is one reason for grouping classes together in a package
+  - A compilation unit — a file — can belong to only a single package so all the classes within a single compilation unit are automatically available to each other via package access.
+  - `public`: Any Java class can access the field and/or method declared `public` in this class
+  - `private`: No Java class, other than members in the same class, can access fields and/or methods declared `private` in this class. Any method that you’re certain is only a “helper” method for that class can be made `private`
+  - `protected` (think, _Inheritance_ access): Sometimes the creator of the base class would like to take a particular member and grant access to derived classes but not the world in general, _regardless of whether the derived classes are in the same package as the base class_. That’s what `protected` does. `protected` also gives package access—that is, other classes in the same package can access protected elements. The protected keyword is a nod to pragmatism. It says, “This is private as far as the class user is concerned, but available to anyone who inherits from this class or anyone else in the same package.” (protected also provides package access.)
+  - Btw, Declaring a constructor `public` inside a package-access class doesn’t actually make it public! The compiler will complain if you tried doing it.
+  - Note that a class cannot be `private`
+- **Composition, Inheritance and Delegation:**
+  - One of the most compelling reasons for object-oriented programming is code reuse.
+  - You reuse code by creating new classes, but instead of creating them from scratch, you use existing classes that someone has already built and debugged.
+  - Composition is when you create objects of your existing class inside the new class. In other words, the new class is _composed_ of objects of existing classes.
+  - Use Composition when you want the functionality of an existing class inside your new class, but not its interface.
+  - Inheritance is when you create a new class as a type of an existing class. You literally take the form of the existing class and add code to it without modifying the existing class
+  - When you inherit, you take an existing class and make a special version of it. This usually means taking a general-purpose class and specializing it for a particular need.
+  - Classes can extend (`extends`) a single parent class at a time
+  - `super`
+  - An `abstract` class is a class which includes one or more method which is of type _abstract_. The method has no concrete implementation
+  - The `is-a` relationship is expressed with inheritance, and the `has-a` relationship is expressed with composition.
+  - It turns out you’re always inheriting when you create a class, because unless you explicitly inherit from some other class, you implicitly inherit from Java’s standard root class `Object`.
+  - As a general rule while using inheritance, make all fields `private` and all methods `public`. `protected` members (fields and methods) also allow access by derived classes
+  - The construction happens from the base “outward,” so the base class is initialized before the derived-class constructors can access it. Even if you don’t create a constructor for a dervied class, the compiler will synthesize a no-arg constructor for you that calls the base-class constructor.
+  - The call to the base-class constructor must be the first action inside the derived-class constructor.
+  - Delegation is midway between inheritance and composition, because you place a member object in the class you’re building (like composition), but at the same time you expose all the methods from the member object in your new class (like inheritance). Delegation is not organically supported by Java.
+  - Although the compiler forces you to initialize the base classes, and requires you do it right at the beginning of the constructor, it doesn’t watch over you to make sure you initialize the member objects.
+  - The most important aspect of inheritance is _not_ that it provides methods for the new class. It’s the relationship expressed between the new class and the base class. This relationship can be summarized by saying, **“The new class is a type of the existing class.”**
+  - Casting from a derived type to a base type moves up on the inheritance diagram, so it’s commonly called _upcasting_. _Upcasting_ is always safe because you’re going from a more specific type to a more general type.
+  - You can also perform the reverse of upcasting, called _downcasting_
+  - Although inheritance gets a lot of emphasis when teaching OOP, it doesn’t mean you should use it everywhere you possibly can. On the contrary, use it sparingly, only when it’s clear that inheritance is useful. If you remember to ask, “Do I need to upcast?” you’ll have a good tool for deciding between composition and inheritance.
+  - `final`: Java’s final keyword has slightly different meanings depending on context, but in general it says, “This cannot be changed.”
+    - `final` data: Many programming languages have a way to tell the compiler that a piece of data is constant. In Java, you don't. You use `final` modifier to make a variable constant, either at compile time or runtime.
+    - By convention, `final static` primitives with constant initial values (that is, compile-time constants) are named with all capitals, with words separated by underscores. (This is just like C constants, which is where that style originated.)
+    - Making references final seems less useful than making primitives final.
+    - `final` method: The big reason to make a method final is to put a lock on the method to prevent an inheriting class from changing that method’s meaning by overriding it. While initially encouraged for performance benefits as well, you should let the compiler and JVM handle efficiency issues and make a method `final` **only** to explicitly prevent overriding.
+    - Any `private` methods in a class are implicitly `final`.
+    - `final` class: When you say that an entire class is final (by preceding its definition with the final keyword), you’re preventing all inheritance from this class.
+    - All methods in a `final class` are implicitly `final` because there’s no way to override them.
+    - How does the Class Loading work:
+      - When you run `java DerivedClass`, the JVM tries to access `DerivedClass.main()` (a static method), so the loader goes out and finds the compiled code for the `DerivedClass`, in the file `DerivedClass.class`. While loading that, the loader notices that there's a `ParentClass`, which it also loads. This happens whether or not you make an object of `ParentClass` class.
+      - If the `ParentClass` class has its own base class (`RootParentClass`), that second base class will also be loaded, and so on.
+      - Next, the `static` initialization in the top most parent (in this case, `RootParentClass`) is performed, then the next derived class (`ParentClass`), and so on. This is important because the derived-class `static` initialization might depend on the base-class member being initialized properly.
+      - Now, the necessary classes have been loaded, so the object can be created.
+      - First, all the primitives in this object are set to their default values and the object references are set to `null` - this happens in one fell swoop by setting the memory in the object to binary zero.
+      - Then the base-class constructor(s) is called. Here the call is automatic, but you can also specify the base-class constructor call (as the first operation using `super`).
+      - The base-class constructor(s) goes through the same process in the same order as the derived-class constructor. After the base-class constructor completes, the instance variables are initialized in the textual order they were entered.
+      - Finally, after all the base-class constructors have been instantiated from the topmost down to the derived class (`RootParentClass` => `ParentClass` => `DerivedClass`), the rest of the body of the `DerivedClass` constructor is executed.
+- **Interfaces**
+  - all interface methods are `public` by default
+  - any variable in an interface is `public static final` (Constants)
+  - Interface with non-abstract methods (with concrete implementations)
+    - `static` Methods
+    - `default` Methods
+    - `private` Method
+  - classes can implement (`implements`) multiple interfaces
 
 ## Lambdas
 
@@ -179,6 +251,10 @@
 ## Collections
 
 ## Streams
+
+## Annotations
+
+- The @Override annotation prevents you from accidentally overloading.
 
 ## Date and Time API
 

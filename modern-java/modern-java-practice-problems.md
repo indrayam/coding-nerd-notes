@@ -12,7 +12,7 @@
   - hydrogen sulfide
   - left\right
 
-## Methods
+## Functions
 
 - Program that calls a function that has one parameter, a number, and returns that number tripled.
 - Program that calls a function that has two parameters, both of which are numbers, and returns the absolute value of the difference of the two
