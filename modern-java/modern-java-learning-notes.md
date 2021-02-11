@@ -50,7 +50,7 @@
   - Encapsulation: Wrapping data and methods within classes in combination with implementation hiding is called encapsulation
   - Abstraction: All programming languages are abstractions. Assembly language is a minimal abstraction of the underlying machine. Many so-called "imperative" languages (such as FORTRAN, BASIC, and C) were themselves abstractions of assembly language. Bottom line, abstraction's main goal is to handle complexity by hiding unnecessary details from the user. OOP provides a more flexible and powerful language abstraction. How? Similar to a Car that you drive, you just need to know which methods of the object are available to call and which input parameters are needed to trigger a specific operation. You don’t need to understand how this method is implemented and which kinds of actions it has to perform to create the expected result.
   - Inheritance: As the name suggests, in OOP, a class can inherit methods from a _parent_ class and extended.
-  - Polymorphism: Inheritance allows you to create class hierarchies, where a base class gives its behavior and attributes to a derived class. You are then free to modify or extend its functionality. Polymorphism ensures that the proper method will be executed based on the calling object’s type.
+  - Polymorphism: Also called Dynamic Binding, Late Binding or Runtime Binding. As we discussed, inheritance allows you to create class hierarchies, where a base class gives its behavior and attributes to a derived class. You are then free to modify or extend its functionality. Polymorphism ensures that the proper method will be executed based on the calling object’s type. It allows creation of _extensible programs_ that can be "grown" not only during the original creation of the project, but also when new features are desired.
 - _An object has state, behavior and identity (Grady Booch)_. This means an object can have internal data (which gives it state), methods (to produce behavior), and each object is uniquely distinguished from every other object—that is, every object has a unique address in memory.
 - **Basics**
   - `<access-specifier> class Name`
@@ -86,6 +86,9 @@
 - **Method Overloading**
   - Each overloaded method MUST have the same name (duh) and must take a unique list of argument types
   - Return types does not matter in deciding whether a method is overloaded or not
+  - Only non-private methods can be overridden
+  - The @Override annotation prevents you from accidentally overloading
+  - There is no such thing as field overloading. When a `Derived` class names a field (say, `var1`) with the same name as the `Parent` class, the `Derived` class ends up getting two fields (`var1`) by the same name. You can access the `var1` variable of the `Parent` class by using `super.var1`.
 - **Static Nested Class** is a class (think, type) inside another class. A static nested class is simply one that is declared as `static`, thereby ensuring that the type is a class type, not a member type
   - Each static nested class object does not have a reference to the object of the enclosing class, just like a static method does not have the `this` reference
   - Use a static nested class when the instances of the nested class don’t need to know to which instance of the enclosing class they belong.
@@ -160,15 +163,30 @@
     - Any `private` methods in a class are implicitly `final`.
     - `final` class: When you say that an entire class is final (by preceding its definition with the final keyword), you’re preventing all inheritance from this class.
     - All methods in a `final class` are implicitly `final` because there’s no way to override them.
-    - How does the Class Loading work:
-      - When you run `java DerivedClass`, the JVM tries to access `DerivedClass.main()` (a static method), so the loader goes out and finds the compiled code for the `DerivedClass`, in the file `DerivedClass.class`. While loading that, the loader notices that there's a `ParentClass`, which it also loads. This happens whether or not you make an object of `ParentClass` class.
-      - If the `ParentClass` class has its own base class (`RootParentClass`), that second base class will also be loaded, and so on.
-      - Next, the `static` initialization in the top most parent (in this case, `RootParentClass`) is performed, then the next derived class (`ParentClass`), and so on. This is important because the derived-class `static` initialization might depend on the base-class member being initialized properly.
-      - Now, the necessary classes have been loaded, so the object can be created.
-      - First, all the primitives in this object are set to their default values and the object references are set to `null` - this happens in one fell swoop by setting the memory in the object to binary zero.
-      - Then the base-class constructor(s) is called. Here the call is automatic, but you can also specify the base-class constructor call (as the first operation using `super`).
-      - The base-class constructor(s) goes through the same process in the same order as the derived-class constructor. After the base-class constructor completes, the instance variables are initialized in the textual order they were entered.
-      - Finally, after all the base-class constructors have been instantiated from the topmost down to the derived class (`RootParentClass` => `ParentClass` => `DerivedClass`), the rest of the body of the `DerivedClass` constructor is executed.
+  - _How does the Class Loading work?_
+    - When you run `java DerivedClass`, the JVM tries to access `DerivedClass.main()` (a static method), so the loader goes out and finds the compiled code for the `DerivedClass`, in the file `DerivedClass.class`. While loading that, the loader notices that there's a `ParentClass`, which it also loads. This happens whether or not you make an object of `ParentClass` class.
+    - If the `ParentClass` class has its own base class (`RootParentClass`), that second base class will also be loaded, and so on.
+    - Next, the `static` initialization in the top most parent (in this case, `RootParentClass`) is performed, then the next derived class (`ParentClass`), and so on. This is important because the derived-class `static` initialization might depend on the base-class member being initialized properly.
+    - Now, the necessary classes have been loaded, so the object can be created.
+    - First, all the primitives in this object are set to their default values and the object references are set to `null` - this happens in one fell swoop by setting the memory in the object to binary zero.
+    - Then the base-class constructor(s) is called. Here the call is automatic, but you can also specify the base-class constructor call (as the first operation using `super`).
+    - The base-class constructor(s) goes through the same process in the same order as the derived-class constructor. After the base-class constructor completes, the instance variables are initialized in the textual order they were entered.
+    - Finally, after all the base-class constructors have been instantiated from the topmost down to the derived class (`RootParentClass` => `ParentClass` => `DerivedClass`), the rest of the body of the `DerivedClass` constructor is executed.
+- **Polymorphism**
+  - Connecting a method call to a method body is called binding
+  - When binding is performed before the program runs (by the compiler and linker, if there is one), it’s called early binding. You might not have heard the term before because it has never been an option with procedural languages. C, for example, has only one kind of method call, and that’s early binding.
+  - Late binding means the binding occurs at run time, based on the type of object. It is also called _dynamic binding_ or _runtime binding_.
+  - All method binding in Java uses late binding unless the method is `static` or `final` (`private` methods are implicitly `final`). Basically, in Java, late binding happens automatically!
+  - Declaring a method `final` effectively "turns off" dynamic binding
+  - Put another way, polymorphism is an important technique for the programmer to "separate the things that change from the things that stay the same."
+  - Once you learn about polymorphism, you can begin to think everything happens polymorphically. However, only ordinary method calls can be polymorphic
+    - For example, if you access a field directly, that access is resolved at compile time
+    - Also, if a method is `static`, it does not behave polymorphically! No surprises there. `static` methods are associated with the class, and not the individual objects.
+  - Constructors and Polymorphism:
+    - Since Constructors are implicitly `static` methods, they are not polymorphic.
+    - The base-class constructor is called. This step is repeated recursively such that the root of the hierarchy is constructed first, followed by the next-derived class, etc., until the most-derived class is reached
+    - Member initializers are called in the order of declaration
+    - The body of the derived-class constructor is called
 - **Interfaces**
   - all interface methods are `public` by default
   - any variable in an interface is `public static final` (Constants)
