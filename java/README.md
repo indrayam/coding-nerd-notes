@@ -3,7 +3,7 @@
 ## Building Muscle Memory
 
 - Core Java SE for the Impatient (on page **161** of **567**) 🚧
-- On Java 8 (on page **279** of **1777**) 🚧
+- On Java 8 (on page **316** of **1777**) 🚧
 - Practical Unit Testing with JUnit and Mockito
 - Spring Boot: Up and Running
 - Spring in Action 6th Ed

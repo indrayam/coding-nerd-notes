@@ -143,7 +143,6 @@
   - When you inherit, you take an existing class and make a special version of it. This usually means taking a general-purpose class and specializing it for a particular need.
   - Classes can extend (`extends`) a single parent class at a time
   - `super`
-  - An `abstract` class is a class which includes one or more method which is of type _abstract_. The method has no concrete implementation
   - The `is-a` relationship is expressed with inheritance, and the `has-a` relationship is expressed with composition.
   - It turns out you’re always inheriting when you create a class, because unless you explicitly inherit from some other class, you implicitly inherit from Java’s standard root class `Object`.
   - As a general rule while using inheritance, make all fields `private` and all methods `public`. `protected` members (fields and methods) also allow access by derived classes
@@ -155,6 +154,13 @@
   - Casting from a derived type to a base type moves up on the inheritance diagram, so it’s commonly called _upcasting_. _Upcasting_ is always safe because you’re going from a more specific type to a more general type.
   - You can also perform the reverse of upcasting, called _downcasting_
   - Although inheritance gets a lot of emphasis when teaching OOP, it doesn’t mean you should use it everywhere you possibly can. On the contrary, use it sparingly, only when it’s clear that inheritance is useful. If you remember to ask, “Do I need to upcast?” you’ll have a good tool for deciding between composition and inheritance.
+  - A better approach is to choose composition first, especially when it’s not obvious which approach to use. Composition does not force a design into an inheritance hierarchy. Composition is also more flexible because it’s possible to dynamically choose a type (and thus behavior) when using composition, whereas inheritance requires that an exact type be known at compile time.
+  - Another general guideline: Use inheritance to express differences in behavior, and fields (think, Composition) to express variations in state
+  - It would seem that the cleanest way to create an inheritance hierarchy is to take the "pure" approach. That is, only methods from the base class are overridden in the derived class. This is called a pure **"is-a"** relationship and is an example of _pure substitution_, since derived class objects can be perfectly substituted for the base class. While this is certainly one approach in designing with Inheritance, there is one other approach to consider: creating **"is-like-a"** relationship
+  - When a derived class has **"is-like-a"** relationship, the derived class is _like_ the base class - it has the same fundamental interface - but it has other features that require additional methods to implement. It comes with a drawback though. The extended part of the interface in the derived class is **not** available from the base class, so once you upcast, you can’t call the new methods
+    - You know an upcast is always safe because the base class cannot have a bigger interface than the derived class. Therefore, every message you send through the base- class interface is guaranteed to be accepted.
+    - With a _downcast_, however, you don’t really know that a shape (for example) is actually a circle. It could also be a triangle or square or some other type.
+    - In Java, every cast is checked! So even though it looks like you’re just performing an ordinary parenthesized cast, at run time this cast is checked to ensure it is in fact the type you think it is. If it isn’t, you get a `ClassCastException`. This act of checking types at run time is called `runtime type information` **(RTTI).**
   - `final`: Java’s final keyword has slightly different meanings depending on context, but in general it says, “This cannot be changed.”
     - `final` data: Many programming languages have a way to tell the compiler that a piece of data is constant. In Java, you don't. You use `final` modifier to make a variable constant, either at compile time or runtime.
     - By convention, `final static` primitives with constant initial values (that is, compile-time constants) are named with all capitals, with words separated by underscores. (This is just like C constants, which is where that style originated.)
@@ -182,14 +188,34 @@
   - Once you learn about polymorphism, you can begin to think everything happens polymorphically. However, only ordinary method calls can be polymorphic
     - For example, if you access a field directly, that access is resolved at compile time
     - Also, if a method is `static`, it does not behave polymorphically! No surprises there. `static` methods are associated with the class, and not the individual objects.
-  - Constructors and Polymorphism:
-    - Since Constructors are implicitly `static` methods, they are not polymorphic.
-    - The base-class constructor is called. This step is repeated recursively such that the root of the hierarchy is constructed first, followed by the next-derived class, etc., until the most-derived class is reached
-    - Member initializers are called in the order of declaration
-    - The body of the derived-class constructor is called
+- **Constructors and Polymorphism**
+  - Since Constructors are implicitly `static` methods, they are not polymorphic.
+  - That said, it is important to understand the way constructors work in complex hierarchies and with polymorphism.
+  - The order of constructor calls is very critical to understanding things. For example, let's assume we are creating a new instance of a derived class by calling its constructor. Remember, a constructor of any class has a special job: to see that the object is built properly!
+    - First, the compiler derives the classes in the hierarchy chain of the derived class.
+    - The storage allocated for the new object (of derived class) is initialized to binary zero before anything else happens.
+    - The compiler automatically moves _UP_ the inheritance hierarchy and once it reaches the topmost base-class of the hierarchy, it's that base-class's constructor that gets called first!
+    - As we know, each class's constructor has the proper knowledge and access to its own elements: private fields, static fields or blocks. These get initialized in the order of their declaration **prior** to the body of the constructor call is invoked
+    - Once the root base class has been constructed, the next class down in the hierarchy has its constructor called. Same process is repeated: First all members are initialized in the order of their declaration before the actual constructor is called
+    - Bottom line, the compiler enforces a constructor call for every portion of a derived class' hierarchy before calling the constructor of the derived class
+  - Inside an ordinary method, the dynamically bound call is resolved at run time, because the object cannot know whether it belongs to the class that the method is in or some class derived from it
+  - However, if you call a dynamically bound method inside a constructor, the overridden definition of the method is used. However, the effect of this call can be rather unexpected because the overridden method is called _before_ the object is fully constructed. This can conceal some hard-to-find bugs.
+  - A good guideline for constructors is "Do as little as possible to set the object into a good state, and if you can possibly avoid it, don’t call any other methods in this class." The only safe methods to call inside a constructor are those that are `final` in the base class. (This also applies to `private` methods, which are automatically `final`.) These cannot be overridden and thus cannot produce this kind of surprise.
+  - Covariant Return Types:
+    - Java 5 added `covariant` return types, which means an overridden method in a derived class can return a type derived from the type returned by the base-class method
+- **Abstract Classes**
+  - Interfaces and abstract classes provide a more structured way to separate interface from implementation. Such mechanisms are not that common in programming languages. C++, for example, only has indirect support for these concepts.
+  - An `abstract` class is a class which includes one or more method which is of type _abstract_. The method has no concrete implementation. For example, `abstract void f();`
+  - Put it another way, if a class contains one or more _abstract_ methods, the class itself must be qualified as _abstract_, otherwise, the compiler produces an error message.
+  - You create an abstract class when you want to manipulate a set of classes through its common interface.
+  - It's possible to make a class abstract without including any abstract methods. This is useful when you’ve got a class where abstract methods don’t make sense, and yet you want to prevent any instances of that class.
+  - If you inherit from an abstract class and you want to make objects of the new type, you must provide method definitions for all the abstract methods in the base class. If you don’t (and you might choose not to), then the derived class is also abstract, and the compiler will force you to qualify that class with the abstract keyword.
+  - To create an instantiable class, inherit from your abstract class and provide definitions for all the abstract methods
+  - In an abstract class, you can make any abstract method `public`, `protected` or `default`. It makes sense that private abstract is not allowed, because you could never legally provide a definition in any subclass.
 - **Interfaces**
-  - all interface methods are `public` by default
-  - any variable in an interface is `public static final` (Constants)
+  - To define an interface, use the `implements` keyword
+  - All interface methods are `public` by default
+  - Any variable in an interface is `public static final` (Constants)
   - Interface with non-abstract methods (with concrete implementations)
     - `static` Methods
     - `default` Methods
