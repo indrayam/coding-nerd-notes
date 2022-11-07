@@ -24,7 +24,8 @@
 
 ## Moving Between Branches
 - Create a new local branch
-- Switch to a branch
+- Switch to a branch 
+    - `git checkout -`
 - Create parallel git working trees for branches
 - Stashing local uncommitted changes
 
