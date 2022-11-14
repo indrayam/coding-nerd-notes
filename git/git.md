@@ -20,7 +20,12 @@
 - Create pull request
 - Pull down pull request into a local branch
 - Change default branch name from `master` to `main`
+- Delete local branch and remote branch that it is tracking
 
+## Remote
+- git sync
+- git update
+- git squash
 
 ## Moving Between Branches
 - Create a new local branch

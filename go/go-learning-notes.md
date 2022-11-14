@@ -1,3 +1,0 @@
-# Go Learning Notes
-
-Coming soon...
