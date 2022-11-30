@@ -48,4 +48,6 @@ Now that that's not a pressing issue, I intend to circle back and dive into all 
   - The Hardware/Software Interface: Inside the Machine
 - With [Python's](https://www.python.org/) dominating presence in the AI/ML space, there is no getting around it. It will hopefully lead me to the world of [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35).
 
-  
+## References:
+- [My 2022 Stack](https://medium.com/@treeder/my-2022-stack-87b2a830b917)
+Love the idea!

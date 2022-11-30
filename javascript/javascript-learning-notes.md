@@ -1,5 +1,4 @@
 # Modern JavaScript Learning Notes
-
 ## JavaScript Skills to Learn
 - Primitive Types - Number
 - Primitive Types - String (including Unicode Code Points)
