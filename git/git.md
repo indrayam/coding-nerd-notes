@@ -76,3 +76,5 @@ Source: [Turn around your Git mistakes in 17 ways](https://dev.to/smitterhane/tu
 - sparse-checkout
 - shallow clone 
 
+## Interesting References
+- [Get a list of all objects with types](https://stackoverflow.com/questions/1595631/how-to-get-a-list-of-all-blobs-in-a-repository-in-git)
