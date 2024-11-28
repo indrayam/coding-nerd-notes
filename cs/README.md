@@ -1,4 +1,4 @@
-# Computer Science & Engineering Backlog
+# Computer Science Nerd Notes
 
 ## Skills
 
