@@ -1,4 +1,4 @@
-# Learning Rust Backlog
+# Learning Rust
 
 ## Articles
 
