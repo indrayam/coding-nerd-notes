@@ -38,15 +38,13 @@
 If this trip down memory lane has not made it ample clear, I got into Computer Science because I wanted to! However, for better or for worse, the things I learnt (or more importantly, did not learn *enough*) was driven by more mundane needs of getting a job and surviving as an immigrant in US.
 
 Now that that's not a pressing issue, I intend to circle back and dive into all the nooks and crannies of this discipline that I missed last time around. Not to mention some shiny new toys :smile: 
-- [Modern Java](https://adoptopenjdk.net/) is a lot more fun than the Java of late 1990s. *Lambdas*, *Streams*, *New Data and Time API* and fun frameworks like *Spring Boot* or libraries like *Lombok* are things that I have gotten quite familiar with. That said, I intend to go a lot more deeper into these. With [IntelliJ IDEA](https://www.jetbrains.com/idea/), of course! My ❤️ affair with Java started 24 years ago. And it's still going strong.
-  - I got upclose and personal with C++ back in Spring and Summer of 1996. However, instead of diving into C++ 20 today, I've decided it is time for me to move on. I have heard good things about [Rust](https://golang.org/), although [Go's](https://www.rust-lang.org/) dominance in Enterprise DevOps space might sway me towards it. Let's see how it plays out. 
-  - [Julia](https://julialang.org/) intrigues me. I have been told that folks at NASA use it quite a bit. Perhaps, Julia will bring me back full circle to a language like Fortran, especially for Scientific Computing use cases!
-- Computer Science-y stuff
-  - Design Patterns
-  - Object-Oriented Design
-  - Data Structures & Algorithms
+- With [Python's](https://www.python.org/) dominating presence in the AI/ML space, there is no getting around it. It will hopefully lead me to the world of [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
+- Low-level Computer Science-y stuff using [Modern C++]() and/or [Rust](https://www.rust-lang.org/)
+  - Low-level Memory Management
   - The Hardware/Software Interface: Inside the Machine
-- With [Python's](https://www.python.org/) dominating presence in the AI/ML space, there is no getting around it. It will hopefully lead me to the world of [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35).
+    - ARM Assembly Computer Architecture
+  - Design Patterns
+  - Data Structures & Algorithms
 
 ## References:
 - [My 2022 Stack](https://medium.com/@treeder/my-2022-stack-87b2a830b917)

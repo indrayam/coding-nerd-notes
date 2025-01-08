@@ -1,25 +1,17 @@
 # Learning Rust
 
-## Articles
-
-- [A Half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
-
 ## Books
+- Rust in a Month of Lunches
 
-- [No Starch Press Book: The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
-- [Pragmatic Progammers Book: Hands-on Rust](https://pragprog.com/titles/hwrust/hands-on-rust/)
-- [Manning Book: Rust in Action](https://www.manning.com/books/rust-in-action?query=rust%20in%20motion)
-- [Manning Book: Rust Servers, Services and Apps](https://www.manning.com/books/rust-servers-services-and-apps?query=rust%20serv)
-- [Pragmatic Programmers Book: Programming WebAssembly with Rust](https://pragprog.com/titles/khrust/programming-webassembly-with-rust/)
+## SafariRecorded Videos
+- [Rust in 4 Hrs, Andy Olsen](https://learning.oreilly.com/live-events/rust-in-4-hours/0636920063666/) Nov 2021, Jan 2025
+- [Fundamentals of Rust, Mihalis Tsoukalos](https://learning.oreilly.com/live-events/fundamentals-of-rust/0636920239352/0636920239345/) Jan 2019
 
-## Video
 
+## Others
+- [A Half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
 - [Manning Video: Rust in Motion](https://www.manning.com/livevideo/rust-in-motion?query=rust%20in%20motion)
 - [Stanford Class: Safety in Systems Programming](https://reberhardt.com/cs110l/spring-2020/)
   - [Blog: Designing a New Rust Class at Stanford: Safety in Systems Programming](https://reberhardt.com/blog/2020/10/05/designing-a-new-class-at-stanford-safety-in-systems-programming.html)
 
-## Frameworks
 
-- [Tokio](https://tokio.rs/)
-- [Actix Web](https://actix.rs/)
-- [Rocket](https://rocket.rs/)
