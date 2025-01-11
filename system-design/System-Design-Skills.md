@@ -1,6 +1,6 @@
-# Computer Science Nerd Notes
+# System Design Skills
 
-## Skills
+## Focus Areas
 
 - Design Patterns
 - Programming Paradigms
@@ -13,8 +13,13 @@
   - How does Java support Unicode?
   - How does Locale work?
 
-## List
-
+## Safari Recorded Lessons
+- [Software architecture by example, Neal Ford](https://learning.oreilly.com/live-events/software-architecture-by-example/0636920261797/0636920500605/) Aug 2019, Sep 2020, Mar 2021
+- [Hands-on Software Design, Venkat Subramaniam](https://learning.oreilly.com/live-events/hands-on-software-design/0636920508755/0636920052287/) Mar 2021
+- [Understanding Functional Programming, Venkat Subramaniam](https://learning.oreilly.com/live-events/hands-on-software-design/0636920508755/0636920052287/) Jan 2021, Mar 2021
+- [Functional Programming in Java, Ken Kousen](https://learning.oreilly.com/live-events/functional-programming-in-java/0636920071136/0636920483991/) Oct 2019, Jan 2021, Jan 2025
+- [Fundamentals of Event-Driven Architecture, Adam Bellemare](https://learning.oreilly.com/live-events/fundamentals-of-event-driven-microservices/0636920410980/0636920052538/) May 2021
+- [Implementing Evolutionary Architectures, Neal Ford](https://learning.oreilly.com/live-events/implementing-evolutionary-architectures/0636920183358/0636920196976/) Sep 2018
 - [Computer Science courses with video lectures](https://github.com/Developer-Y/cs-video-courses)
 - [Read: Head First Design Patterns (2nd Ed)](https://learning.oreilly.com/library/view/head-first-design/9781492077992/)
 - [Victor Rentea YouTube Channel](https://www.youtube.com/playlist?list=PLggcOULvfLL_MfFS_O0MKQ5W_6oWWbIw5) ([Site](http://victorrentea.ro/))

@@ -1,4 +1,4 @@
-# Git Skills to Learn
+# Git Scratchpad
 
 ## Git Internals
 - 3 Objects: Commit, Tree, and Blobs

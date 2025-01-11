@@ -1,17 +1,22 @@
-# Learning Rust
+# Rust Nerd Notes
 
-## Books
-- Rust in a Month of Lunches
+## CLI Utilities using Rust
+- Strings and Text Editing
+- Text Pattern Matching with Regular Expressions
+- Reading, Writing, and Organizing Files
+- CSV, JSON, and XML Files
+- Excel Spreadsheets, Google Sheets
+- PDF and Word Documents
+- Design and Deploy CLI Programs and Libraries
+- Keeping Time, Scheduling Tasks, and Launching Programs
+- Web Scraping
 
-## SafariRecorded Videos
-- [Rust in 4 Hrs, Andy Olsen](https://learning.oreilly.com/live-events/rust-in-4-hours/0636920063666/) Nov 2021, Jan 2025
-- [Fundamentals of Rust, Mihalis Tsoukalos](https://learning.oreilly.com/live-events/fundamentals-of-rust/0636920239352/0636920239345/) Jan 2019
-
-
-## Others
-- [A Half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
-- [Manning Video: Rust in Motion](https://www.manning.com/livevideo/rust-in-motion?query=rust%20in%20motion)
-- [Stanford Class: Safety in Systems Programming](https://reberhardt.com/cs110l/spring-2020/)
-  - [Blog: Designing a New Rust Class at Stanford: Safety in Systems Programming](https://reberhardt.com/blog/2020/10/05/designing-a-new-class-at-stanford-safety-in-systems-programming.html)
-
-
+## HTTP Services using Rust
+- Web Apps
+- REST API
+- Interact w/ Relational Database (SQLite, MySQL, Postgres)
+- Interact w/ Document Database (MongoDB)
+- Kafka Events
+- GraphQL API
+- WebSocket API
+- Sending Emails, Texts, and Push Notifications
